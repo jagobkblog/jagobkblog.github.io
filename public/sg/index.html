@@ -39,9 +39,9 @@
       }
 
     </style>
-
+  
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
-
+  
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -51,7 +51,7 @@
     <h1>Pembuat soal</h1>
 
     <div id="table" class="table-editable">
-      <span class="table-add glyphicon glyphicon-plus"></span>
+      
       <table class="table">
         <tr>
           <th>q</th>
@@ -93,10 +93,11 @@
     </div>
 
     <button id="export-btn" class="btn btn-primary">Export json soal</button>
+    <button class="table-add glyphicon btn btn-primary">+ Tambah Soal</button>
     <p id="export"></p>
   </div>
 </body>
-
+  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   <script>
@@ -151,17 +152,20 @@
           }else{
             h[header] = $td.eq(i).text();
           }
-
+             
         });
 
         data.push(h);
       });
 
-      // Output the result
+      // parse options to array
       x = JSON.parse(JSON.stringify(data))
+      
       for(i =0;i<x.length;i++){
         x[i].options = x[i].options.split(",")
       }
+      
+      // Output the result
       $EXPORT.text(JSON.stringify(x).replace(/\\/g, ""));
     });
   </script>
