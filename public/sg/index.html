@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Pembuat soal</title>
+    <style>
+      @import "compass/css3";
+       .table-editable {
+         position: relative;
+      }
+       .table-editable .glyphicon {
+         font-size: 20px;
+      }
+       .table-remove {
+         color: #700;
+         cursor: pointer;
+      }
+       .table-remove:hover {
+         color: #f00;
+      }
+       .table-up, .table-down {
+         color: #007;
+         cursor: pointer;
+      }
+       .table-up:hover, .table-down:hover {
+         color: #00f;
+      }
+       .table-add {
+         color: #070;
+         cursor: pointer;
+         position: absolute;
+         top: 8px;
+         right: 0;
+      }
+       .table-add:hover {
+         color: #0b0;
+      }
+
+    </style>
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<body>
+  <div class="container">
+    <h1>Pembuat soal</h1>
+
+    <div id="table" class="table-editable">
+      <span class="table-add glyphicon glyphicon-plus"></span>
+      <table class="table">
+        <tr>
+          <th>q</th>
+          <th>options</th>
+          <th>correctIndex</th>
+          <th>correctResponse</th>
+          <th>incorrectResponse</th>
+        </tr>
+        <tr>
+          <td contenteditable="true">Pertanyaan?&lt;img class='' src='' style='width:100%' height:auto;&gt;</td>
+          <td contenteditable="true">a&lt;img class='' src='' style='width:100%' height:auto;&gt;,<br><br>b&lt;img class='' src='' style='width:100%' height:auto;&gt;</td>
+          <td contenteditable="true">0</td>
+          <td contenteditable="true">jawaban benar</td>
+          <td contenteditable="true">jawaban salah</td>
+  <!--         <td>
+            <span class="table-remove glyphicon glyphicon-remove"></span>
+          </td>
+          <td>
+            <span class="table-up glyphicon glyphicon-arrow-up"></span>
+            <span class="table-down glyphicon glyphicon-arrow-down"></span>
+          </td> -->
+        </tr>
+        <!-- This is our clonable table line -->
+        <tr class="hide">
+          <td contenteditable="true">Pertanyaan?&lt;img class='' src='' style='width:100%' height:auto;&gt;</td>
+          <td contenteditable="true">a&lt;img class='' src='' style='width:100%' height:auto;&gt;,b&lt;img class='' src='' style='width:100%' height:auto;&gt;</td>
+          <td contenteditable="true">0</td>
+          <td contenteditable="true">jawaban benar</td>
+          <td contenteditable="true">jawaban salah</td>
+  <!--         <td>
+            <span class="table-remove glyphicon glyphicon-remove"></span>
+          </td>
+          <td>
+            <span class="table-up glyphicon glyphicon-arrow-up"></span>
+            <span class="table-down glyphicon glyphicon-arrow-down"></span>
+          </td> -->
+        </tr>
+      </table>
+    </div>
+
+    <button id="export-btn" class="btn btn-primary">Export json soal</button>
+    <p id="export"></p>
+  </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script>
+    var $TABLE = $('#table');
+    var $BTN = $('#export-btn');
+    var $EXPORT = $('#export');
+
+    $('.table-add').click(function () {
+      var $clone = $TABLE.find('tr.hide').clone(true).removeClass('hide table-line');
+      $TABLE.find('table').append($clone);
+    });
+
+    $('.table-remove').click(function () {
+      $(this).parents('tr').detach();
+    });
+
+    $('.table-up').click(function () {
+      var $row = $(this).parents('tr');
+      if ($row.index() === 1) return; // Don't go above the header
+      $row.prev().before($row.get(0));
+    });
+
+    $('.table-down').click(function () {
+      var $row = $(this).parents('tr');
+      $row.next().after($row.get(0));
+    });
+
+    // A few jQuery helpers for exporting only
+    jQuery.fn.pop = [].pop;
+    jQuery.fn.shift = [].shift;
+
+    $BTN.click(function () {
+      var $rows = $TABLE.find('tr:not(:hidden)');
+      var headers = [];
+      var data = [];
+
+      // Get the headers (add special header logic here)
+      $($rows.shift()).find('th:not(:empty)').each(function () {
+        headers.push($(this).text());
+      });
+
+      // Turn all existing rows into a loopable array
+      $rows.each(function () {
+        var $td = $(this).find('td');
+        var h = {};
+
+        // Use the headers from earlier to name our hash keys
+        headers.forEach(function (header, i) {
+          var temp = $td.eq(i).text();
+          if(temp.length == 1){
+            h[header] = parseInt(temp);
+          }else{
+            h[header] = $td.eq(i).text();
+          }
+
+        });
+
+        data.push(h);
+      });
+
+      // Output the result
+      x = JSON.parse(JSON.stringify(data))
+      for(i =0;i<x.length;i++){
+        x[i].options = x[i].options.split(",")
+      }
+      $EXPORT.text(JSON.stringify(x).replace(/\\/g, ""));
+    });
+  </script>
+</html>
