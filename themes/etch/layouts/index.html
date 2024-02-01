@@ -1,4 +1,228 @@
-{{ define "main" }}
-{{ .Content }}
-{{- partial "posts.html" . -}}
-{{ end }}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="/css/theme.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header id="header" class="menu-container">
+
+    <!--   Logo -->
+    <div class="logo-box">
+      <svg id="header-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+        id="Capa_1" x="0px" y="0px" viewBox="0 0 477.867 477.867" style="enable-background:new 0 0 477.867 477.867;"
+        xml:space="preserve">
+        <g>
+          <g>
+            <g>
+              <path
+                d="M375.467,136.533c-53.333,0-110.933,51.661-136.533,77.534c-25.6-25.873-83.2-77.534-136.533-77.534    c-64.119,0-102.4,38.281-102.4,102.4s38.281,102.4,102.4,102.4c53.333,0,110.933-51.661,136.533-77.534    c25.6,25.873,83.2,77.534,136.533,77.534c64.12,0,102.4-38.281,102.4-102.4S439.586,136.533,375.467,136.533z M102.4,307.2    c-45.295,0-68.267-22.972-68.267-68.267s22.972-68.267,68.267-68.267c37.547,0,87.381,42.308,113.118,68.267    C189.833,264.926,140.1,307.2,102.4,307.2z M375.467,307.2c-37.547,0-87.381-42.308-113.118-68.267    c25.6-25.975,75.418-68.267,113.118-68.267c45.295,0,68.267,22.972,68.267,68.267S420.762,307.2,375.467,307.2z"
+                data-original="#000000" class="active-path" data-old_color="#000000" fill="#EE3E01" />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <!--   Logo -->
+
+    <!--   navbar -->
+    <nav id="nav-bar">
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+      <ul class="menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#">Solutions</a></li>
+        <a class="highlight" href="#">Getting Started</a>
+      </ul>
+    </nav>
+    <!--   navbar -->
+  </header>
+
+  <main class="container">
+    <section class="hero container">
+      <h1 class="hero-title-primary">Jago Berkarir</h1>
+      <p class="hero-title-sub">Kuasai Masa Depan Karirmu: Ayo, bergabunglah bersama kami untuk mengasah kemampuanmu demi mencapai karir impian! Dengan tulisan-tulisan dan bimbingan dari ekspertis kami, Anda akan menjelajahi berbagai tes kompetensi dasar seperti CPNS, PCPM, dan BUMN, sambil memperoleh strategi cerdas untuk memoles kemampuan Anda. Dapatkan insight terbaik untuk memastikan Anda tampil memukau di hadapan setiap HRD.</p>
+
+      <button>Mulai</button>
+    </section>
+    <div class="hero-image">
+      <figure>
+        {{ partial "image-front-up.html" . }}
+      </figure>
+    </div>
+
+  </main>
+  <!--Waves Container-->
+  <!-- CSS Waves from goodkatz (https://codepen.io/goodkatz/pen/LYPGxQz) -->
+  <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+      </g>
+    </svg>
+  </div>
+  <!--Waves end-->
+  <!--Header ends-->
+
+  <!--Content starts-->
+  <section class="video-content">
+
+    <div class="video-story">
+      <h1 class="video-title">See in Action</h1>
+      <p class="video-subtitle">Story of Theodore</p>
+      <div class='embed-container'>
+        <iframe id="video" src="https://www.youtube-nocookie.com/embed/ne6p6MfLBxc" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="three-dots">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+  </section>
+
+  <section class="content">
+
+    <div class="inner-content">
+      <div class="inner-content-text content__TextLeft">
+        <div id="about" class="inter-content-subtitle">
+          About
+        </div>
+
+        <div class="inner-content-title">
+          Samantha is the flagship AI Operating System from OS1 Corp
+        </div>
+
+        <div class="inner-content-para">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel lacinia ex. Pellentesque et augue
+            interdum, efficitur neque a, convallis odio. Aenean pellentesque nunc mattis nunc tincidunt fermentum vitae
+            quis quam. Duis scelerisque lectus
+            quis tellus volutpat, a volutpat est placerat. Aliquam cursus quam at aliquet vestibulum. Mauris
+            pellentesque lorem eget facilisis porttitor. Etiam ac gravida nibh, at vestibulum libero.</p>
+        </div>
+      </div>
+
+      <div class="inner-image-container container__ImageRight">
+        <div class="inner-content-image content__ImageRight">
+          <img class="section-images"
+            src="https://images.unsplash.com/photo-1478358161113-b0e11994a36b?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+            style="object-position: 50% 50%;">
+        </div>
+      </div>
+    </div>
+
+    <div class="inner-content">
+      <div class="inner-content-text content__TextRight">
+        <div id="features" class="inter-content-subtitle">
+          Features
+        </div>
+
+        <div class="inner-content-title">
+          Built with Thousands of in-built tasks for you to choose from
+        </div>
+
+        <div class="inner-content-para">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel lacinia ex. Pellentesque et augue
+            interdum, efficitur neque a, convallis odio. Aenean pellentesque nunc mattis nunc tincidunt fermentum vitae
+            quis quam. Duis scelerisque lectus
+            quis tellus volutpat, a volutpat est placerat. Aliquam cursus quam at aliquet vestibulum. Mauris
+            pellentesque lorem eget facilisis porttitor. Etiam ac gravida nibh, at vestibulum libero.</p>
+        </div>
+      </div>
+
+      <div class="inner-image-container container__ImageLeft">
+        <div class="inner-content-image content__ImageLeft">
+          <img class="section-images"
+            src="https://images.unsplash.com/photo-1516575334481-f85287c2c82d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+            style="object-position: 50% 50%;">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="pricing-container">
+    <div id="pricing" class="pricing-title">
+      <h2>Pricing</h2>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-item">
+        <ul class="package">
+          <li class="header">Self-hosted</li>
+          <li class="gray"><sup class="dolla">$</sup>0<br><span class="month">Per Month<span></li>
+          <li class="features first-feat">Unlimited Updates</li>
+          <li class="features">100GB Storage</li>
+          <li class="features">Limited API Quota</li>
+          <li class="features last-feat">Limited Support</li>
+          <li>
+            <button class="pricing-button">Choose Free</button>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-item">
+        <ul class="package">
+          <li class="header">Pro</li>
+          <li class="gray"><sup class="dolla">$</sup>89<br><span class="month">Per Month<span></li>
+          <li class="features first-feat">Unlimited Updates</li>
+          <li class="features">100TB Storage</li>
+          <li class="features">Unlimited API Usage</li>
+          <li class="features">Advance Support</li>
+          <li>
+            <button class="pricing-button">Choose Pro</button>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-item">
+        <ul class="package">
+          <li class="header">Enterprise</li>
+          <li class="gray"><sup class="dolla">$</sup>799<br><span class="month">Per Month<span></li>
+          <li class="features first-feat">Priority Updates</li>
+          <li class="features">Unlimited Storage</li>
+          <li class="features">Team Features</li>
+          <li class="features">Priority Support</li>
+          <li>
+            <button class="pricing-button">Choose Enterprise</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="subscribe-container">
+    <div class="hero-newsletter">
+      <h2>Subscribe To Our Newsletter</h2>
+    </div>
+
+    <div class="form-container">
+
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <input type="email" placeholder="Email Address" name="email" id="email" required>
+        <div>
+          <input type="submit" id="submit" value="Subscribe">
+        </div>
+      </form>
+
+
+    </div>
+  </section>
+</body>
+
+</html>
