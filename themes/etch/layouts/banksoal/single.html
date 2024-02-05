@@ -16,32 +16,32 @@
 </head>
 
 <body>
-  
+  <!-- Start Nav -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 py-3 sticky-top">
     <div class="container-xl">
-      
+      <!-- Logo -->
       <a class="navbar-brand" href="#">
         <img src="/logo/LOGO%20Web%20220%20x%2060-01%20animate.svg" class="logo" alt="...">
       </a>
-      
+      <!-- Navbar toggle -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      
+      <!-- Collapse -->
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        
+        <!-- Nav -->
         <div class="navbar-nav mx-lg-auto">
           <a class="nav-item nav-link active" href="/#home" aria-current="page">Home</a>
           <a class="nav-item nav-link" href="/banksoal">Bank Soal</a>
           <a class="nav-item nav-link" href="/blog">Blog</a>
           <a class="nav-item nav-link" href="#">Langganan</a>
         </div>
-        
+        <!-- Right navigation -->
         <div class="navbar-nav ms-lg-4">
           <a class="nav-item nav-link" href="#">Sign in</a>
         </div>
-        
+        <!-- Action -->
         <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
           <a href="#" class="btn btn-sm btn-primary w-full w-lg-auto">
             Register
@@ -50,7 +50,7 @@
       </div>
     </div>
   </nav>
-  
+  <!-- End Nav -->
 
 
 
@@ -77,8 +77,8 @@
     </div>
   </div>
 
-  
-  
+  <!--Waves Container-->
+  <!-- CSS Waves from goodkatz (https://codepen.io/goodkatz/pen/LYPGxQz) -->
   <div class="oren">
     <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -93,10 +93,11 @@
       </g>
     </svg>
   </div>
-  
+  <!--Waves end-->
   <h1 class="textoren texttengah jarakatas50px">Selamat Datang</h1>
-  <div class="container"><p>aa</p>
-</div>
+  <div class="container">
+    {{- .Content -}}
+  </div>
 
   <footer class="texttengah textoren">
     <hr>
@@ -108,9 +109,9 @@
     $("#quiz-finish-btn").hide();
     var waktu = 20;
     $('#quiz').quiz({
-      
-      
-      
+      //resultsScreen: '#results-screen',
+      //counter: false,
+      //homeButton: '#custom-home',
       finishButtonText: 'Selesai',
       counterFormat: 'Question %current of %total',
       questions: [
@@ -173,13 +174,13 @@
   <script>
     
     function _timer(callback) {
-      var time = 0; 
-      var mode = 0; 
-      var status = 0; 
-      var timer_id; 
+      var time = 0; //  The default time of the timer
+      var mode = 0; //    Mode: count up or count down
+      var status = 0; //    Status: timer is running or stoped
+      var timer_id; //    This is used by setInterval function
       
 
-      
+      // this will start the timer ex. start the timer with 1 second interval timer.start(1000) 
       this.start = function (interval) {
         interval = (typeof (interval) !== 'undefined') ? interval : 1000;
 
@@ -209,13 +210,13 @@
 
       this.stop = function () {
         clearInterval(timer_id);
-        
-        
-        
-        
+        // if (status == 1) {
+        //   status = 0;
+        //   clearInterval(timer_id);
+        // }
       }
 
-      
+      // Reset the timer to zero or reset it to your own custom time ex. reset to zero second timer.reset(0)
       this.reset = function (sec) {
         sec = (typeof (sec) !== 'undefined') ? sec : waktu;
         time = sec;
@@ -223,7 +224,7 @@
         timer.start(1000)
       }
 
-      
+      // This methode will render the time variable to hour:minute:second format
       function generateTime() {
         var second = time % 60;
         var minute = Math.floor(time / 60) % 60;
