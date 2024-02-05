@@ -1,67 +1,82 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="/css/theme.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <link rel="icon" type="image/x-icon" href="/logo/LOGO Favicon 48 x 48-01.ico">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/home.css">
 </head>
 
 <body>
-  <header id="header" class="menu-container">
-
-    <!--   Logo -->
-    <div class="logo-box">
-      <svg id="header-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-        id="Capa_1" x="0px" y="0px" viewBox="0 0 477.867 477.867" style="enable-background:new 0 0 477.867 477.867;"
-        xml:space="preserve">
-        <g>
-          <g>
-            <g>
-              <path
-                d="M375.467,136.533c-53.333,0-110.933,51.661-136.533,77.534c-25.6-25.873-83.2-77.534-136.533-77.534    c-64.119,0-102.4,38.281-102.4,102.4s38.281,102.4,102.4,102.4c53.333,0,110.933-51.661,136.533-77.534    c25.6,25.873,83.2,77.534,136.533,77.534c64.12,0,102.4-38.281,102.4-102.4S439.586,136.533,375.467,136.533z M102.4,307.2    c-45.295,0-68.267-22.972-68.267-68.267s22.972-68.267,68.267-68.267c37.547,0,87.381,42.308,113.118,68.267    C189.833,264.926,140.1,307.2,102.4,307.2z M375.467,307.2c-37.547,0-87.381-42.308-113.118-68.267    c25.6-25.975,75.418-68.267,113.118-68.267c45.295,0,68.267,22.972,68.267,68.267S420.762,307.2,375.467,307.2z"
-                data-original="#000000" class="active-path" data-old_color="#000000" fill="#EE3E01" />
-            </g>
-          </g>
-        </g>
-      </svg>
+  <!-- Start Nav -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 py-3 sticky-top">
+    <div class="container-xl">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="/logo/LOGO%20Web%20220%20x%2060-01%20animate.svg" class="logo" alt="...">
+      </a>
+      <!-- Navbar toggle -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- Nav -->
+        <div class="navbar-nav mx-lg-auto">
+          <a class="nav-item nav-link active" href="/#home" aria-current="page">Home</a>
+          <a class="nav-item nav-link" href="/banksoal">Bank Soal</a>
+          <a class="nav-item nav-link" href="/blog">Blog</a>
+          <a class="nav-item nav-link" href="#">Langganan</a>
+        </div>
+        <!-- Right navigation -->
+        <div class="navbar-nav ms-lg-4">
+          <a class="nav-item nav-link" href="#">Sign in</a>
+        </div>
+        <!-- Action -->
+        <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
+          <a href="#" class="btn btn-sm btn-primary w-full w-lg-auto">
+            Register
+          </a>
+        </div>
+      </div>
     </div>
-    <!--   Logo -->
+  </nav>
+  <!-- End Nav -->
 
-    <!--   navbar -->
-    <nav id="nav-bar">
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
-      <ul class="menu">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#features" class="nav-link">Features</a></li>
-        <li><a href="#pricing" class="nav-link">Pricing</a></li>
-        <li><a href="#">Solutions</a></li>
-        <a class="highlight" href="#">Getting Started</a>
-      </ul>
-    </nav>
-    <!--   navbar -->
-  </header>
 
-  <main class="container">
-    <section class="hero container">
-      <h1 class="hero-title-primary">Jago Berkarir</h1>
-      <p class="hero-title-sub">Kuasai Masa Depan Karirmu: Ayo, bergabunglah bersama kami untuk mengasah kemampuanmu demi mencapai karir impian! Dengan tulisan-tulisan dan bimbingan dari ekspertis kami, Anda akan menjelajahi berbagai tes kompetensi dasar seperti CPNS, PCPM, dan BUMN, sambil memperoleh strategi cerdas untuk memoles kemampuan Anda. Dapatkan insight terbaik untuk memastikan Anda tampil memukau di hadapan setiap HRD.</p>
 
-      <button>Mulai</button>
-    </section>
-    <div class="hero-image">
-      <figure>
-        {{ partial "image-front-up.html" . }}
-      </figure>
+
+  <div class="homebanner" id="home">
+    <div class="container">
+      <div class="rowitem">
+        <div class="colitem text-light">
+          <h1 class="judulutama">Jago Berkarir</h1>
+          <p>Kuasai Masa Depan Karirmu: Ayo, bergabunglah bersama kami untuk mengasah kemampuanmu demi mencapai karir
+            impian! Dengan tulisan-tulisan dan bimbingan dari ekspertis kami, Anda akan menjelajahi berbagai tes
+            kompetensi dasar seperti CPNS, PCPM, dan BUMN, sambil memperoleh strategi cerdas untuk memoles kemampuan
+            Anda.
+            Dapatkan insight terbaik untuk memastikan Anda tampil memukau di hadapan setiap HRD.</p>
+
+          <a href="/banksoal" class="btn btn-light btn-rounded">Latihan Gratis</a>
+        </div>
+        <div class="colitem hidemobile">
+          <img src="/logo/image.svg" class="img-fluid" alt="Image">
+        </div>
+      </div>
     </div>
+  </div>
 
-  </main>
   <!--Waves Container-->
   <!-- CSS Waves from goodkatz (https://codepen.io/goodkatz/pen/LYPGxQz) -->
-  <div>
+  <div class="oren">
     <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
       <defs>
@@ -76,153 +91,429 @@
     </svg>
   </div>
   <!--Waves end-->
-  <!--Header ends-->
-
-  <!--Content starts-->
-  <section class="video-content">
-
-    <div class="video-story">
-      <h1 class="video-title">See in Action</h1>
-      <p class="video-subtitle">Story of Theodore</p>
-      <div class='embed-container'>
-        <iframe id="video" src="https://www.youtube-nocookie.com/embed/ne6p6MfLBxc" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h1 class="textoren texttengah jarakatas50px">Selamat Datang</h1>
+  <div class="container">
+    <!-- start bank soal skd -->
+    <div class="rowitem jarakatas50px">
+      <div class="colitem textoren">
+        <h1>Bank Soal SKD</h1>
+        <p>Dapatkan kumpulan soal latihan dan kuis cepat untuk siapa saja yang ingin bersiap melamar kerja.</p>
+        <a href="/banksoal" class="btn oren text-light btn-rounded">Mulai Latihan</a>
       </div>
-    </div>
-
-    <div class="three-dots">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
-  </section>
-
-  <section class="content">
-
-    <div class="inner-content">
-      <div class="inner-content-text content__TextLeft">
-        <div id="about" class="inter-content-subtitle">
-          About
-        </div>
-
-        <div class="inner-content-title">
-          Samantha is the flagship AI Operating System from OS1 Corp
-        </div>
-
-        <div class="inner-content-para">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel lacinia ex. Pellentesque et augue
-            interdum, efficitur neque a, convallis odio. Aenean pellentesque nunc mattis nunc tincidunt fermentum vitae
-            quis quam. Duis scelerisque lectus
-            quis tellus volutpat, a volutpat est placerat. Aliquam cursus quam at aliquet vestibulum. Mauris
-            pellentesque lorem eget facilisis porttitor. Etiam ac gravida nibh, at vestibulum libero.</p>
-        </div>
-      </div>
-
-      <div class="inner-image-container container__ImageRight">
-        <div class="inner-content-image content__ImageRight">
-          <img class="section-images"
-            src="https://images.unsplash.com/photo-1478358161113-b0e11994a36b?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-            style="object-position: 50% 50%;">
+      <div class="colitem" id="banksoal">
+        <div class="rowitem">
+          <div class="colitem jarakcard">
+            <div class="card">
+              <img
+                src="https://raw.githubusercontent.com/koleksiprihadi/koleksiprihadi.github.io/main/public/kabataku/kabataku.png"
+                class="card-img-top" id="banksoalG1" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" id="banksoalT1">Card title</h5>
+                <p class="card-text" id="banksoalD1">Some quick example text to build on the card title and make up the
+                  bulk of the
+                  card's content.</p>
+                <a href="#" id="banksoalL1" class="btn text-light oren"><i class="bi bi-pencil"></i> <i
+                    class="bi bi-alarm"></i>
+                  Mulai</a>
+              </div>
+            </div>
+          </div>
+          <div class="colitem jarakcard">
+            <div class="card">
+              <img
+                src="https://raw.githubusercontent.com/koleksiprihadi/koleksiprihadi.github.io/main/public/kabataku/kabataku.png"
+                class="card-img-top" id="banksoalG2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" id="banksoalT2">Card title</h5>
+                <p class="card-text" id="banksoalD2">Some quick example text to build on the card title and make up the
+                  bulk of the
+                  card's content.</p>
+                <a href="#" id="banksoalL2" class="btn text-light oren"><i class="bi bi-pencil"></i> <i
+                    class="bi bi-alarm"></i>
+                  Mulai</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <!-- end bank soal tkd -->
 
-    <div class="inner-content">
-      <div class="inner-content-text content__TextRight">
-        <div id="features" class="inter-content-subtitle">
-          Features
-        </div>
-
-        <div class="inner-content-title">
-          Built with Thousands of in-built tasks for you to choose from
-        </div>
-
-        <div class="inner-content-para">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel lacinia ex. Pellentesque et augue
-            interdum, efficitur neque a, convallis odio. Aenean pellentesque nunc mattis nunc tincidunt fermentum vitae
-            quis quam. Duis scelerisque lectus
-            quis tellus volutpat, a volutpat est placerat. Aliquam cursus quam at aliquet vestibulum. Mauris
-            pellentesque lorem eget facilisis porttitor. Etiam ac gravida nibh, at vestibulum libero.</p>
-        </div>
+    <!-- start tip dan saran karir -->
+    <hr>
+    <div class="rowitem jarakatas50px">
+      <div class="colitem textoren">
+        <h1>Tip dan Saran Karir</h1>
+        <p>Jelajahi artikel-artikel bermanfaat tentang bimbingan karir dan kuasai wawancara Anda.</p>
+        <a href="/blog" class="btn oren text-light btn-rounded">Baca Lebih Lanjut</a>
       </div>
+      <div class="colitem jarakcard">
+        <!-- start article card -->
+        <a href="#" class="jarakcard" id="tipsandtrikL1">
+          <div class="card text-bg-dark">
+            <img
+              src="https://raw.githubusercontent.com/koleksiprihadi/koleksiprihadi.github.io/main/public/kabataku/kabataku.png"
+              class="card-img articlehome" id="tipsandtrikG1" alt="...">
+            <div class="card-img-overlay bgtransparan text-light">
+              <h5 class="card-title" id="tipsandtrikT1">Card title</h5>
+              <p class="card-text" id="tipsandtrikD1">This is a wider card with supporting text below as a natural
+                lead-in to
+                additional
+                content. This content is a little bit longer.</p>
+              <div>
+                <!-- <img
+                  src="https://raw.githubusercontent.com/koleksiprihadi/koleksiprihadi.github.io/main/public/images/krisna.png"
+                  class="imgpenulis"> Krisna Prihadiyanto -->
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- end article card -->
 
-      <div class="inner-image-container container__ImageLeft">
-        <div class="inner-content-image content__ImageLeft">
-          <img class="section-images"
-            src="https://images.unsplash.com/photo-1516575334481-f85287c2c82d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
-            style="object-position: 50% 50%;">
+        <!-- start article card -->
+        <a href="#" class="jarakcard hidemobile" id="tipsandtrikL2">
+          <div class="card text-bg-dark">
+            <img
+              src="https://raw.githubusercontent.com/koleksiprihadi/koleksiprihadi.github.io/main/public/kabataku/kabataku.png"
+              class="card-img articlehome" id="tipsandtrikG2" alt="...">
+            <div class="card-img-overlay bgtransparan text-light">
+              <h5 class="card-title" id="tipsandtrikT2">Card title</h5>
+              <p class="card-text" id="tipsandtrikD2">This is a wider card with supporting text below as a natural
+                lead-in to
+                additional
+                content. This content is a little bit longer.</p>
+              <!-- <div>
+                <img
+                  src="https://raw.githubusercontent.com/koleksiprihadi/koleksiprihadi.github.io/main/public/images/krisna.png"
+                  class="imgpenulis"> Krisna Prihadiyanto
+              </div> -->
+            </div>
+          </div>
+        </a>
+        <!-- end article card -->
+
+      </div>
+    </div>
+    <!-- end tip dan saran karir -->
+
+    <!-- Start testimoni -->
+    <hr>
+    <div class="rowitem jarakatas50px hidedesktop hidemobile">
+      <div class="colitem textoren">
+        <h1>Apa Kata Pengguna Kami</h1>
+        <p>Baca testimoni dari pengguna yang berhasil berkat platform kami.</p>
+        <a href="#" class="btn oren text-light btn-rounded">Lihat Ulasan</a>
+      </div>
+      <div class="colitem">
+        <div class="rowitem">
+          <!-- start card ulasan -->
+          <div class="colitem jarakcard">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">
+                  <img
+                    src="https://raw.githubusercontent.com/koleksiprihadi/koleksiprihadi.github.io/main/public/images/krisna.png"
+                    class="imgpenulis"> Krisna Prihadiyanto
+                </div>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  <div class="star-ratings-sprite">
+                    <span style="width:85%" class="star-ratings-sprite-rating"></span>
+                  </div>
+                </h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <span class="card-link">
+                  <i class="bi bi-pin-angle"></i>
+                </span>
+                <span class="card-link">
+                  <i class="bi bi-emoji-smile"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- end card ulasan -->
+
+          <!-- start card ulasan -->
+          <div class="colitem jarakcard">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">
+                  <img
+                    src="https://raw.githubusercontent.com/koleksiprihadi/koleksiprihadi.github.io/main/public/images/krisna.png"
+                    class="imgpenulis"> Krisna Prihadiyanto
+                </div>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  <div class="star-ratings-sprite">
+                    <span style="width:60%" class="star-ratings-sprite-rating"></span>
+                  </div>
+                </h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <span class="card-link">
+                  <i class="bi bi-pin-angle"></i>
+                </span>
+                <span class="card-link">
+                  <i class="bi bi-emoji-smile"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- end card ulasan -->
+
         </div>
       </div>
     </div>
+    <!-- end testimoni -->
 
-  </section>
-
-  <section class="pricing-container">
-    <div id="pricing" class="pricing-title">
-      <h2>Pricing</h2>
-    </div>
-
-    <div class="flex-container">
-      <div class="flex-item">
-        <ul class="package">
-          <li class="header">Self-hosted</li>
-          <li class="gray"><sup class="dolla">$</sup>0<br><span class="month">Per Month<span></li>
-          <li class="features first-feat">Unlimited Updates</li>
-          <li class="features">100GB Storage</li>
-          <li class="features">Limited API Quota</li>
-          <li class="features last-feat">Limited Support</li>
-          <li>
-            <button class="pricing-button">Choose Free</button>
-          </li>
-        </ul>
-      </div>
-      <div class="flex-item">
-        <ul class="package">
-          <li class="header">Pro</li>
-          <li class="gray"><sup class="dolla">$</sup>89<br><span class="month">Per Month<span></li>
-          <li class="features first-feat">Unlimited Updates</li>
-          <li class="features">100TB Storage</li>
-          <li class="features">Unlimited API Usage</li>
-          <li class="features">Advance Support</li>
-          <li>
-            <button class="pricing-button">Choose Pro</button>
-          </li>
-        </ul>
-      </div>
-      <div class="flex-item">
-        <ul class="package">
-          <li class="header">Enterprise</li>
-          <li class="gray"><sup class="dolla">$</sup>799<br><span class="month">Per Month<span></li>
-          <li class="features first-feat">Priority Updates</li>
-          <li class="features">Unlimited Storage</li>
-          <li class="features">Team Features</li>
-          <li class="features">Priority Support</li>
-          <li>
-            <button class="pricing-button">Choose Enterprise</button>
-          </li>
-        </ul>
+    <!-- start harga -->
+    <hr>
+    <div class="jarakatas50px">
+      <h1 class="textoren texttengah">Harga Langganan</h1>
+      <div class="three-dots">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
-  </section>
+    <!-- start table harga -->
+    <div id="generic_price_table">
+      <section>
+        <div class="container">
+          <div class="row">
+            <!-- Start tabel free -->
+            <div class="col-md-4">
+              <div class="generic_content clearfix">
+                <div class="generic_head_price clearfix">
+                  <div class="generic_head_content clearfix">
+                    <div class="head_bg"></div>
+                    <div class="head">
+                      <span>Gratis</span>
+                    </div>
+                  </div>
+                  <div class="generic_price_tag clearfix">
+                    <span class="price">
+                      <span class="sign">Rp</span>
+                      <span class="currency">0</span>
+                      <span class="cent">,00</span>
+                      <span class="month">/Bulan</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="generic_feature_list">
+                  <ul>
+                    <li>
+                      <span>5</span> Paket Soal SKD (30 Soal)
+                    </li>
+                    <li>
+                      <span>Pembahasan</span> Soal
+                    </li>
+                    <li>
+                      <span>Grub</span> Belajar Bareng
+                    </li>
+                    <li>
+                      <span>Timer</span> Pengerjaan Soal
+                    </li>
+                    <li>
+                      <span>Akses Selamanya</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="generic_price_btn clearfix">
+                  <a class="" href="/banksoal" id="btnfree" aria-current="belum">Mulai</a>
+                </div>
+              </div>
+            </div>
+            <!-- end tabel free -->
 
-  <section class="subscribe-container">
-    <div class="hero-newsletter">
-      <h2>Subscribe To Our Newsletter</h2>
-    </div>
+            <!-- Start tabel tahunan -->
+            <div class="col-md-4">
+              <div class="generic_content active clearfix">
+                <div class="generic_head_price clearfix">
+                  <div class="generic_head_content clearfix">
+                    <div class="head_bg"></div>
+                    <div class="head">
+                      <span>Tahunan</span>
+                    </div>
+                  </div>
+                  <div class="generic_price_tag clearfix">
+                    <span class="price">
+                      <span class="sign">Rp</span>
+                      <span class="currency">200</span>
+                      <span class="cent">,000</span>
+                      <span class="month">/Tahun</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="generic_feature_list">
+                  <ul>
+                    <li>
+                      <span>20++</span> Paket Soal SKD (50 Soal)
+                    </li>
+                    <li>
+                      <span>Pembahasan</span> Soal
+                    </li>
+                    <li>
+                      <span>Grub</span> Belajar Bareng
+                    </li>
+                    <li>
+                      <span>Timer</span> Pengerjaan Soal
+                    </li>
+                    <li>
+                      <span>12 Bulan</span> Akses
+                    </li>
+                  </ul>
+                </div>
+                <div class="generic_price_btn clearfix">
+                  <a class="" href="#" id="btntahunan" aria-current="belum">Mendaftar</a>
+                </div>
+              </div>
+            </div>
+            <!-- end tabel tahunan -->
 
-    <div class="form-container">
-
-      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-        <input type="email" placeholder="Email Address" name="email" id="email" required>
-        <div>
-          <input type="submit" id="submit" value="Subscribe">
+            <!-- start tabel bulanan -->
+            <div class="col-md-4">
+              <div class="generic_content clearfix">
+                <div class="generic_head_price clearfix">
+                  <div class="generic_head_content clearfix">
+                    <div class="head_bg"></div>
+                    <div class="head">
+                      <span>Bulanan</span>
+                    </div>
+                  </div>
+                  <div class="generic_price_tag clearfix">
+                    <span class="price">
+                      <span class="sign">Rp</span>
+                      <span class="currency">20</span>
+                      <span class="cent">,000</span>
+                      <span class="month">/Bulan</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="generic_feature_list">
+                  <ul>
+                    <li>
+                      <span>20++</span> Paket Soal SKD (50 Soal)
+                    </li>
+                    <li>
+                      <span>Pembahasan</span> Soal
+                    </li>
+                    <li>
+                      <span>Grub</span> Belajar Bareng
+                    </li>
+                    <li>
+                      <span>Timer</span> Pengerjaan Soal
+                    </li>
+                    <li>
+                      <span>1 Bulan</span> Akses
+                    </li>
+                  </ul>
+                </div>
+                <div class="generic_price_btn clearfix">
+                  <a class="" href="#" id="btnbulanan" aria-current="belum">Mendaftar</a>
+                </div>
+              </div>
+            </div>
+            <!-- end tabel bulanan -->
+          </div>
         </div>
-      </form>
-
-
+      </section>
     </div>
-  </section>
+    <!-- end table harga -->
+    <!-- end harga -->
+  </div>
+
+  <footer class="texttengah textoren">
+    <hr>
+    Copyright © <span id="tahun"></span> | Powered by JAGOBERKARIR
+
+  </footer>
+
+  <script>
+    $(document).ready(function () {
+      $("#tahun").text(new Date().getFullYear());
+      $('a#btnfree').attr("aria-current", "sudah");
+      $('a[aria-current="belum"]').text("Belum Dibuka");
+      $('a[aria-current="belum"]').attr("href", "#");
+    });
+  </script>
+  <script>
+    getItemXML('https://melekkeuangan.com/index.xml', setBS);
+
+    function setBS(json) {
+      var sitemaplen = json.length;
+      var index = random(sitemaplen)
+      $("#banksoalT1").html(json[index].title);
+      $("#banksoalD1").html(truncate(json[index].desc));
+      $("#banksoalG1").attr("src", json[index].image);
+      $("#banksoalL1").attr("href", json[index].link);
+      var index = random(sitemaplen)
+      $("#banksoalT2").html(json[index].title);
+      $("#banksoalD2").html(truncate(json[index].desc));
+      $("#banksoalG2").attr("src", json[index].image);
+      $("#banksoalL2").attr("href", json[index].link);
+
+      getItemXML('https://melekkeuangan.com/index.xml', setTT);
+    }
+
+    function setTT(json) {
+      var sitemaplen = json.length;
+      var index = random(sitemaplen)
+      $("#tipsandtrikT1").html(json[index].title);
+      $("#tipsandtrikD1").html(truncate(json[index].desc));
+      $("#tipsandtrikG1").attr("src", json[index].image);
+      $("#tipsandtrikL1").attr("href", json[index].link);
+      var index = random(sitemaplen)
+      $("#tipsandtrikT2").html(json[index].title);
+      $("#tipsandtrikD2").html(truncate(json[index].desc));
+      $("#tipsandtrikG2").attr("src", json[index].image);
+      $("#tipsandtrikL2").attr("href", json[index].link);
+    }
+
+
+    function random(max = 100) {
+      return Math.floor(Math.random() * max)
+    }
+
+    function truncate(str, n = 220) {
+      return (str.length > n) ? str.slice(0, n - 1) + '&hellip;' : str;
+    };
+
+    function getItemXML(url, call) {
+      var jsonResult = [];
+      $.ajax({
+        type: 'GET',
+        url: url,
+        dataType: 'xml',
+        success: function (xml) {
+          $(xml).find('item').each(function () {
+            var title = $(this).find('title').text();
+            var image = $(this).find('image').text();
+            var desc = $(this).find('description').text();
+            var link = $(this).find('link').text();
+
+            var item = {
+              title: title,
+              image: image,
+              desc: desc,
+              link: link
+            };
+            jsonResult.push(item);
+          });
+          call(jsonResult);
+        },
+        error: function (error) {
+          console.error('Error reading XML:', error);
+        }
+      });
+    }
+
+
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
