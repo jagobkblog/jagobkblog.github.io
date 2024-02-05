@@ -1,8 +1,8 @@
 ---
-draft: true
-date: {{ .Date }}
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-slug: {{ .BaseFileName }}
+draft: false
+date: 2024-02-05T03:43:43Z
+title: "Tryout SKB Kementerian Hukum Dan HAM"
+slug: Tryout-SKB-Kementerian-Hukum-dan-HAM
 
 tags:
     - SKB
@@ -23,3 +23,5 @@ width: 1024
 height: 576
 description: "test"
 ---
+
+aa

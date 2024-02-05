@@ -2,20 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
-    <lastmod>2024-02-01T09:12:20+00:00</lastmod>
+    <loc>/categories/bank-soal/</loc>
+    <lastmod>2024-02-05T03:43:43+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2024-02-01T09:12:20+00:00</lastmod>
-  </url><url>
-    <loc>/posts/test/</loc>
-    <lastmod>2024-02-01T09:12:20+00:00</lastmod>
-  </url><url>
-    <loc>/posts/hello/</loc>
-    <lastmod>2021-12-01T22:50:26+00:00</lastmod>
+    <loc>/banksoal/</loc>
+    <lastmod>2024-02-05T03:43:43+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
+    <lastmod>2024-02-05T03:43:43+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-02-05T03:43:43+00:00</lastmod>
+  </url><url>
+    <loc>/tags/skb/</loc>
+    <lastmod>2024-02-05T03:43:43+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
+    <lastmod>2024-02-05T03:43:43+00:00</lastmod>
+  </url><url>
+    <loc>/banksoal/tryout-skb-kementerian-hukum-dan-ham/</loc>
+    <lastmod>2024-02-05T03:43:43+00:00</lastmod>
   </url>
 </urlset>
