@@ -22,6 +22,8 @@ thumbnail: /images/Tryout online skb.png
 width: 1024
 height: 576
 description: "Tryout dan Pembahasan Paket Tryout SKB Kementerian Hukum dan Ham"
+waktu: 10
+soal: [{"q":"Pertanyaan?<img class='' src='' style='width:100%' height:auto;>","options":["a<img class='' src='' style='width:100%' height:auto;>","b<img class='' src='' style='width:100%' height:auto;>"],"correctIndex":0,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Pertanyaan?<img class='' src='' style='width:100%' height:auto;>","options":["a<img class='' src='' style='width:100%' height:auto;>","b<img class='' src='' style='width:100%' height:auto;>"],"correctIndex":0,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"}]
 ---
 
 aa

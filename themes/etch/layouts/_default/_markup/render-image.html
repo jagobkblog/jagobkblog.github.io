@@ -1,0 +1,4 @@
+<div class="text-center">
+  <img class='lazyload mb-3 img-fluid img-thumbnail' src='{{ .Destination | safeURL }}' alt='{{ .Text }}' {{ with .Title}}
+    title="{{ . }}" {{ end }} loading='lazy' style="width:50%;" />
+</div>

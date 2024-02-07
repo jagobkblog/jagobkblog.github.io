@@ -5,6 +5,7 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 slug: {{ .BaseFileName }}
 
 tags:
+    - Bank Soal
     - SKB
 
 categories:
@@ -22,4 +23,6 @@ thumbnail: /images/Tryout online skb.png
 width: 1024
 height: 576
 description: "test"
+waktu: 60
+soal:
 ---

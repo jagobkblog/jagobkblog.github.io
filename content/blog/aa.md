@@ -8,7 +8,7 @@ tags:
     - SKB
 
 categories:
-    - Bank Soal
+    - Blog
 
 authorname: "krisna prihadiyanto"
 authorlink: "https://koleksiprihadi.github.io/"
@@ -23,3 +23,5 @@ width: 1024
 height: 576
 description: "test"
 ---
+
+aaaa

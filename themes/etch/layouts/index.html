@@ -16,39 +16,7 @@
 
 <body>
   <!-- Start Nav -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 py-3 sticky-top">
-    <div class="container-xl">
-      <!-- Logo -->
-      <a class="navbar-brand" href="#">
-        <img src="/logo/LOGO%20Web%20220%20x%2060-01%20animate.svg" class="logo" alt="...">
-      </a>
-      <!-- Navbar toggle -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Collapse -->
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <!-- Nav -->
-        <div class="navbar-nav mx-lg-auto">
-          <a class="nav-item nav-link active" href="/#home" aria-current="page">Home</a>
-          <a class="nav-item nav-link" href="/banksoal">Bank Soal</a>
-          <a class="nav-item nav-link" href="/blog">Blog</a>
-          <a class="nav-item nav-link" href="#">Langganan</a>
-        </div>
-        <!-- Right navigation -->
-        <div class="navbar-nav ms-lg-4">
-          <a class="nav-item nav-link" href="#">Sign in</a>
-        </div>
-        <!-- Action -->
-        <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
-          <a href="#" class="btn btn-sm btn-primary w-full w-lg-auto">
-            Register
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
+  {{ partial "navlink.html" . }}
   <!-- End Nav -->
 
 
@@ -65,7 +33,7 @@
             Anda.
             Dapatkan insight terbaik untuk memastikan Anda tampil memukau di hadapan setiap HRD.</p>
 
-          <a href="/banksoal" class="btn btn-light btn-rounded">Latihan Gratis</a>
+          <a href="/categories/bank-soal/" class="btn btn-light btn-rounded">Latihan Gratis</a>
         </div>
         <div class="colitem hidemobile">
           <img src="/logo/image.svg" class="img-fluid" alt="Image">
@@ -267,7 +235,7 @@
 
     <!-- start harga -->
     <hr>
-    <div class="jarakatas50px">
+    <div class="jarakatas50px" id="langganan">
       <h1 class="textoren texttengah">Harga Langganan</h1>
       <div class="three-dots">
         <span></span>

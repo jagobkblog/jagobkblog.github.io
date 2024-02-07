@@ -4,14 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }}</title>
-  {{ template "_internal/schema.html" . }}
-  <meta property="og:image" content="{{ .Params.Thumbnail }}" />
-  <meta property="og:image:width" content="{{ .Params.Width }}" />
-  <meta property="og:image:height" content="{{ .Params.height }}" />
+  <title>404 Page not found</title>
+  <meta itemprop="name" content="404 Page not found">
+<meta itemprop="description" content="">
+  <meta property="og:image" content="" />
+  <meta property="og:image:width" content="" />
+  <meta property="og:image:height" content="" />
   <meta property="og:image:type" content="image/jpeg" />
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
+  <meta property="og:title" content="404 Page not found" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/404.html" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="404 Page not found"/>
+<meta name="twitter:description" content=""/>
+
   <link rel="icon" type="image/x-icon" href="/logo/LOGO Favicon 48 x 48-01.ico">
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -23,9 +32,41 @@
 </head>
 
 <body>
-  <!-- Start Nav -->
-  {{ partial "navlink.html" . }}
-  <!-- End Nav -->
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 py-3 sticky-top">
+  <div class="container-xl">
+    
+    <a class="navbar-brand" href="/">
+      <img src="/logo/LOGO%20Web%20220%20x%2060-01%20animate.svg" class="logo" alt="...">
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      
+      <div class="navbar-nav mx-lg-auto">
+        <a class="nav-item nav-link active" href="/#home" aria-current="page">Home</a>
+        <a class="nav-item nav-link" href="/categories/bank-soal/">Bank Soal</a>
+        <a class="nav-item nav-link" href="/categories/blog/">Blog</a>
+        <a class="nav-item nav-link" href="/#langganan">Langganan</a>
+      </div>
+      
+      <div class="navbar-nav ms-lg-4">
+        <a class="nav-item nav-link" href="#">Sign in</a>
+      </div>
+      
+      <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
+        <a href="#" class="btn btn-sm btn-primary w-full w-lg-auto">
+          Register
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+  
 
 
 
@@ -45,8 +86,8 @@
     </div>
   </div>
 
-  <!--Waves Container-->
-  <!-- CSS Waves from goodkatz (https://codepen.io/goodkatz/pen/LYPGxQz) -->
+  
+  
   <div class="oren">
     <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -61,7 +102,7 @@
       </g>
     </svg>
   </div>
-  <!--Waves end-->
+  
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
