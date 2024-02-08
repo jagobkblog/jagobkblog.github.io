@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" type="text/css" href="/css/home.css?1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
-  <script src="/js/jquery.quiz-min.js"></script>
+  <script src="/js/jquery.quiz-min.js?1"></script>
 </head>
 
 <body>
@@ -85,7 +85,9 @@
     <h5 class="textoren texttengah jarakatas50px">Pembahasan {{ .Title }}</h5>
     <div class="rowitem jarakatas50px">
       <div class="colartikelL">
-        {{- .Content -}} 
+        <div id="detailpembahasansoal">
+          {{- .Content -}}
+        </div>
       </div>
       <div class="colartikelR">
         <!-- Start recent post -->
@@ -120,9 +122,27 @@
     };
     var finishCallback = function() {
       $('#quiz').find('.quiz-results').html('Total Score: ' + totalScore + ' Points');
+      if(soal.length != soalan.length){
+        for(i=soal.length +1;i<soalan.length+1;i++){
+          soal.push(i);
+          jawaban.push("tidakdijawab")
+        }
+      }
+      for (let s = 0; s < soalan.length; s++) {
+        if(jawaban[s] != true){
+          if(jawaban[s] == false){
+            $(`#${s}`).addClass("border-danger");
+            $(`#status${s}`).html("Jawaban anda kurang tepat");
+          }
+        }else{
+          $(`#${s}`).addClass("border-success");;
+          $(`#status${s}`).html("Anda menjawab dengan Benar");
+        }
+      }
       totalScore = 0;
       soal = [];
       jawaban = [];
+      
     };
     
     $("#quiz-finish-btn").hide();
@@ -138,6 +158,9 @@
 
   <script>
     $(document).ready(function () {
+      for (let s = 0; s < soalan.length; s++) {
+        $(`#soal${s}`).html(`<span>${soalan[s].q}</span>`);
+      }
       document.addEventListener('contextmenu', function(e) {
         e.preventDefault();
       });

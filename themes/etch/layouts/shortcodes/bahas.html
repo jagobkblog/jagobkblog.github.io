@@ -1,0 +1,7 @@
+<div class="card mb-3" style="margin-top:10px;margin-right:10px" {{ with .Get "id" }}id="{{.}}"{{ end }}>
+  <div class="card-header"><span {{ with .Get "id" }}id="status{{.}}"{{ end }}>Anda Belum menjawab soal ini</span></div>
+  <div class="card-body text-secondary">
+    <h5 class="card-title textoren"><span {{ with .Get "id" }}id="soal{{.}}"{{ end }}>Secondary card title</span></h5>
+    <p class="card-text">{{ .Inner }}</p>
+  </div>
+</div>

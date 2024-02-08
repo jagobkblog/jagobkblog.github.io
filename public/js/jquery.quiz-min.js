@@ -76,7 +76,7 @@
                 a("#quiz-gameover-response").html(b), a("#quiz-counter").hide(), a("#questions").hide(), a(l).show()
             },
             finish: function() {
-                e.$el.removeClass("quiz-questions-state").addClass("quiz-results-state"), a(".active-question").hide().removeClass("active-question"), a("#quiz-counter").hide(), a("#quiz-response").hide(), a("#quiz-finish-btn").hide(), a("#quiz-next-btn").hide(), a("#quiz-restart-btn").show(), a(k).show(), a("#quiz-results").html("Kamu menjawab benar sebanyak : " + n + " dari " + g + " soal yang ada <br><a href='#detailhasil' class='btn btn-light btn-rounded'>Lihat Detail</a>"), "function" == typeof e.options.finishCallback && e.options.finishCallback()
+                e.$el.removeClass("quiz-questions-state").addClass("quiz-results-state"), a(".active-question").hide().removeClass("active-question"), a("#quiz-counter").hide(), a("#quiz-response").hide(), a("#quiz-finish-btn").hide(), a("#quiz-next-btn").hide(), a("#quiz-restart-btn").show(), a(k).show(), a("#quiz-results").html("Kamu menjawab benar sebanyak : " + n + " dari " + g + " soal yang ada <br><a href='#detailpembahasansoal' class='btn btn-light btn-rounded'>Lihat Detail</a>"), "function" == typeof e.options.finishCallback && e.options.finishCallback()
             },
             restart: function() {
                 e.methods.reset(), e.$el.addClass("quiz-questions-state"), a("#questions").show(), a("#quiz-counter").show(), a(".question-container:first-child").show().addClass("active-question"), e.methods.updateCounter()
