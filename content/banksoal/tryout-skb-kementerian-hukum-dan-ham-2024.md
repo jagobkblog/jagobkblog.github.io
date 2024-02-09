@@ -32,8 +32,7 @@ soal: [
       "b. ius constitutum",
       "c. Verplichte procureurstelling",
       "d. Actio pauliana",
-      "e. Concursus realis heterogenus",
-      ""
+      "e. Concursus realis heterogenus"
    ],
    "correctIndex": 1,
    "correctResponse": "jawaban benar",
@@ -46,8 +45,7 @@ soal: [
       "b. 20",
       "c. 19",
       "d. 18",
-      "e. 20",
-      ""
+      "e. 20"
    ],
    "correctIndex": 0,
    "correctResponse": "jawaban benar",
@@ -60,8 +58,7 @@ soal: [
       "b. Aturan",
       "c. Hubungan hukum",
       "d. Hukum perdata",
-      "e. Litigasi sipil",
-      ""
+      "e. Litigasi sipil"
    ],
    "correctIndex": 3,
    "correctResponse": "jawaban benar",
@@ -74,8 +71,7 @@ soal: [
       "b. Kesepakatan",
       "c. Perjanjian",
       "d. Utang",
-      "e. Perjanjian",
-      ""
+      "e. Perjanjian"
    ],
    "correctIndex": 1,
    "correctResponse": "jawaban benar",
@@ -88,8 +84,7 @@ soal: [
       "b. 38 Tahun 1998",
       "c. 39 Tahun 1999",
       "d. 39 Tahun 2000",
-      "e. 39 Tahun 2001",
-      ""
+      "e. 39 Tahun 2001"
    ],
    "correctIndex": 2,
    "correctResponse": "jawaban benar",
@@ -102,8 +97,7 @@ soal: [
       "b. Hak memperoleh lingkungan yang baik dan kondusif",
       "c. Hak mendapatkan perlindungan bagi pengembangan diri",
       "d. Hak menjalani hidup sejahtera",
-      "e. Hak untuk mempertahankan kehidupan",
-      ""
+      "e. Hak untuk mempertahankan kehidupan"
    ],
    "correctIndex": 2,
    "correctResponse": "jawaban benar",
@@ -116,8 +110,7 @@ soal: [
       "b. Pencurian",
       "c. Sengketa kepemilikan warisan",
       "d. Pelanggaran hak cipta",
-      "e. Pelanggaran aturan",
-      ""
+      "e. Pelanggaran aturan"
    ],
    "correctIndex": 3,
    "correctResponse": "jawaban benar",
@@ -130,8 +123,7 @@ soal: [
       "b. Ketua KPK",
       "c. Presiden",
       "d. Jaksa Agung",
-      "e. Menteri Keuangan",
-      ""
+      "e. Menteri Keuangan"
    ],
    "correctIndex": 4,
    "correctResponse": "jawaban benar",
@@ -144,8 +136,7 @@ soal: [
       "b. Seratus juta",
       "c. Lima ratus juta",
       "d. Tujuh ratus juta",
-      "e. Satu miliar",
-      ""
+      "e. Satu miliar"
    ],
    "correctIndex": 4,
    "correctResponse": "jawaban benar",
@@ -158,8 +149,7 @@ soal: [
       "2",
       "3",
       "4",
-      "5",
-      ""
+      "5"
    ],
    "correctIndex": 1,
    "correctResponse": "jawaban benar",
@@ -172,8 +162,7 @@ soal: [
       "b. MPR",
       "c. DPR",
       "d. Menteri Hukum dan HAM",
-      "e. Mahkamah Agung",
-      ""
+      "e. Mahkamah Agung"
    ],
    "correctIndex": 0,
    "correctResponse": "jawaban benar",
@@ -186,8 +175,7 @@ soal: [
       "b. Ketua KPK",
       "c. Hakim",
       "d. Panitera Pengadilan",
-      "e. Penuntut Umum",
-      ""
+      "e. Penuntut Umum"
    ],
    "correctIndex": 4,
    "correctResponse": "jawaban benar",
@@ -200,8 +188,7 @@ soal: [
       "b. Hak Kekayaan Intelektual",
       "c. Lembaga Penjamin Simpanan (LPS)",
       "d. Status Hukum Properti",
-      "e. Penundaan Kewajiban Pembayaran Utang",
-      ""
+      "e. Penundaan Kewajiban Pembayaran Utang"
    ],
    "correctIndex": 3,
    "correctResponse": "jawaban benar",
@@ -214,8 +201,7 @@ soal: [
       "b. Actio pauliana",
       "c. Hakim majelis",
       "d. Recusatie",
-      "e. Excusatie",
-      ""
+      "e. Excusatie"
    ],
    "correctIndex": 1,
    "correctResponse": "jawaban benar",
@@ -228,8 +214,7 @@ soal: [
       "b. 10",
       "c. 20",
       "d. 25",
-      "e. 30",
-      ""
+      "e. 30"
    ],
    "correctIndex": 2,
    "correctResponse": "jawaban benar",
@@ -242,8 +227,7 @@ soal: [
       "b. Tidak terlibat dalam eksekusi",
       "c. Tidak memenuhi unsur delik karena tidak ikut berbuat atau tidak melakukan delik",
       "d. Niat berasal dari dirinya. Tetapi pelakunya orang lain",
-      "e. Bertanggung jawab terhadap semua yang dilakukan. Walaupun tidak melakukannya",
-      ""
+      "e. Bertanggung jawab terhadap semua yang dilakukan. Walaupun tidak melakukannya"
    ],
    "correctIndex": 4,
    "correctResponse": "jawaban benar",
@@ -256,8 +240,7 @@ soal: [
       "b. Menentukan jadwal sidang berikutnya",
       "c. Mengajukan permohonan grasi",
       "d. Menandatangani surat izin penyitaan",
-      "e. Membagi perkara kepada para hakim untuk disidangkan",
-      ""
+      "e. Membagi perkara kepada para hakim untuk disidangkan"
    ],
    "correctIndex": 0,
    "correctResponse": "jawaban benar",
@@ -270,8 +253,7 @@ soal: [
       "b. Penganiayaan",
       "c. Pencurian",
       "d. Pembunuhan",
-      "e. Pembunuhan berencana",
-      ""
+      "e. Pembunuhan berencana"
    ],
    "correctIndex": 2,
    "correctResponse": "jawaban benar",
@@ -284,8 +266,7 @@ soal: [
       "Pidana Informal",
       "Pidana Materil",
       "Pidana Formil",
-      "Pidana Sipil",
-      ""
+      "Pidana Sipil"
    ],
    "correctIndex": 2,
    "correctResponse": "jawaban benar",
@@ -298,8 +279,7 @@ soal: [
       "b. Pidana pokok dikurangi 2/3",
       "c. Pidana pokok dikurangi 1/2",
       "d. Pidana pokok dikurangi 1",
-      "e. Pidana pokok",
-      ""
+      "e. Pidana pokok"
    ],
    "correctIndex": 0,
    "correctResponse": "jawaban benar",
