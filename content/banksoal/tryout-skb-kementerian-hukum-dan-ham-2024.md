@@ -24,7 +24,288 @@ width: 1024
 height: 576
 description: "Tryout dan pembahasan soal SKB Kementerian Hukum dan Ham 2024"
 waktu: 1200
-soal: [{"q":"Hukum yang berlaku saat ini di suatu tempat atau negara dinyatakan dengan istilah","options":["a. Flar justitia rust coelum","b. ius constitutum","c. Verplichte procureurstelling","d. Actio pauliana","e. Concursus realis heterogenus"],"correctIndex":1,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Seseorang dinyatakan belum cukup umur dalam hukum jika usianya belum mencapai .... tahun,","options":["a. 21","b. 20","c. 19","d. 18","e. 20"],"correctIndex":0,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Semua ketentuan hukum yang mengatur hubungan hukum antara seseorang dan orang lain dinamakan","options":["a. Sanksi","b. Aturan","c. Hubungan hukum","d. Hukum perdata","e. Litigasi sipil"],"correctIndex":3,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Hubungan hukum antara dua pihak atau lebih di bawah perjanjian yang memiliki konsekuensi hukum merupakan definisi dari","options":["a. Kewenangan","b. Kesepakatan","c. Utang","d. Perjanjian "],"correctIndex":1,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Hak asasi manusia sebagai hak dasar yang secara kodrati melekat pada diri manusia dilindungi oleh negara melalui Undang-Undang Nomor","options":["a. 32 Tahun 1997","b. 38 Tahun 1998","c. 39 Tahun 1999","d. 39 Tahun 2000","e. 39 Tahun 2001"],"correctIndex":2,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Berikut ini beragam hak yang termasuk dalan hak hidup berdasarkan Undang-undang tentang Hak Asasi Manusia, kecuali","options":["a. . Hak meningkatkan taraf hidup","b. Hak memperoleh lingkungan yang baik dan kondusif","c. Hak mendapatkan perlindungan bagi pengembangan diri","d. Hak menjalani hidup sejahtera","e. Hak untuk mempertahankan kehidupan"],"correctIndex":2,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Pengadilan Niaga merupakan tempat bagi orang yang ingin mengajukan berbagai gugatan, salah satunya atas kasus","options":["a. Pembunuhan","b. Pencurian","c. Sengketa kepemilikan warisan","d. Pelanggaran hak cipta","e. Pelanggaran aturan"],"correctIndex":3,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Gratifikasi yang menjadi milik negara harus diserahkan paling lambat 7 (tujuh) hari kerja sejak tanggal penetapan kepada","options":["a. Polisi","b. Ketua KPK","c. Presiden","d. Jaksa Agung","e. Menteri Keuangan"],"correctIndex":4,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Komisi Pemberantasan Korupsi (KPK) berwenang melakukan penyelidikan, penyidikan, dan penuntutan terhadap tindak pidana korupsi paling sedikit .... rupiah.","options":["a. Lima puluh juta","b. Seratus juta","c. Lima ratus juta","d. Tujuh ratus juta","e. Satu miliar"],"correctIndex":4,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Seorang hakim boleh menjatuhkan sanksi pidana jika terdakwa terbukti bersalah. Ke putusan ini didasari oleh keberadaan sekurang-kurangnya ..... alat bukti yang sah","options":["1","2","3","4","5"],"correctIndex":1,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Mahkamah Konstitusi terdiri atas sembilan hakim konstitusi yang ditetapkan oleh","options":["a. Presiden","b. MPR","c. DPR","d. Menteri Hukum dan HAM","e. Mahkamah Agung"],"correctIndex":0,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Pihak penyidik berkewajiban menyerahkan berkas perkara kepada","options":["a. Polisi","b. Ketua KPK","c. Hakim","d. Panitera Pengadilan","e. Penuntut Umum"],"correctIndex":4,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Pertanyaan?<img class='' src='' style='width:100%' height:auto;>Hal yang tidak termasuk dalam ruang lingkup kewenangan Pengadilan Niaga adalah","options":["a. Kepailitan","b. Hak Kekayaan Intelektual","c. Lembaga Penjamin Simpanan (LPS)","d. Status Hukum Properti","e. Penundaan Kewajiban Pembayaran Utang"],"correctIndex":3,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Berikut ini sejumlah asas yang menjadi jaminan objektivitas peradilan, kecuali asas...","options":["a. Terbukanya persidangan untuk umum","b. Actio pauliana","c. Hakim majelis","d. Recusatie","e. Excusatie"],"correctIndex":1,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Seorang pria terbukti merampok sebuah rumah pada 4 Juli 2020. Empat hari setelahnya, dia membunuh. Berdasarkan teori concursus realls heterogenus, dia terancam pidana selama ..... tahun","options":["30"," 25","20","15","10","5"],"correctIndex":2,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Berikut ini merupakan beberapa ciri-ciri seorang penganjur dalam sebuah delik, kecuali","options":["a. Ada provokasi","b. Tidak terlibat dalam eksekusi","c. Tidak memenuhi unsur delik karena tidak ikut berbuat atau tidak melakukan delik","d. Niat berasal dari dirinya. Tetapi pelakunya orang lain","e. Bertanggung jawab terhadap semua yang dilakukan. Walaupun tidak melakukannya"],"correctIndex":4,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Salah satu tugas dan wewenang panitera adalah","options":["a. Membuat daftar semua perkara serta permohonan grasi yang diterima","b. Menentukan jadwal sidang berikutnya","c. Mengajukan permohonan grasi","d. Menandatangani surat izin penyitaan","e. Membagi perkara kepada para hakim untuk disidangkan"],"correctIndex":0,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Kitab Undang-Undang Hukum Pidana pasal 362 mengatur tentang tindak","options":["a. Penipuan","b. Penganiayaan","c. Pencurian","d. Pembunuhan","e. Pembunuhan berencana"],"correctIndex":2,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Pengaturan mengenai sanksi pembunuhan dan penggelapan tergolong dalam hukum","options":["Pidana Formal","Pidana Informal","Pidana Materil","Pidana Formil","Pidana Sipil"],"correctIndex":2,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"},{"q":"Pertanyaan?<img class='' src='' style='width:100%' height:auto;>Sanksi bagi pelaku pembantu tindak pidana adalah","options":["a. Pidana pokok dikurangi 1/3","b. Pidana pokok dikurangi 2/3","c. Pidana pokok dikurangi 1/2","d. Pidana pokok dikurangi 1","e. Pidana pokok"],"correctIndex":0,"correctResponse":"jawaban benar","incorrectResponse":"jawaban salah"}]
+soal: [
+ {
+   "q": "Hukum yang berlaku saat ini di suatu tempat atau negara dinyatakan dengan istilah.....",
+   "options": [
+      "a. Flar justitia rust coelum",
+      "b. ius constitutum",
+      "c. Verplichte procureurstelling",
+      "d. Actio pauliana",
+      "e. Concursus realis heterogenus",
+      ""
+   ],
+   "correctIndex": 1,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Seseorang dinyatakan belum cukup umur dalam hukum jika usianya belum mencapai .... tahun,",
+   "options": [
+      "a. 21",
+      "b. 20",
+      "c. 19",
+      "d. 18",
+      "e. 20",
+      ""
+   ],
+   "correctIndex": 0,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Semua ketentuan hukum yang mengatur hubungan hukum antara seseorang dan orang lain dinamakan...",
+   "options": [
+      "a. Sanksi",
+      "b. Aturan",
+      "c. Hubungan hukum",
+      "d. Hukum perdata",
+      "e. Litigasi sipil",
+      ""
+   ],
+   "correctIndex": 3,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Hubungan hukum antara dua pihak atau lebih di bawah perjanjian yang memiliki konsekuensi hukum merupakan definisi dari.....",
+   "options": [
+      "a. Kewenangan",
+      "b. Kesepakatan",
+      "c. Perjanjian",
+      "d. Utang",
+      "e. Perjanjian",
+      ""
+   ],
+   "correctIndex": 1,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Hak asasi manusia sebagai hak dasar yang secara kodrati melekat pada diri manusia dilindungi oleh negara melalui Undang-Undang Nomor.....",
+   "options": [
+      "a. 32 Tahun 1997",
+      "b. 38 Tahun 1998",
+      "c. 39 Tahun 1999",
+      "d. 39 Tahun 2000",
+      "e. 39 Tahun 2001",
+      ""
+   ],
+   "correctIndex": 2,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Berikut ini beragam hak yang termasuk dalan hak hidup berdasarkan Undang-undang tentang Hak Asasi Manusia, kecuali.....",
+   "options": [
+      "a. . Hak meningkatkan taraf hidup",
+      "b. Hak memperoleh lingkungan yang baik dan kondusif",
+      "c. Hak mendapatkan perlindungan bagi pengembangan diri",
+      "d. Hak menjalani hidup sejahtera",
+      "e. Hak untuk mempertahankan kehidupan",
+      ""
+   ],
+   "correctIndex": 2,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Pengadilan Niaga merupakan tempat bagi orang yang ingin mengajukan berbagai gugatan, salah satunya atas kasus.....",
+   "options": [
+      "a. Pembunuhan",
+      "b. Pencurian",
+      "c. Sengketa kepemilikan warisan",
+      "d. Pelanggaran hak cipta",
+      "e. Pelanggaran aturan",
+      ""
+   ],
+   "correctIndex": 3,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Gratifikasi yang menjadi milik negara harus diserahkan paling lambat 7 (tujuh) hari kerja sejak tanggal penetapan kepada.....",
+   "options": [
+      "a. Polisi",
+      "b. Ketua KPK",
+      "c. Presiden",
+      "d. Jaksa Agung",
+      "e. Menteri Keuangan",
+      ""
+   ],
+   "correctIndex": 4,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Komisi Pemberantasan Korupsi (KPK) berwenang melakukan penyelidikan, penyidikan, dan penuntutan terhadap tindak pidana korupsi paling sedikit .... rupiah.",
+   "options": [
+      "a. Lima puluh juta",
+      "b. Seratus juta",
+      "c. Lima ratus juta",
+      "d. Tujuh ratus juta",
+      "e. Satu miliar",
+      ""
+   ],
+   "correctIndex": 4,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Seorang hakim boleh menjatuhkan sanksi pidana jika terdakwa terbukti bersalah. Keputusan ini didasari oleh keberadaan sekurang-kurangnya ..... alat bukti yang sah",
+   "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      ""
+   ],
+   "correctIndex": 1,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Mahkamah Konstitusi terdiri atas sembilan hakim konstitusi yang ditetapkan oleh.....",
+   "options": [
+      "a. Presiden",
+      "b. MPR",
+      "c. DPR",
+      "d. Menteri Hukum dan HAM",
+      "e. Mahkamah Agung",
+      ""
+   ],
+   "correctIndex": 0,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Pihak penyidik berkewajiban menyerahkan berkas perkara kepada.....",
+   "options": [
+      "a. Polisi",
+      "b. Ketua KPK",
+      "c. Hakim",
+      "d. Panitera Pengadilan",
+      "e. Penuntut Umum",
+      ""
+   ],
+   "correctIndex": 4,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Pertanyaan?<img class='' src='' style='width:100%' height:auto;>Hal yang tidak termasuk dalam ruang lingkup kewenangan Pengadilan Niaga adalah.....",
+   "options": [
+      "a. Kepailitan",
+      "b. Hak Kekayaan Intelektual",
+      "c. Lembaga Penjamin Simpanan (LPS)",
+      "d. Status Hukum Properti",
+      "e. Penundaan Kewajiban Pembayaran Utang",
+      ""
+   ],
+   "correctIndex": 3,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Berikut ini sejumlah asas yang menjadi jaminan objektivitas peradilan, kecuali asas...",
+   "options": [
+      "a. Terbukanya persidangan untuk umum",
+      "b. Actio pauliana",
+      "c. Hakim majelis",
+      "d. Recusatie",
+      "e. Excusatie",
+      ""
+   ],
+   "correctIndex": 1,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Seorang pria terbukti merampok sebuah rumah pada 4 Juli 2020. Empat hari setelahnya, dia membunuh. Berdasarkan teori concursus realls heterogenus, dia terancam pidana selama ..... tahun",
+   "options": [
+      "a. 5",
+      "b. 10",
+      "c. 20",
+      "d. 25",
+      "e. 30",
+      ""
+   ],
+   "correctIndex": 2,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Berikut ini merupakan beberapa ciri-ciri seorang penganjur dalam sebuah delik, kecuali.....",
+   "options": [
+      "a. Ada provokasi",
+      "b. Tidak terlibat dalam eksekusi",
+      "c. Tidak memenuhi unsur delik karena tidak ikut berbuat atau tidak melakukan delik",
+      "d. Niat berasal dari dirinya. Tetapi pelakunya orang lain",
+      "e. Bertanggung jawab terhadap semua yang dilakukan. Walaupun tidak melakukannya",
+      ""
+   ],
+   "correctIndex": 4,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Salah satu tugas dan wewenang panitera adalah.....",
+   "options": [
+      "a. Membuat daftar semua perkara serta permohonan grasi yang diterima",
+      "b. Menentukan jadwal sidang berikutnya",
+      "c. Mengajukan permohonan grasi",
+      "d. Menandatangani surat izin penyitaan",
+      "e. Membagi perkara kepada para hakim untuk disidangkan",
+      ""
+   ],
+   "correctIndex": 0,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Kitab Undang-Undang Hukum Pidana pasal 362 mengatur tentang tindak.....",
+   "options": [
+      "a. Penipuan",
+      "b. Penganiayaan",
+      "c. Pencurian",
+      "d. Pembunuhan",
+      "e. Pembunuhan berencana",
+      ""
+   ],
+   "correctIndex": 2,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Pengaturan mengenai sanksi pembunuhan dan penggelapan tergolong dalam hukum pidana.....",
+   "options": [
+      "Pidana Formal",
+      "Pidana Informal",
+      "Pidana Materil",
+      "Pidana Formil",
+      "Pidana Sipil",
+      ""
+   ],
+   "correctIndex": 2,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+},
+ {
+   "q": "Sanksi bagi pelaku pembantu tindak pidana adalah.....",
+   "options": [
+      "a. Pidana pokok dikurangi 1/3",
+      "b. Pidana pokok dikurangi 2/3",
+      "c. Pidana pokok dikurangi 1/2",
+      "d. Pidana pokok dikurangi 1",
+      "e. Pidana pokok",
+      ""
+   ],
+   "correctIndex": 0,
+   "correctResponse": "jawaban benar",
+   "incorrectResponse": "jawaban salah"
+}
+]
 ---
 
 {{< bahas id="0" >}} Pembahasan: <br>
