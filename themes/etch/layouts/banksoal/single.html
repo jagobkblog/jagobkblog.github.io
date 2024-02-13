@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ .Title }}</title>
   {{ template "_internal/schema.html" . }}
-  <meta property="og:image" content="{{ .Params.Thumbnail }}" />
+  <meta property="og:image" content="{{ .Params.Thumbnail }}" /> 
   <meta property="og:image:width" content="{{ .Params.Width }}" />
   <meta property="og:image:height" content="{{ .Params.height }}" />
   <meta property="og:image:type" content="image/jpeg" />
   {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
+  {{ template "_internal/twitter_cards.html" . }} 
   <link rel="icon" type="image/x-icon" href="/logo/LOGO Favicon 48 x 48-01.ico">
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -131,11 +131,13 @@
       for (let s = 0; s < soalan.length; s++) {
         if(jawaban[s] != true){
           if(jawaban[s] == false){
+            $(`#${s}`).removeClass("border-success");
             $(`#${s}`).addClass("border-danger");
             $(`#status${s}`).html("Jawaban anda kurang tepat");
           }
         }else{
-          $(`#${s}`).addClass("border-success");;
+          $(`#${s}`).removeClass("border-danger");
+          $(`#${s}`).addClass("border-success");
           $(`#status${s}`).html("Anda menjawab dengan Benar");
         }
       }

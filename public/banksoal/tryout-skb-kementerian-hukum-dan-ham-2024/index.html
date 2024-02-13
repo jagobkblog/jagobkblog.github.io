@@ -10,7 +10,7 @@
 <meta itemprop="dateModified" content="2024-02-08T10:18:40+00:00" />
 <meta itemprop="wordCount" content="1542">
 <meta itemprop="keywords" content="Bank Soal,SKB," />
-  <meta property="og:image" content="/images/Tryout online skb.png" />
+  <meta property="og:image" content="/images/Tryout online skb.png" /> 
   <meta property="og:image:width" content="1024" />
   <meta property="og:image:height" content="576" />
   <meta property="og:image:type" content="image/jpeg" />
@@ -25,7 +25,7 @@
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Tryout SKB Kementerian Hukum Dan Ham 2024"/>
 <meta name="twitter:description" content="Tryout dan pembahasan soal SKB Kementerian Hukum dan Ham 2024"/>
-
+ 
   <link rel="icon" type="image/x-icon" href="/logo/LOGO Favicon 48 x 48-01.ico">
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -559,11 +559,13 @@ Proses seleksi yang transparan dan objektif akan meningkatkan citra Kemenkumham 
       for (let s = 0; s < soalan.length; s++) {
         if(jawaban[s] != true){
           if(jawaban[s] == false){
+            $(`#${s}`).removeClass("border-success");
             $(`#${s}`).addClass("border-danger");
             $(`#status${s}`).html("Jawaban anda kurang tepat");
           }
         }else{
-          $(`#${s}`).addClass("border-success");;
+          $(`#${s}`).removeClass("border-danger");
+          $(`#${s}`).addClass("border-success");
           $(`#status${s}`).html("Anda menjawab dengan Benar");
         }
       }
