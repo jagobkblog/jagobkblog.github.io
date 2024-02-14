@@ -7,7 +7,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SKB</title>
+    <title>Blogs</title>
     <link rel="icon" type="image/x-icon" href="/logo/LOGO Favicon 48 x 48-01.ico">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -62,7 +62,7 @@
       <div class="container">
         <div class="rowitem">
           <div class="colitem text-light">
-            <h1 class="judulutama">SKB</h1>
+            <h1 class="judulutama">Post</h1>
           </div>
           <div class="colitem hidemobile">
             <img src="/logo/artikel-01.svg" class="img-fluid" alt="Image">
@@ -91,9 +91,9 @@
 
     <div class="container" id="pembahasan">
       <div class="row" id="cardartikel">
-
-
-
+        
+          
+        
       </div>
     </div>
 
@@ -110,7 +110,7 @@
         
       });
       getItemXML('index.xml', setBS);
-
+      
       function setBS(json) {
         for (let i = 0; i < json.length; i++) {
           $("#cardartikel").append(`<div class="col-md-4 mb-4">
@@ -125,7 +125,7 @@
           </div>`)
         }
       }
-
+      
 
       function truncate(str, n = 220) {
         return (str.length > n) ? str.slice(0, n - 1) + '&hellip;' : str;
