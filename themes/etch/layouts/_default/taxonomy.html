@@ -1,258 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }}</title>
-  {{ template "_internal/schema.html" . }}
-  <meta property="og:image" content="{{ .Params.Thumbnail }}" />
-  <meta property="og:image:width" content="{{ .Params.Width }}" />
-  <meta property="og:image:height" content="{{ .Params.height }}" />
-  <meta property="og:image:type" content="image/jpeg" />
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
-  <link rel="icon" type="image/x-icon" href="/logo/LOGO Favicon 48 x 48-01.ico">
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/home.css?1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
-  <script src="/js/jquery.quiz-min.js?1"></script>
-</head>
+  <!DOCTYPE html>
+  <html lang="en">
 
-<body>
-  <!-- Start Nav -->
-  {{ partial "navlink.html" . }}
-  <!-- End Nav -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="icon" type="image/x-icon" href="/logo/LOGO Favicon 48 x 48-01.ico">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/home.css?1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+  </head>
+
+  <body>
+    <!-- Start Nav -->
+    {{ partial "navlink.html" . }}
+    <!-- End Nav -->
 
 
 
 
-  <div class="homebanner" id="home">
-    <div class="container">
-      <div class="rowitem">
-        <div class="colitem text-light">
-          <h1 class="judulutama">{{ .Title }}</h1>
-          <div>
-            {{- if isset .Params "date" -}}
-                {{ if eq .Lastmod .Date }}
-                <time>{{ .Date.Format "2 January 2006" }}</time>
-                {{ else }}
-                Update <time>{{ .Lastmod.Format "2 January 2006" }}</time>
-                {{ end }}
-            {{- end -}}
-            </div>
-          <div id="quiz">
-            <p class="quiz-results" id="detailhasil"></p>
-            <div class="timer">
-              <span class="hour">00</span>:<span class="minute">00</span>:<span class="second">00</span>
-            </div>
-            <div id="quiz-header"></div>
-            <div id="quiz-start-screen"></div>
+    <div class="homebanner" id="home">
+      <div class="container">
+        <div class="rowitem">
+          <div class="colitem text-light">
+            <h1 class="judulutama">{{ .Title }}</h1>
           </div>
-          <button id="quiz-start-btn" onClick="timer.reset()" class="btn btn-light btn-rounded">Mulai Tryout</button>
-          <button id="quiz-finish-btn" class="btn btn-light btn-rounded">Finish</button>
-        </div>
-        <div class="colitem hidemobile">
-          <img src="/logo/tryout-01.svg" class="img-fluid" alt="Image">
+          <div class="colitem hidemobile">
+            <img src="/logo/artikel-01.svg" class="img-fluid" alt="Image">
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!--Waves Container-->
-  <!-- CSS Waves from goodkatz (https://codepen.io/goodkatz/pen/LYPGxQz) -->
-  <div class="oren">
-    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-      <defs>
-        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-      </defs>
-      <g class="parallax">
-        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-      </g>
-    </svg>
-  </div>
-  <!--Waves end-->
+    <!--Waves Container-->
+    <!-- CSS Waves from goodkatz (https://codepen.io/goodkatz/pen/LYPGxQz) -->
+    <div class="oren">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+      </svg>
+    </div>
+    <!--Waves end-->
 
-  <div class="container" id="pembahasan">
-    <h5 class="textoren texttengah jarakatas50px">Pembahasan {{ .Title }}</h5>
-    <div class="rowitem jarakatas50px">
-      <div class="colartikelL">
-        <div id="detailpembahasansoal">
-          {{- .Content -}}
-        </div>
-      </div>
-      <div class="colartikelR">
-        <!-- Start recent post -->
-        <div class="sidebar widget">
-            <h3 class="textoren">Postingan Terkait</h3>
-            <ul>
-              {{ partial "side.html" . }}
-            </ul>
-        </div>
-        <!-- end recent post -->
+    <div class="container" id="pembahasan">
+      <div class="row" id="cardartikel">
+
+
+
       </div>
     </div>
-  </div>
 
-  <footer class="texttengah textoren">
-    <hr>
-    Copyright © <span id="tahun"></span> | Powered by JAGOBERKARIR
+    <footer class="texttengah textoren">
+      <hr>
+      Copyright © <span id="tahun"></span> | Powered by JAGOBERKARIR
 
-  </footer>
+    </footer>
 
-  <script>
-    var totalScore = 0;
-    var soal = [];
-    var jawaban = [];
-    var soalan = {{ .Params.soal }};
-    var answerCallback = function(currentQuestion, selected, question) {
-      soal.push(currentQuestion);
-      jawaban.push(selected);
-      if(selected == true){
-        totalScore = totalScore + 10;
-      }
-    };
-    var finishCallback = function() {
-      $('#quiz').find('.quiz-results').html('Total Score: ' + totalScore + ' Points');
-      if(soal.length != soalan.length){
-        for(i=soal.length +1;i<soalan.length+1;i++){
-          soal.push(i);
-          jawaban.push("tidakdijawab")
-        }
-      }
-      for (let s = 0; s < soalan.length; s++) {
-        if(jawaban[s] != true){
-          if(jawaban[s] == false){
-            $(`#${s}`).addClass("border-danger");
-            $(`#status${s}`).html("Jawaban anda kurang tepat");
-          }
-        }else{
-          $(`#${s}`).addClass("border-success");;
-          $(`#status${s}`).html("Anda menjawab dengan Benar");
-        }
-      }
-      totalScore = 0;
-      soal = [];
-      jawaban = [];
-
-    };
-
-    $("#quiz-finish-btn").hide();
-    var waktu = {{ .Params.waktu }};
-    $('#quiz').quiz({
-      finishButtonText: 'Selesai',
-      answerCallback: answerCallback,
-      finishCallback: finishCallback,
-      counterFormat: 'Question %current of %total',
-      questions: soalan
-    });
-  </script>
-
-  <script>
-    $(document).ready(function () {
-      for (let s = 0; s < soalan.length; s++) {
-        $(`#soal${s}`).html(`<span>${soalan[s].q}</span>`);
-      }
-      document.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
+    <script>
+      $(document).ready(function () {
+        // document.addEventListener('contextmenu', function(e) {
+        //   e.preventDefault();
+        // });
       });
-      $("#tahun").text(new Date().getFullYear());
-      $("#quiz-start-btn").click(function () {
-        $("#quiz-finish-btn").show();
-        $("#quiz-start-btn").hide();
-      })
-    });
-  </script>
+      getItemXML('index.xml', setBS);
 
-  <script>
-
-    function _timer(callback) {
-      var time = 0; //  The default time of the timer
-      var mode = 0; //    Mode: count up or count down
-      var status = 0; //    Status: timer is running or stoped
-      var timer_id; //    This is used by setInterval function
-
-
-      // this will start the timer ex. start the timer with 1 second interval timer.start(1000) 
-      this.start = function (interval) {
-        interval = (typeof (interval) !== 'undefined') ? interval : 1000;
-
-        if (status == 0) {
-          status = 1;
-          timer_id = setInterval(function () {
-            switch (mode) {
-              default:
-                if (time) {
-                  time--;
-                  generateTime();
-                  if (typeof (callback) === 'function') callback(time);
-                }
-                break;
-
-              case 1:
-                if (time < 86400) {
-                  time++;
-                  generateTime();
-                  if (typeof (callback) === 'function') callback(time);
-                }
-                break;
-            }
-          }, interval);
+      function setBS(json) {
+        for (let i = 0; i < json.length; i++) {
+          $("#cardartikel").append(`<div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="${json[i].image}" alt="${json[i].title}">
+                  <div class="card-body">
+                      <h5 class="card-title">${json[i].title}</h5>
+                      <p class="card-text">${truncate(json[i].desc)}</p>
+                      <a href="${json[i].link}" class="btn btn-primary">Read More</a>
+                  </div>
+              </div>
+          </div>`)
         }
       }
 
-      this.stop = function () {
-        clearInterval(timer_id);
+
+      function truncate(str, n = 220) {
+        return (str.length > n) ? str.slice(0, n - 1) + '&hellip;' : str;
+      };
+
+      function getItemXML(url, call) {
+        var jsonResult = [];
+        $.ajax({
+          type: 'GET',
+          url: url,
+          dataType: 'xml',
+          success: function (xml) {
+            $(xml).find('item').each(function () {
+              var title = $(this).find('title').text();
+              var image = $(this).find('image').text();
+              var desc = $(this).find('description').text();
+              var link = $(this).find('link').text();
+
+              var item = {
+                title: title,
+                image: image,
+                desc: desc,
+                link: link
+              };
+              jsonResult.push(item);
+            });
+            call(jsonResult);
+          },
+          error: function (error) {
+            console.error('Error reading XML:', error);
+          }
+        });
       }
+    </script>  
 
-      // Reset the timer to zero or reset it to your own custom time ex. reset to zero second timer.reset(0)
-      this.reset = function (sec) {
-        sec = (typeof (sec) !== 'undefined') ? sec : waktu;
-        time = sec;
-        generateTime(time);
-        timer.start(1000)
-      }
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
 
-      // This methode will render the time variable to hour:minute:second format
-      function generateTime() {
-        var second = time % 60;
-        var minute = Math.floor(time / 60) % 60;
-        var hour = Math.floor(time / 3600) % 60;
-
-        second = (second < 10) ? '0' + second : second;
-        minute = (minute < 10) ? '0' + minute : minute;
-        hour = (hour < 10) ? '0' + hour : hour;
-
-        $('div.timer span.second').html(second);
-        $('div.timer span.minute').html(minute);
-        $('div.timer span.hour').html(hour);
-      }
-    }
-
-    var timer;
-
-    timer = new _timer(
-      function (time) {
-        if (time == 0) {
-          $("#quiz-finish-btn").trigger('click');
-        }
-      }
-    );
-
-  </script>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-</body>
-
-</html>
+  </html>
