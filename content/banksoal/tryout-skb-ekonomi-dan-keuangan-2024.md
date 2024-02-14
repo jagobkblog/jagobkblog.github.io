@@ -23,7 +23,7 @@ thumbnail: /images/Tryout online skb.png
 width: 1024
 height: 576
 description: "Tryout dan pembahasan soal SKB Ekonomi dan Keuangan 2024"
-waktu: 60
+waktu: 1200
 soal: [
  {
    "q": "Di bawah ini yang tidak termasuk perundang-undangan yang mengatur tentang Penanaman Modal Berdasarkan Peraturan Pemerintah nomor 58 Tahun 2005 adalah ...",
