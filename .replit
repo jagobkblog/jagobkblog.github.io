@@ -1,5 +1,7 @@
 run = "hugo && miniserve public --index index.html"
 entrypoint = "content/posts/hello.md"
+hidden = [".config"]
+modules = ["web:v2-20230623-0b7a606"]
 
 [nix]
 channel = "stable-22_11"
