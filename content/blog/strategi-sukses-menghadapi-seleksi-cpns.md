@@ -1,6 +1,6 @@
 ---
-draft: true
-date: 2024-02-14T08:06:43Z
+draft: false
+date: 2024-02-15T01:47:30
 title: "Strategi Sukses Menghadapi Seleksi Cpns"
 slug: strategi-sukses-menghadapi-seleksi-cpns
 
@@ -19,7 +19,7 @@ image: /images/Strategi Sukses Menghadapi Seleksi Cpns-01.jpg
 thumbnail: /images/Strategi Sukses Menghadapi Seleksi Cpns-01.jpg
 width: 1024
 height: 576
-description: "test"
+description: "Mempersiapkan diri dengan strategi-strategi untuk menghadapi seleksi cpns"
 waktu: 60
 soal:
 ---

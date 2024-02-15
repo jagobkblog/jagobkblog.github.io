@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date: 2024-02-14T08:07:44Z
 title: "Mempelajari Kisi Kisi Soal Seleksi Kedinasan"
 slug: mempelajari-kisi-kisi-soal-seleksi-kedinasan

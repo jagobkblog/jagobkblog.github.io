@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date: 2024-02-14T08:08:14Z
 title: "Mempersiapkan Portofolio Untuk Seleksi Kedinasan Kreatif"
 slug: mempersiapkan-portofolio-untuk-seleksi-kedinasan-kreatif

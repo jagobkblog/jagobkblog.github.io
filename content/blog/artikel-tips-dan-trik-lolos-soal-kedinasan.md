@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date: 2024-02-14T07:49:17Z
 title: "Artikel Tips Dan Trik Lolos Soal Kedinasan"
 slug: artikel-tips-dan-trik-lolos-soal-kedinasan

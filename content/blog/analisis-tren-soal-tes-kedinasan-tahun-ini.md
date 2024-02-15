@@ -1,8 +1,8 @@
 ---
 draft: false
 date: 2024-02-14T08:07:13Z
-title: "Artikel Analisis Tren Soal Tes Kedinasan Tahun Ini"
-slug: artikel-analisis-tren-soal-tes-kedinasan-tahun-ini
+title: "Analisis Tren Soal Tes Kedinasan Tahun Ini"
+slug: analisis-tren-soal-tes-kedinasan-tahun-ini
 
 tags:
     - Bank Soal
@@ -11,18 +11,15 @@ tags:
 categories:
     - Blog
 
-authorname: "krisna prihadiyanto"
-authorlink: "https://koleksiprihadi.github.io/"
+authorname: "Rio Febri"
+authorlink: "https://rii92-portofolio.web.app/"
+authorphoto: "https://avatars.githubusercontent.com/u/85161948?v=4"
 
-authorname: "krisna prihadiyanto"
-authorlink: "https://koleksiprihadi.github.io/"
-authorphoto: "https://koleksiprihadi.github.io/images/koleksiprihadi.jpeg"
-
-image: /images/Tryout online skb.png
-thumbnail: /images/Tryout online skb.png
+image: /images/Analisis Tren Soal Tes Kedinasan-01.jpg
+thumbnail: /images/Analisis Tren Soal Tes Kedinasan-01.jpg
 width: 1024
 height: 576
-description: "test"
+description: "Mempelajari tren soal tes kedinasan untuk membantu mempersiapkan dengan matang sebelum tes kedinasan"
 waktu: 60
 soal:
 ---

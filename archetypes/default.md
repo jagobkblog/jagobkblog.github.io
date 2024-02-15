@@ -13,9 +13,6 @@ categories:
 
 authorname: "krisna prihadiyanto"
 authorlink: "https://koleksiprihadi.github.io/"
-
-authorname: "krisna prihadiyanto"
-authorlink: "https://koleksiprihadi.github.io/"
 authorphoto: "https://koleksiprihadi.github.io/images/koleksiprihadi.jpeg"
 
 image: /images/Tryout online skb.png
