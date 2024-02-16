@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/bank-soal/</loc>
+    <loc>/categories/about/</loc>
     <lastmod>2024-02-16T02:18:24+00:00</lastmod>
   </url><url>
-    <loc>/categories/bank-soal/</loc>
+    <loc>/about/</loc>
+    <lastmod>2024-02-16T02:18:24+00:00</lastmod>
+  </url><url>
+    <loc>/tags/bank-soal/</loc>
     <lastmod>2024-02-16T02:18:24+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
     <lastmod>2024-02-16T02:18:24+00:00</lastmod>
   </url><url>
-    <loc>/kebijakan-privasi/</loc>
+    <loc>/about/kebijakan-privasi/</loc>
     <lastmod>2024-02-16T02:18:24+00:00</lastmod>
   </url><url>
     <loc>/</loc>
@@ -37,6 +40,9 @@
   </url><url>
     <loc>/blog/analisis-tren-soal-tes-kedinasan-tahun-ini/</loc>
     <lastmod>2024-02-14T08:07:13+00:00</lastmod>
+  </url><url>
+    <loc>/categories/bank-soal/</loc>
+    <lastmod>2024-02-13T14:20:56+00:00</lastmod>
   </url><url>
     <loc>/banksoal/</loc>
     <lastmod>2024-02-13T14:20:56+00:00</lastmod>

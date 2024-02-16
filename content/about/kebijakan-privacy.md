@@ -9,13 +9,14 @@ tags:
     - SKB
 
 categories:
-    - Bank Soal
+    - about
 
 authorname: "Jagoberkarir"
 authorlink: ""
 authorphoto: ""
 
 description: "Dokumen kebijakan privasi kami"
+
 ---
 
 Aplikasi Jagoanberkarir adalah sebuah aplikasi dan sistem pembelajaran yang didirikan berdasarkan transisi pembelajaran dalam era digital dan Kebijakan Privasi ini ("Kebijakan") menjelaskan praktik kami mengenai privasi Informasi Pribadi yang kami peroleh melalui penyediaan layanan kami pada fitur-fitur di dalamnya.
