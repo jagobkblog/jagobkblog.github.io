@@ -1,6 +1,6 @@
 ---
-draft: true
-date: 2024-02-14T08:08:14Z
+draft: false
+date: 2024-02-16T01:28:19
 title: "Mempersiapkan Portofolio Untuk Seleksi Kedinasan Kreatif"
 slug: mempersiapkan-portofolio-untuk-seleksi-kedinasan-kreatif
 
@@ -14,15 +14,15 @@ categories:
 authorname: "krisna prihadiyanto"
 authorlink: "https://koleksiprihadi.github.io/"
 
-authorname: "krisna prihadiyanto"
-authorlink: "https://koleksiprihadi.github.io/"
-authorphoto: "https://koleksiprihadi.github.io/images/koleksiprihadi.jpeg"
+authorname: "Rio Febri"
+authorlink: "https://rii92-portofolio.web.app/"
+authorphoto: "https://avatars.githubusercontent.com/u/85161948?v=4"
 
-image: /images/Tryout online skb.png
-thumbnail: /images/Tryout online skb.png
+image: /images/Mempersiapkan Portofolio Untuk Seleksi Kedinasan-01.jpg
+thumbnail: /images/Mempersiapkan Portofolio Untuk Seleksi Kedinasan-01.jpg
 width: 1024
 height: 576
-description: "test"
+description: "Mempersiapkan portofolio yang memenuhi persyaratan seleksi kedinasan kreatif merupakan langkah awal yang fundamental bagi setiap pelamar"
 waktu: 60
 soal:
 ---
