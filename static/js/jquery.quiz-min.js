@@ -22,7 +22,7 @@
         e.methods = {
             init: function() {
                 e.methods.setup(), a(c).on("click", i, function(a) {
-                    $("#pembahasan").css("filter", "blur(20px)");
+                    // $("#pembahasan").css("filter", "blur(20px)");
                     // $("#pembahasan").hide()
                     a.preventDefault(), e.methods.start()
                 }), a(c).on("click", j, function(a) {
@@ -33,10 +33,10 @@
                     a.preventDefault(), e.methods.nextQuestion()
                 }), a(c).on("click", "#quiz-finish-btn", function(a) {
                     a.preventDefault(), e.methods.finish()
-                    $("#pembahasan").css("filter", "blur(0px)");
+                    // $("#pembahasan").css("filter", "blur(0px)");
                     // $("#pembahasan").show()
                 }), a(c).on("click", "#quiz-restart-btn, #quiz-retry-btn", function(a) {
-                    $("#pembahasan").css("filter", "blur(20px)");
+                    // $("#pembahasan").css("filter", "blur(20px)");
                     // $("#pembahasan").hide()
                     a.preventDefault(), e.methods.restart()
                 })
