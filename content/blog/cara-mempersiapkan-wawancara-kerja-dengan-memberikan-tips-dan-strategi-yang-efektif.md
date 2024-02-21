@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date: 2024-02-21T13:11:45Z
 title: "Cara Mempersiapkan Wawancara Kerja dengan Memberikan Tips dan Strategi yang Efektif untuk Calon Pelamar"
 slug: cara-mempersiapkan-wawancara-kerja-dengan-memberikan-tips-dan-strategi-yang-efektif
@@ -19,7 +19,7 @@ image: /images/Tryout online skb.png
 thumbnail: /images/Tryout online skb.png
 width: 1024
 height: 576
-description: "test"
+description: "Memasuki proses wawancara kerja tanpa pengetahuan yang memadai ibarat berlayar tanpa peta. Untuk membantu Anda menavigasi perairan yang tak jarang berombak ini, pemahaman yang mendalam mengenai proses wawancara kerja adalah esensial. Berikut ini adalah panduan rinci untuk mengenali proses tersebut"
 waktu: 60
 soal:
 ---
