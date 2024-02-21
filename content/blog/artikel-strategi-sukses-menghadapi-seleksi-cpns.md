@@ -664,20 +664,20 @@ area yang paling kritikal.
 Sumber Informasi Terpercaya untuk Kebijakan CPNS
 
 **Situs Resmi Badan Kepegawaian Negara (BKN)**: Situs BKN
-([[https://www.bkn.go.id]{.underline}](https://www.bkn.go.id)) merupakan
+([[https://www.bkn.go.id]](https://www.bkn.go.id)) merupakan
 sumber primer informasi CPNS yang menyediakan berbagai pengumuman resmi,
 termasuk jadwal seleksi, panduan pendaftaran, dan pengumuman hasil
 seleksi.
 
 **Portal SSCASN**: Portal Sistem Seleksi CPNS Nasional
-([[https://sscasn.bkn.go.id]{.underline}](https://sscasn.bkn.go.id))
+([[https://sscasn.bkn.go.id]](https://sscasn.bkn.go.id))
 adalah situs resmi untuk pendaftaran CPNS. Situs ini juga menyediakan
 panduan lengkap, FAQ, dan perubahan kebijakan terkini terkait dengan
 seleksi CPNS.
 
 **Website Kementerian PANRB**: Kementerian Pendayagunaan Aparatur Negara
 dan Reformasi Birokrasi
-([[https://www.menpan.go.id]{.underline}](https://www.menpan.go.id))
+([[https://www.menpan.go.id]](https://www.menpan.go.id))
 juga mengeluarkan informasi resmi mengenai seleksi CPNS. Informasi ini
 meliputi peraturan pemerintah terbaru, formasi, serta kebijakan terkait
 lainnya.
