@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2024-02-14T08:06:43Z
 title: "Strategi Sukses Menghadapi Seleksi Cpns"
 slug: strategi-sukses-menghadapi-seleksi-cpns
@@ -19,7 +19,7 @@ image: /images/Strategi Sukses Menghadapi Seleksi Cpns-01.jpg
 thumbnail: /images/Strategi Sukses Menghadapi Seleksi Cpns-01.jpg
 width: 1024
 height: 576
-description: "test"
+description: "proses seleksi CPNS dilakukan dalam beberapa tahapan. Pertama adalah pendaftaran online, di mana calon peserta mendaftar melalui portal resmi yang disediakan oleh pemerintah. berikut strategi sukses menghadapi sleksi cpns"
 waktu: 60
 soal:
 ---
