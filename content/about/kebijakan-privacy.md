@@ -5,8 +5,6 @@ title: "Kebijakan Privasi"
 slug: kebijakan-privasi
 
 tags:
-    - Bank Soal
-    - SKB
 
 categories:
     - about
