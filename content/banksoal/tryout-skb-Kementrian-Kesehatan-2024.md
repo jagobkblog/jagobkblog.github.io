@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2024-02-25T07:55:37Z
 title: "Tryout Skb Kementrian Kesehatan 2024"
 slug: tryout-skb-Kementrian-Kesehatan-2024
