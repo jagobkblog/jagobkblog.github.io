@@ -1,19 +1,19 @@
 ---
-draft: true
-date: 2024-02-21T13:11:45Z
+draft: false
+date: 2024-02-26T09:51:54Z
 title: "Cara Mempersiapkan Wawancara Kerja dengan Memberikan Tips dan Strategi yang Efektif untuk Calon Pelamar"
 slug: cara-mempersiapkan-wawancara-kerja-dengan-memberikan-tips-dan-strategi-yang-efektif
 
 tags:
     - Bank Soal
-    - SKB
+    - Wawancara
 
 categories:
-    - Bank Soal
+    - Blog
 
-authorname: "krisna prihadiyanto"
-authorlink: "https://koleksiprihadi.github.io/"
-authorphoto: "https://koleksiprihadi.github.io/images/koleksiprihadi.jpeg"
+authorname: "Rio Febri"
+authorlink: "https://rii92-portofolio.web.app/"
+authorphoto: "https://avatars.githubusercontent.com/u/85161948?v=4"
 
 image: /images/Tryout online skb.png
 thumbnail: /images/Tryout online skb.png
