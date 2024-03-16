@@ -1,0 +1,36 @@
+<script type="text/javascript">
+    var disqus = 'jagoberkarir';
+    var disqus_shortname = 'jagoberkarir';
+    var disqus_identifier = window.location.pathname;
+    var disqus_url = "https://jagoberkarir.com"+window.location.pathname;
+</script>
+<noscript>Please enable JavaScript to view the comments.</noscript>
+<div id="disqus_thread">
+    <div id="disqus-disclaimer" style="margin-top: 10px;">
+        <center>
+            <button id="disqus-trigger" class="btn oren text-light btn-rounded" onclick="load_disqus(disqus_shortname)">
+                Beri Komentar
+              </button>
+        </center>
+    </div>
+  </div>
+
+<script type="text/javascript">
+    function load_disqus( disqus_shortname ) {
+  // Prepare the trigger and target
+  var disqus_trigger = document.getElementById('disqus-trigger'),
+      disqus_target = document.getElementById('disqus_thread'),
+      disqus_disclaimer = document.getElementById('disqus-disclaimer'),
+      disqus_embed  = document.createElement('script'),
+      disqus_hook   = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
+
+  // Load script asynchronously only when the trigger and target exist
+  if( disqus_target && disqus_trigger ) {
+    disqus_embed.type = 'text/javascript';
+    disqus_embed.async = true;
+    disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    disqus_hook.appendChild(disqus_embed);
+    disqus_disclaimer.remove();
+  }
+}
+</script>
