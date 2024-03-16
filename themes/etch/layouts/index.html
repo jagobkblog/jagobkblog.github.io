@@ -431,7 +431,7 @@
     function setTT(json) {
       var sitemaplen = json.length;
       if (sitemaplen == 0) {
-        $("#banksoaldiv").hide()
+        $("#artikeldiv").hide()
       }else{
         var index = random(sitemaplen)
         $("#tipsandtrikT1").html(json[index].title);
@@ -479,7 +479,8 @@
           call(jsonResult);
         },
         error: function (error) {
-          console.error('Error reading XML:', error);
+          // console.error('Error reading XML:', error);
+          call(jsonResult);
         }
       });
     }

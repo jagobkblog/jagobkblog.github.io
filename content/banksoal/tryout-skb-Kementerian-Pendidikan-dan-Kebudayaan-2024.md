@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date: 2024-02-25T05:43:59Z
 title: "Tryout Skb Kementerian Pendidikan Dan Kebudayaan 2024"
 slug: tryout-skb-Kementerian-Pendidikan-dan-Kebudayaan-2024

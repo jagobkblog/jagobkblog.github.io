@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date: 2024-02-14T08:06:43Z
 title: "Strategi Sukses Menghadapi Seleksi Cpns"
 slug: strategi-sukses-menghadapi-seleksi-cpns

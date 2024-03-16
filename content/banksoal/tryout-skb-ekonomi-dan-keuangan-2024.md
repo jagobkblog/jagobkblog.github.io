@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date: 2024-02-13T14:20:56Z
 title: "Tryout Skb Ekonomi Dan Keuangan 2024"
 slug: tryout-skb-ekonomi-dan-keuangan-2024

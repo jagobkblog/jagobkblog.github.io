@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date: 2024-02-14T08:07:13Z
 title: "Analisis Tren Soal Tes Kedinasan Tahun Ini"
 slug: analisis-tren-soal-tes-kedinasan-tahun-ini

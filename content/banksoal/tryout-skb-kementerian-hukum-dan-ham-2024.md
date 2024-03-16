@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date: 2024-02-08T10:18:40Z
 title: "Tryout SKB Kementerian Hukum Dan Ham 2024"
 slug: tryout-skb-kementerian-hukum-dan-ham-2024
