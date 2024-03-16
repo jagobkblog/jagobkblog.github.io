@@ -16,8 +16,8 @@ authorname: "krisna prihadiyanto"
 authorlink: "https://koleksiprihadi.github.io/"
 authorphoto: "https://koleksiprihadi.github.io/images/koleksiprihadi.jpeg"
 
-image: /images/Perbedaan soal tes cpns dan pppk.png
-thumbnail: /images/Perbedaan soal tes cpns dan pppk.png
+image: https://jagoberkarir.com/images/Perbedaan soal tes cpns dan pppk.png
+thumbnail: https://jagoberkarir.com/images/Perbedaan soal tes cpns dan pppk.png
 width: 1024
 height: 576
 description: "Cari tahu perbedaan soal tes CPNS dan PPPK untuk membantu kamu mempersiapkan diri dalam mengerjakan materi ujian. Baca selengkapnya di sini."
