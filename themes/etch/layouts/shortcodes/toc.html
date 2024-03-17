@@ -1,4 +1,57 @@
-<aside id="toc">
-    <h4>Table of Contents</h4>
-    {{ .Page.TableOfContents }}
-</aside>
+
+
+<style>
+    /* Style untuk daftar isi */
+    #toc {
+        top: 10px;
+        right: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: #f9f9f9;
+    }
+    #toc ul {
+        list-style: none;
+        padding: 0;
+    }
+    #toc ul li a {
+        text-decoration: none;
+        color: blue;
+        transition: color 0.3s ease-in-out;
+    }
+    #toc ul li a:hover {
+        color: red;
+        cursor: pointer;
+    }
+</style>
+<div id="toc">
+    <p><strong>Daftar Isi</strong></p>
+    </div>
+    <script>
+$(document).ready(function(){
+    var toc = "<ul>";
+    $("h1, h2").each(function(){
+        var el = $(this),
+            title = el.text(),
+            id = el.attr("id");
+
+        if (!id) {
+            id = title.replace(/\s+/g, '-').toLowerCase();
+            el.attr("id", id);
+        }
+
+        toc += `<li><a href="#${id}" class="${el.prop('tagName')}">${title}</a></li>`;
+    });
+    toc += "</ul>";
+
+    $("#toc").append(toc);
+
+    // Implementasi scroll halus
+    $("#toc a").on('click', function(e) {
+        e.preventDefault();
+        var target = $(this.hash);
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000); // Durasi scroll 1000ms atau 1 detik
+    });
+});
+</script>

@@ -1,1 +1,2 @@
+disqus.com, 4918270, DIRECT
 google.com, pub-4844862814263888, DIRECT, f08c47fec0942fa0

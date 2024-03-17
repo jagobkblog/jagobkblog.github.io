@@ -29,6 +29,8 @@ soal:
 
 Profesi Aparatur Sipil Negara (ASN) begitu diminati masyarakat. Saat ini, ada dua formasi yang ditujukan untuk Calon Pegawai Sipil Negara (CPNS) dan Pegawai Pemerintah dengan Perjanjian Kerja (PPPK). Muncul pertanyaan, apa perbedaan soal tes pada CPNS dan PPPK. Singkatnya, penerimaan CPNS melewati seleksi yang lebih umum, sedangkan PPPK lebih menekankan pada kebutuhan instansi pemerintah serta ketentuan perundang-undangan.  Dalam [tes awal](https://jadiasn.id/pppk-sama-dengan-cpns/), peserta CPNS akan menjalani tes Kompetensi Dasar (SKD), sementara calon PPPK akan melewati Seleksi Kompetensi Teknis (SKT). Memang, pada dasarnya kedua profesi tersebut mengarah pada tata cara penerimaan ASN. Akan tetapi, ada perbedaan mendasar dalam soal tes yang diujikan. Peserta mesti mengetahuinya supaya dapat mempertimbangkan tingkat kesulitan dalam mengukur peluang lulus seleksi. 
 
+{{< toc >}}
+
 ## Jenis Tes CAT CPNS dan PPPK
 
 [Tes CPNS dan PPPK](https://news.detik.com/berita/d-7135573/perbedaan-tes-seleksi-cpns-dan-pppk-jenis-alur-dan-tahapan) memiliki perbedaan, entah dari rangkaian tes maupun konten materi yang diujikan kepada peserta.

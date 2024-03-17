@@ -1,7 +1,7 @@
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
 {{ range . }}
-<li>
+<li style="margin-top: 10px;">
     <div class="sidebar-thumb">
         <img class="animated rollIn" src='{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ .Params.Image}}{{end}}' alt="{{ .Title }}: {{ range .Params.tags }}{{ . }},{{ end }}" />
     </div>

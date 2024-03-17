@@ -385,35 +385,3 @@ Jadi, jawaban yang tepat adalah Pneumokokus (PCV).
 Jawaban: E"
 {{< /bahas >}}
 
-# Kerangka Sistem Jaminan Sosial di Indonesia: Sebuah Ikhtisar
-
-## Sistem Jaminan Sosial Nasional (SJSN)
-
-Indonesia telah membuat langkah besar dalam kesejahteraan sosial melalui implementasi **"Undang-Undang Nomor 40 Tahun 2004"** (UU No. 40/2004), yang merupakan undang-undang tentang Sistem Jaminan Sosial Nasional (SJSN). UU ini menetapkan SJSN, sebuah sistem yang dirancang untuk memberikan keamanan finansial jangka panjang untuk semua warga negara, mencakup:
-
-- Kesehatan
-- Asuransi kecelakaan kerja
-- Pensiun
-- Manfaat kematian
-
-## Lisensi Operasional Rumah Sakit
-
-Menurut peraturan, rumah sakit harus mendapatkan lisensi operasional yang berlaku selama **lima tahun**, memastikan fasilitas kesehatan mempertahankan standar yang diperlukan untuk perawatan dan keselamatan pasien.
-
-## Pendirian Puskesmas
-
-UU mewajibkan pendirian pusat kesehatan masyarakat (Puskesmas) di **setiap kecamatan**, memastikan layanan kesehatan primer dapat diakses oleh populasi yang lebih luas.
-
-## Pengawasan BPJS
-
-Badan Penyelenggara Jaminan Sosial (BPJS) diawasi oleh dewan yang terdiri dari perwakilan dari pemerintah, pekerja, dan pemberi kerja, tetapi tidak langsung dari tenaga medis.
-
-## Tantangan dan Implikasi
-
-Tantangan tetap ada, khususnya dalam memastikan standar kualitas untuk kebersihan dan sanitasi dalam pasokan air terpenuhi, serta dalam mengelola epidemiologi penyakit. UU juga memiliki implikasi bagi penyedia layanan kesehatan, menekankan pentingnya obat herbal terstandar dan keamanan serta efikasinya.
-
-## Kesimpulan
-
-Seiring Indonesia terus mengembangkan sistem jaminan sosialnya, undang-undang ini berfungsi sebagai pilar kritis dalam melindungi kesejahteraan warganya dan menyediakan jaring pengaman yang menumbuhkan masyarakat yang tangguh dan sehat.
-
----
