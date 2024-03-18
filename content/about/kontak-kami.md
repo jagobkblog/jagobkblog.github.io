@@ -19,7 +19,7 @@ image: /images/Tryout online skb.png
 thumbnail: /images/Tryout online skb.png
 width: 1024
 height: 576
-description: "test"
+description: "Kontak form jagoberkarir.com"
 waktu: 60
 soal:
 ---
