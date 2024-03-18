@@ -77,11 +77,7 @@
     {{- .Content -}} 
   </div>
 
-  <footer class="texttengah textoren">
-    <hr>
-    Copyright © <span id="tahun"></span> | Powered by JAGOBERKARIR
-
-  </footer>
+  {{ partial "footer.html" . }}
 
   <script>
     $(document).ready(function () {

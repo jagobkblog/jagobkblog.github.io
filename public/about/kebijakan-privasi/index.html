@@ -286,9 +286,35 @@ Kami juga dapat menggunakan informasi yang tidak dapat diidentifikasi sebagai Da
 
   <footer class="texttengah textoren">
     <hr>
+        <div class="container">
+            <ul class="nav nav-underline" style="width: 70%; margin: auto; justify-content: center;">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="/about/kami">Tentang Kami</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="/about/kebijakan-privasi">Kebijakan Privasi</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="/about/disclaimer">Disclaimer</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="/about/tos">Terms of Service</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="/about/kontak-kami">Kontak</a> 
+                </li>
+            </ul>
+        </div>
     Copyright © <span id="tahun"></span> | Powered by JAGOBERKARIR
+    <p>.</p>
 
   </footer>
+
+  <script>
+    $(document).ready(function () {
+      $("#tahun").text(new Date().getFullYear());
+    });
+  </script>
 
   <script>
     $(document).ready(function () {

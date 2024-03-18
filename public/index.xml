@@ -6,10 +6,40 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Mar 2024 08:13:07 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2024 11:06:21 +0700</lastBuildDate>
     
   <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Disclaimer</title>
+      <link>/about/disclaimer/</link>
+      <pubDate>Mon, 18 Mar 2024 11:06:21 +0700</pubDate>
+      
+      <guid>/about/disclaimer/</guid>
+      <description>test</description>
+      <image>/images/Tryout online skb.png</image>
+    </item>
+    
+    <item>
+      <title>Kami</title>
+      <link>/about/kami/</link>
+      <pubDate>Mon, 18 Mar 2024 11:06:02 +0700</pubDate>
+      
+      <guid>/about/kami/</guid>
+      <description>Jagoberkarir adalah sebuah platform website yang akan membantu kamu dalam mempersiapkan karir cemerlang mu dengan tips-tips seputar berkarir dan latihan-latihan soal terkait tes CPNS, PCPM dan BUMN.</description>
+      <image>/images/Tryout online skb.png</image>
+    </item>
+    
+    <item>
+      <title>Kontak Kami</title>
+      <link>/about/kontak-kami/</link>
+      <pubDate>Mon, 18 Mar 2024 10:38:07 +0700</pubDate>
+      
+      <guid>/about/kontak-kami/</guid>
+      <description>test</description>
+      <image>/images/Tryout online skb.png</image>
+    </item>
     
     <item>
       <title>Tips Memilih PNS Atau PPPK Mana Lebih Baik?</title>
