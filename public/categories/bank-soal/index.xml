@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CPNS on My New Hugo Site</title>
-    <link>/tags/cpns/</link>
-    <description>Recent content in CPNS on My New Hugo Site</description>
+    <title>Bank Soal on My New Hugo Site</title>
+    <link>/categories/bank-soal/</link>
+    <description>Recent content in Bank Soal on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Mar 2024 08:13:07 +0700</lastBuildDate>
     
-  <atom:link href="/tags/cpns/index.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="/categories/bank-soal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>/blog/tips-memilih-pns-atau-pppk-mana-lebih-baik/</guid>
       <description>Bingung ingin bekerja sebagai PNS atau PPPK? Temukan tips memilih PNS atau P3K agar keputusanmu menjadi matang. Baca selengkapnya di sini.</description>
       <image>https://jagoberkarir.com/images/Tips Memilih PNS Atau PPPK Mana Lebih Baik.png</image>
-    </item>
-    
-    <item>
-      <title>Apa Perbedaan Soal Tes CPNS Dan PPPK? Ini Penjelasannya</title>
-      <link>/blog/apa-perbedaan-soal-tes-cpns-dan-pppk-ini-penjelasannya/</link>
-      <pubDate>Sat, 16 Mar 2024 16:19:29 +0700</pubDate>
-      
-      <guid>/blog/apa-perbedaan-soal-tes-cpns-dan-pppk-ini-penjelasannya/</guid>
-      <description>Cari tahu perbedaan soal tes CPNS dan PPPK untuk membantu kamu mempersiapkan diri dalam mengerjakan materi ujian. Baca selengkapnya di sini.</description>
-      <image>https://jagoberkarir.com/images/Perbedaan soal tes cpns dan pppk.png</image>
     </item>
     
   </channel>

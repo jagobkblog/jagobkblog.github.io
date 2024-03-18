@@ -6,7 +6,7 @@
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Mar 2024 16:19:29 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2024 08:13:07 +0700</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,29 @@
     <item>
       <title>CPNS</title>
       <link>/tags/cpns/</link>
-      <pubDate>Sat, 16 Mar 2024 16:19:29 +0700</pubDate>
+      <pubDate>Mon, 18 Mar 2024 08:13:07 +0700</pubDate>
       
       <guid>/tags/cpns/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>pilih cpns atau pppk</title>
+      <link>/tags/pilih-cpns-atau-pppk/</link>
+      <pubDate>Mon, 18 Mar 2024 08:13:07 +0700</pubDate>
+      
+      <guid>/tags/pilih-cpns-atau-pppk/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>PPPK</title>
+      <link>/tags/pppk/</link>
+      <pubDate>Mon, 18 Mar 2024 08:13:07 +0700</pubDate>
+      
+      <guid>/tags/pppk/</guid>
       <description></description>
       <image></image>
     </item>
@@ -27,16 +47,6 @@
       <pubDate>Sat, 16 Mar 2024 16:19:29 +0700</pubDate>
       
       <guid>/tags/perbedaan-soal-tes-cpns-dan-pppk/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>PPPK</title>
-      <link>/tags/pppk/</link>
-      <pubDate>Sat, 16 Mar 2024 16:19:29 +0700</pubDate>
-      
-      <guid>/tags/pppk/</guid>
       <description></description>
       <image></image>
     </item>
