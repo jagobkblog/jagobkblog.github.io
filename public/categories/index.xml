@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Bank Soal</title>
-      <link>/categories/bank-soal/</link>
+      <title>about</title>
+      <link>/categories/about/</link>
       <pubDate>Mon, 18 Mar 2024 11:06:21 +0700</pubDate>
       
-      <guid>/categories/bank-soal/</guid>
+      <guid>/categories/about/</guid>
       <description></description>
       <image></image>
     </item>
@@ -24,19 +24,9 @@
     <item>
       <title>Blog</title>
       <link>/categories/blog/</link>
-      <pubDate>Sat, 16 Mar 2024 16:19:29 +0700</pubDate>
+      <pubDate>Mon, 18 Mar 2024 08:13:07 +0700</pubDate>
       
       <guid>/categories/blog/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>/categories/about/</link>
-      <pubDate>Fri, 16 Feb 2024 02:18:24 +0000</pubDate>
-      
-      <guid>/categories/about/</guid>
       <description></description>
       <image></image>
     </item>

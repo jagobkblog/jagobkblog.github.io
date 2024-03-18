@@ -5,11 +5,9 @@ title: "Disclaimer"
 slug: disclaimer
 
 tags:
-    - Bank Soal
-    - SKB
 
 categories:
-    - Bank Soal
+    - about
 
 authorname: "krisna prihadiyanto"
 authorlink: "https://koleksiprihadi.github.io/"
