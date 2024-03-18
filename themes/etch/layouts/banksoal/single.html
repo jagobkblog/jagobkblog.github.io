@@ -85,10 +85,11 @@
   
   <div class="container" id="pembahasan">
     <h5 class="textoren texttengah jarakatas50px">Pembahasan {{ .Title }}</h5>
+    {{ partial "share.html" . }}
     <div class="rowitem jarakatas50px">
       <div class="colartikelL">
         <div id="detailpembahasansoal">
-          {{ partial "share.html" . }}
+          <a href="//www.dmca.com/Protection/Status.aspx?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-2x1-04.png?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
           {{- .Content -}}
         </div>
       </div>
