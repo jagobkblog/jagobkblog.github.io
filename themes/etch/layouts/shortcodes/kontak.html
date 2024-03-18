@@ -37,9 +37,12 @@
   <script>
   // 
     $("form").submit(function(e){
-      $("#butoonsubmit").html(`<button class="btn btn-dark w-100 fw-bold" ><i class="bi bi-send"></i> Mengirim Pesan</button>`)
       e.preventDefault();
       var str = $( "form" ).serialize();
+      $("#kontakkami").html(`
+            <h1><i class="bi bi-send"></i>Proses Pengiriman Pesan</h1>
+            <p>Pesan anda akan segera terkirim, terimakasih telah menghubungi kami</p>
+            `)
       var url = "https://script.google.com/macros/s/AKfycbwyUa1rkCXIZ2QU8eMANXzwJAb_c07_qgPkPBkJbLtlyGXnpGudwjvtWI_As3UpHmnD/exec?f=insert&s=pesan&"
       $.get(url+str, function(data, status){
         if (status == "success") {
