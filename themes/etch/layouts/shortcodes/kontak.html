@@ -23,7 +23,7 @@
             </div>
             <div class="col-12">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" id="butoonsubmit">
                   <button type="submit" id="submit" value="submit" class="btn btn-dark w-100 fw-bold" >Send</button>
                 </div>
               </div>
@@ -35,8 +35,9 @@
   </div>
   
   <script>
-  // https://script.google.com/macros/s/AKfycbwyUa1rkCXIZ2QU8eMANXzwJAb_c07_qgPkPBkJbLtlyGXnpGudwjvtWI_As3UpHmnD/exec
+  // 
     $("form").submit(function(e){
+      $("#butoonsubmit").html(`<button class="btn btn-dark w-100 fw-bold" ><i class="bi bi-send"></i> Mengirim Pesan</button>`)
       e.preventDefault();
       var str = $( "form" ).serialize();
       var url = "https://script.google.com/macros/s/AKfycbwyUa1rkCXIZ2QU8eMANXzwJAb_c07_qgPkPBkJbLtlyGXnpGudwjvtWI_As3UpHmnD/exec?f=insert&s=pesan&"
