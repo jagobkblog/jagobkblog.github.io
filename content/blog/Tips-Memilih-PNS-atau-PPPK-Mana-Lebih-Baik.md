@@ -1,91 +1,68 @@
 ---
-draft: false
-date: 2024-03-16T16:19:29+07:00
+draft: true
+date: 2024-03-18T08:13:07+07:00
 title: "Tips Memilih PNS Atau PPPK Mana Lebih Baik?"
 slug: Tips-Memilih-PNS-atau-PPPK-Mana-Lebih-Baik
 
 tags:
-    - perbedaan soal tes cpns dan pppk
+    - pilih cpns atau pppk
     - CPNS
     - PPPK
 
 categories:
-    - Blog
+    - Bank Soal
 
 authorname: "krisna prihadiyanto"
 authorlink: "https://koleksiprihadi.github.io/"
 authorphoto: "https://koleksiprihadi.github.io/images/koleksiprihadi.jpeg"
 
-image: https://jagoberkarir.com/images/Perbedaan soal tes cpns dan pppk.png
-thumbnail: https://jagoberkarir.com/images/Perbedaan soal tes cpns dan pppk.png
+image: https://jagoberkarir.com/images/Tips Memilih PNS Atau PPPK Mana Lebih Baik.png
+thumbnail: https://jagoberkarir.com/images/Tips Memilih PNS Atau PPPK Mana Lebih Baik.png
 width: 1024
 height: 576
-description: "Cari tahu perbedaan soal tes CPNS dan PPPK untuk membantu kamu mempersiapkan diri dalam mengerjakan materi ujian. Baca selengkapnya di sini."
+description: "Bingung ingin bekerja sebagai PNS atau PPPK? Temukan tips memilih PNS atau P3K agar keputusanmu menjadi matang. Baca selengkapnya di sini."
 waktu: 60
 soal:
 ---
 
-# Apa Perbedaan Soal Tes CPNS dan PPPK? Ini Penjelasannya 
+# Tips Memilih PNS atau PPPK, Mana yang Lebih Baik?
 
-Profesi Aparatur Sipil Negara (ASN) begitu diminati masyarakat. Saat ini, ada dua formasi yang ditujukan untuk Calon Pegawai Sipil Negara (CPNS) dan Pegawai Pemerintah dengan Perjanjian Kerja (PPPK). Muncul pertanyaan, apa perbedaan soal tes pada CPNS dan PPPK. Singkatnya, penerimaan CPNS melewati seleksi yang lebih umum, sedangkan PPPK lebih menekankan pada kebutuhan instansi pemerintah serta ketentuan perundang-undangan.  Dalam [tes awal](https://jadiasn.id/pppk-sama-dengan-cpns/), peserta CPNS akan menjalani tes Kompetensi Dasar (SKD), sementara calon PPPK akan melewati Seleksi Kompetensi Teknis (SKT). Memang, pada dasarnya kedua profesi tersebut mengarah pada tata cara penerimaan ASN. Akan tetapi, ada perbedaan mendasar dalam soal tes yang diujikan. Peserta mesti mengetahuinya supaya dapat mempertimbangkan tingkat kesulitan dalam mengukur peluang lulus seleksi. 
+Pemerintah umumnya membuka penerimaan Aparatur Sipil Negara (ASN) setiap tahun. Namun, orang sering mempertimbangkan, mana yang lebih baik menjadi Pegawai Negeri Sipil (PNS) atau Pegawai Pemerintah dengan Perjanjian Kerja (PPPK)?
+
+Tentu saja, kedua profesi tersebut memiliki keunggulan untuk karir dan masa depan kamu. Agar pertimbangan kamu lebih matang, berikut ini tips memilih antara menjadi PNS atau PPPK agar kamu lebih yakin.
 
 {{< toc >}}
 
-## Jenis Tes CAT CPNS dan PPPK
+## 1. Perbedaan PPPK dan PNS
 
-[Tes CPNS dan PPPK](https://news.detik.com/berita/d-7135573/perbedaan-tes-seleksi-cpns-dan-pppk-jenis-alur-dan-tahapan) memiliki perbedaan, entah dari rangkaian tes maupun konten materi yang diujikan kepada peserta.
+Perbedaan mencolok antara Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) dan Pegawai Negeri Sipil (PNS) adalah masa kerja. Keduanya memang memiliki status sebagai Aparatur Sipil Negara (ASN). 
 
-Jenis tes yang dihadapi peserta CPNS antara lain
+Tetapi status masa kerja juga mempengaruhi kenaikan karir. PNS adalah pegawai tetap, sementara PPPK memiliki batasan masa kerja minimal satu tahun. Akibatnya, ini mempengaruhi hak dan kewajiban kepada pegawai PPPK dan PNS.
 
-- Seleksi Administrasi
-  
-Seleksi administrasi merupakan tahap awal yang menguji kelengkapan dan keabsahan dokumen dari para peserta pendaftar. Ini termasuk pengecekan resume, sertifikat pendidikan, identitas, dan dokumen pendukung lainnya. Tujuannya adalah untuk memastikan bahwa kandidat memenuhi semua syarat administratif sebelum maju ke tahapan berikutnya. 
+## 2. Kelebihan dan Kekurangan PPPK dibanding PNS
 
- 
+PPPK merupakan sistem baru yang diadakan pemerintah. Keuntungan menjadi PPPK adalah gaji dan tunjangan yang diterima layak. Bahkan, hampir menyerupai PNS. Di sisi lain, penerimaan PPPK umumnya lebih tinggi daripada PNS.
 
-- Seleksi Kompetensi Dasar (SKD)  
+Namun, PPPK memiliki kekurangan. Salah satunya adalah masa kerja yang dibatasi minimal satu tahun. Pegawai tidak otomatis menjadi karyawan tetap dan diperpanjang jika instansi masih memiliki kebutuhan terhadap keahlian tersebut. Selain itu, faktor kinerja juga menjadi ukuran agar masa kerja PPPK dapat diperpanjang.
 
-Seleksi Kompetensi Dasar ini akan menilai pengetahuan umum, logika, dan pemahaman dasar dari setiap peserta tentang nilai-nilai yang diperlukan untuk bekerja dalam layanan publik. Ini sering dilakukan melalui Computer Assisted Test (CAT) yang mencakup tes intelegensi umum, tes wawasan kebangsaan, dan tes karakteristik pribadi. 
- 
+## 3. Peluang Kenaikan Status dari PPPK ke PNS
 
-- Seleksi Kompetensi Bidang (SKB) 
+Pertanyaan tentang apakah [PPPK dapat diangkat sebagai PNS](https://news.detik.com/kolom/d-7110448/pdi-perjuangan-minta-pemerintah-segera-angkat-p3k-jadi-pns) sering kali diajukan. Akan tetapi, dalam aturannya, PPPK tidak secara otomatis menjadi PNS. Menurut Undang-Undang 15/2014 tentang ASN, Pasal 99 mengatur bahwa PPPK harus mengikuti ujian seperti calon PNS pada umumnya.
 
-Seleksi Kompetensi Bidang ini merupakan tahapan yang lebih spesifik terhadap bidang atau posisi yang dilamar setiap peserta. Tes ini menilai pengetahuan teknis dan keterampilan profesional yang diperlukan untuk formasi yang di daftarkan oleh setiap peserta.  
+Hal ini tentunya memberikan ketidakpastian kepada PPPK. Banyak pihak mendorong agar pemerintah memberi kepastian kepada PPPK untuk diangkat sebagai PNS. Salah satunya datang dari Fraksi DPR RI PDI Perjuangan. Akan tetapi, keinginan tersebut masih sekadar wacana.
 
- 
+## 4. Stabilitas Finansial dan Karier
 
-Sementara itu, pelamar P3K akan melewati tes mulai, yaitu: 
+PNS memiliki stabilitas karir yang lebih tinggi dibandingkan PPPK. Tentu saja, PNS cocok untuk kamu yang berharap memiliki jaminan keamanan finansial. Di sisi lain, jika kamu ingin mendapatkan peluang mengembangkan karir di luar pemerintahan, opsi menjadi PPPK menjadi pilihan terbaik.
 
-- Seleksi Kompetensi Manajerial 
+Pertimbangan ini perlu dibuat dengan matang, terutama bagi pelamar yang merupakan fresh graduate yang baru lulus. Ada tantangan dalam mencapai kemandirian finansial dan karir melalui jalur pemerintahan atau swasta.
 
-Seleksi Kompetensi Manajerial ini merupakan tahapan yang akan mengevaluasi kemampuan manajerial dari setiap peserta, seperti pengambilan keputusan, kepemimpinan, dan kemampuan untuk merencanakan dan mengorganisir kerja. 
- 
+## 5. Gaji PPPK Lebih Besar dari PNS
 
-- Seleksi Kompetensi Teknis 
+[Gaji pokok](https://an-nur.ac.id/blog/mengapa-gaji-p3k-lebih-besar-dari-gaji-pns-berikut-penjelasannya.html) PPPK cenderung lebih besar daripada gaji PNS. Ini disebabkan karena golongan dan jabatan PPPK ditetapkan berdasarkan kompetensi dan pengalaman kerja individu, sementara golongan dan jabatan PNS bergantung pada masa kerja, pendidikan, dan kinerja pegawai.
 
-Seleksi Kompetensi Teknis ini terfokus pada pengujian pengetahuan teknis dan keterampilan spesifik dari setiap peserta yang diperlukan untuk posisi/formasi yang dilamar. Ini termasuk pemahaman tentang praktik kerja, prosedur, dan standar yang relevan dengan bidang kerja. 
- 
+Struktur golongan dan pangkat ini menjadi faktor yang membuat gaji PPPK lebih tinggi dari gaji PNS. Selain itu, peningkatan gaji PPPK sebesar 8% baik untuk guru maupun non-guru menjadi kabar gembira bagi PPPK. Hal ini menunjukkan adanya perhatian dari pemerintah terhadap kesejahteraan para pegawai PPPK sebagai bagian dari upaya peningkatan kesejahteraan aparatur sipil negara.
 
-- Seleksi Kompetensi Sosial Kultural. 
+Demikian tips memilih antara PPPK atau PNS yang membantu kamu lebih matang dalam menentukan. Tentu saja, keduanya memiliki kelebihan dan kekurangan. 
 
-Seleksi Kompetensi Sosial Kultural ini akan menilai kemampuan setiap peserta untuk berinteraksi dan bekerja dalam lingkungan sosial dan budaya yang beragam. Tes ini bertujuan untuk mengidentifikasi individu yang dapat beradaptasi dan bekerja dengan baik dalam berbagai situasi sosial dan budaya. 
-
-## Jenis Soal dan Fokus Materi Ujian 
-
-Jika dilihat lebih dalam, maka terdapat perbedaan besar antara soal CPNS dan PPPK. CPNS cenderung menguji pengetahuan umum dan keterampilan umum calon pegawai. Soal ujian berupa tes potensi akademik, tes wawasan kebangsaan, hingga tes karakteristik pribadi.  Sedangkan PPPK menekankan aspek teknis mengingat profesi ini dibutuhkan karena instansi pemerintah menginginkan tenaga yang memiliki keterampilan dan keahlian. Karena itu, persiapan dan latihan soal yang perlu disiapkan pasti harus dipisahkan sesuai dengan lamaran yang dituju. 
-
-## Jumlah Soal Tes CPNS dan PPPK 
-
-Setelah mengetahui jenis soal dan materi tes, selanjutnya peserta perlu mengetahui jumlah tes antara CPNS dan PPPK. Tujuannya supaya peserta mampu mengalokasikan waktu secara efektif dalam menyelesaikan ujian tanpa meninggalkan jawaban kosong. 
-
-## Jumlah Soal Tes CPNS 
-
-Berkaca pada seleksi tahun 2023, tes SKD CPNS berjumlah 110 soal. Soal-soal ini terbagi dalam tiga kategori, antara lain tes intelegensi umum sebanyak 35 soal. Di sini, durasi waktu pengerjaan adalah 100 menit bagi pelamar umum dan 130 menit untuk pelamar penyandang disabilitas. 
-
-## Jumlah Soal Tes PPPK 
-
-Tes kompetensi PPPK Teknis 2023 dibagi dalam beberapa kategori soal. Pertama, seleksi kompetensi teknis dengan jumlah 90 soal, kemudian seleksi kompetensi manajerial dengan jumlah 25 soal, dan terakhir seleksi kompetensi sosial kultural sebanyak 20 soal. Selama mengerjakan, peserta diberikan total waktu selama 120 menit. Nantinya, juga ada seleksi wawancara dalam tahapan seleksi ini. 
-
-## Status Pengangkatan CPNS dan PPPK, Cermati Agar Menemukan Pilihan Tepat 
-
-CPNS dan PPPK memiliki sejumlah perbedaan, salah satunya adalah status pengangkatan. Tentu, butuh pertimbangan matang karena sangat berpengaruh terhadap masa depan. Jika kamu memilih CPNS, maka nanti diangkat sebagai PNS. [Status PNS](https://www.cnbcindonesia.com/news/20230811115437-4-462184/ini-beda-pns-pppk-status-gaji-tunjangan) adalah pegawai tetap. Dengan kata lain, posisi ini sangat stabil untuk masa depan kamu.Sementara itu, PPPK bekerja sesuai durasi kontrak yang dibutuhkan. Masa kerja PPPK paling singkat selama satu tahun dan dapat diperpanjang sesuai kebutuhan dan berdasarkan evaluasi kinerja.Itulah penjelasan mengenai soal tes CPNS dan PPPK yang akan diujikan kepada pelamar. Dengan demikian, kamu dapat mengalokasikan waktu dan memilih jenis latihan yang tepat sehingga pada saat pelaksanaan ujian, kamu merasa siap dan percaya diri untuk mengerjakan soal. 
+Meski banyak orang menganggap PNS lebih baik karena stabil, tetapi pemerintah juga menjamin bahwa P3K memperoleh kesejahteraan yang sama seperti PNS. Dengan kata lain, kamu dihadapkan pada pilihan yang sama-sama menguntungkan.
