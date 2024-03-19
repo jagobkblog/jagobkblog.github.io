@@ -12,12 +12,13 @@
 <div class="container" style="margin-top: 20px;">
   <ul class="nav nav-underline" style="width: 70%; margin: auto; justify-content: center;">
     <li class="nav-item">
-      <a href="#" type="button" class="btn btn-default btn-circle nav-link bg-dark text-light" aria-current="page"><i
+      <a href="https://www.instagram.com/jagoberkarir/" type="button"
+        class="btn btn-default btn-circle nav-link bg-dark text-light" aria-current="page"><i
           class="bi bi-instagram"></i></a>
     </li>
     <li class="nav-item">
-      <a href="#" type="button" class="btn btn-default btn-circle nav-link bg-dark text-light" aria-current="page"><i
-          class="bi bi-browser-chrome"></i></a>
+      <a href="https://jagoberkarir.com" type="button" class="btn btn-default btn-circle nav-link bg-dark text-light"
+        aria-current="page"><i class="bi bi-browser-chrome"></i></a>
     </li>
   </ul>
 </div>
@@ -28,7 +29,7 @@
   $(document).ready(function () {
     url = "https://script.google.com/macros/s/AKfycbwyUa1rkCXIZ2QU8eMANXzwJAb_c07_qgPkPBkJbLtlyGXnpGudwjvtWI_As3UpHmnD/exec?f=read&s=FxhtPho9oi//WR2atIHBhw=="
     $.get(url, function (data, status) {
-      data.records.forEach(function(record) {
+      data.records.forEach(function (record) {
         $("#linktree").append(`<a href="${record.link}" class="btn oren text-light rounded-pill" type="button">
   <img src="${setImage(record.jenis)}" class="img-fluid" width="50px" height="50px">
   ${record.nama}
@@ -38,11 +39,10 @@
   });
 
   function setImage(url) {
-    if(url == "web"){
+    if (url == "web") {
       return "/logo/webpage.svg";
     } else {
       return "/logo/shopee.svg";
     }
   }
 </script>
-
