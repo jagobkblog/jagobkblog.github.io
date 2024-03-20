@@ -838,3 +838,27 @@ div.timer {
   text-decoration: none;
   color: black;
 }
+
+/* Blockquote style */
+blockquote{
+  background:#f2f9ff;  
+  color:#617a91;
+  font-size:17px;
+  font-style: italic;
+  border: 1px solid #2e87e7;
+  border-radius:4px;
+  padding: 20px;
+  margin: 1.5em 10px;
+  clear: both;
+  }
+  blockquote:before {
+    color: #2e87e7;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote, q {
+    quotes: "\201C""\201D""\2018""\2019";
+  }

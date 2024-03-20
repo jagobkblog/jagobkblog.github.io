@@ -1,18 +1,22 @@
 ---
-draft: true
+draft: false
 date: 2024-02-25T05:43:59Z
 title: "Tryout Skb Kementerian Pendidikan Dan Kebudayaan 2024"
 slug: tryout-skb-Kementerian-Pendidikan-dan-Kebudayaan-2024
 
 tags:
+    - Tryout Skb Kementerian Pendidikan Dan Kebudayaan
+    - CPNS
+    - PPPK
+    - TKD
     - Bank Soal
     - SKB
 
 categories:
     - Bank Soal
 
-image: /images/Tryout online skb.png
-thumbnail: /images/Tryout online skb.png
+image: /images/Tryout Skb Kementerian Pendidikan Dan Kebudayaan.png
+thumbnail: /images/Tryout Skb Kementerian Pendidikan Dan Kebudayaan.png
 width: 1024
 height: 576
 description: "Tryout dan pembahasan soal SKB Kementerian Pendidikan dan Kebudayaan 2024"

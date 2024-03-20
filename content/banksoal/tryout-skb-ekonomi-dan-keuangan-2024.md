@@ -1,10 +1,14 @@
 ---
-draft: true
+draft: false
 date: 2024-02-13T14:20:56Z
 title: "Tryout Skb Ekonomi Dan Keuangan 2024"
 slug: tryout-skb-ekonomi-dan-keuangan-2024
 
 tags:
+    - Tryout Skb Ekonomi Dan Keuangan
+    - CPNS
+    - PPPK
+    - TKD
     - Bank Soal
     - SKB
 
@@ -18,8 +22,8 @@ authorname: "krisna prihadiyanto"
 authorlink: "https://koleksiprihadi.github.io/"
 authorphoto: "https://koleksiprihadi.github.io/images/koleksiprihadi.jpeg"
 
-image: /images/Tryout online skb.png
-thumbnail: /images/Tryout online skb.png
+image: /images/Tryout Skb Ekonomi Dan Keuangan.png
+thumbnail: /images/Tryout Skb Ekonomi Dan Keuangan.png
 width: 1024
 height: 576
 description: "Tryout dan pembahasan soal SKB Ekonomi dan Keuangan 2024"

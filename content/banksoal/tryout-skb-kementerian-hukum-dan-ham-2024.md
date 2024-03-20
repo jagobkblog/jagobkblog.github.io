@@ -1,10 +1,14 @@
 ---
-draft: true
+draft: false
 date: 2024-02-08T10:18:40Z
 title: "Tryout SKB Kementerian Hukum Dan Ham 2024"
 slug: tryout-skb-kementerian-hukum-dan-ham-2024
 
 tags:
+    - Tryout SKB Kementerian Hukum Dan Ham
+    - CPNS
+    - PPPK
+    - TKD
     - Bank Soal
     - SKB
 
@@ -18,8 +22,8 @@ authorname: ""
 authorlink: ""
 authorphoto: ""
 
-image: /images/Tryout online skb.png
-thumbnail: /images/Tryout online skb.png
+image: /images/Tryout SKB Kementerian Hukum Dan Ham.png
+thumbnail: /images/Tryout SKB Kementerian Hukum Dan Ham.png
 width: 1024
 height: 576
 description: "Tryout dan pembahasan soal SKB Kementerian Hukum dan Ham 2024"

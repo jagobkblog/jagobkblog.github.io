@@ -84,7 +84,9 @@
   <!--Waves end-->
   
   <div class="container" id="pembahasan">
+    <img class='lazyload mb-3 img-fluid img-thumbnail' src='{{ .Params.image }}' alt='{{ .Title }}' title="{{ .Title }}" loading='lazy' style="width:100%;" />
     <h5 class="textoren texttengah jarakatas50px">Pembahasan {{ .Title }}</h5>
+    {{ partial "tags.html" . }}
     {{ partial "share.html" . }}
     <div class="rowitem jarakatas50px">
       <div class="colartikelL">
@@ -149,6 +151,8 @@
     
     $("#quiz-finish-btn").hide();
     var waktu = {{ .Params.waktu }};
+    $(".result").text(" " + waktu/60 + " Menit pengerjaan");
+    $("#jumlahkomentar").hide();
     $('#quiz').quiz({
       finishButtonText: 'Selesai',
       answerCallback: answerCallback,

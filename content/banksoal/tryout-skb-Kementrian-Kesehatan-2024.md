@@ -1,10 +1,14 @@
 ---
-draft: true
+draft: false
 date: 2024-02-25T07:55:37Z
 title: "Tryout Skb Kementrian Kesehatan 2024"
 slug: tryout-skb-Kementrian-Kesehatan-2024
 
 tags:
+    - Tryout Skb Kementrian Kesehatan
+    - CPNS
+    - PPPK
+    - TKD
     - Bank Soal
     - SKB
 
@@ -15,8 +19,8 @@ authorname: "krisna prihadiyanto"
 authorlink: "https://koleksiprihadi.github.io/"
 authorphoto: "https://koleksiprihadi.github.io/images/koleksiprihadi.jpeg"
 
-image: /images/Tryout online skb.png
-thumbnail: /images/Tryout online skb.png
+image: /images/Tryout Skb Kementrian Kesehatan.png
+thumbnail: /images/Tryout Skb Kementrian Kesehatan.png
 width: 1024
 height: 576
 description: "Tryout dan pembahasan soal SKB Kementerian Kesehatan 2024"

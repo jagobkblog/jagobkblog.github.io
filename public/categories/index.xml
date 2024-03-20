@@ -6,10 +6,20 @@
     <description>Recent content in Categories on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Mar 2024 01:09:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Mar 2024 11:00:12 +0700</lastBuildDate>
     
   <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blog</title>
+      <link>/categories/blog/</link>
+      <pubDate>Wed, 20 Mar 2024 11:00:12 +0700</pubDate>
+      
+      <guid>/categories/blog/</guid>
+      <description></description>
+      <image></image>
+    </item>
     
     <item>
       <title>about</title>
@@ -22,11 +32,11 @@
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>/categories/blog/</link>
-      <pubDate>Mon, 18 Mar 2024 08:13:07 +0700</pubDate>
+      <title>Bank Soal</title>
+      <link>/categories/bank-soal/</link>
+      <pubDate>Sun, 25 Feb 2024 07:55:37 +0000</pubDate>
       
-      <guid>/categories/blog/</guid>
+      <guid>/categories/bank-soal/</guid>
       <description></description>
       <image></image>
     </item>
