@@ -30,6 +30,8 @@ Pemerintah baru saja mengumumkan pendaftaran ASN 2024 pada bulan Maret. Tidak ta
 
 Setiap tahun, banyak orang menantikan pembukaan pendaftaran ini. Jika kamu adalah salah satu yang bermiant untuk mendaftarkan diri, persiapan adalah hal yang sangat penting. Apa saja yang harus dialakukan? berikut ini tips lolos CPNS 2024 yang bisa anda lakukan dengan mudah.
 
+{{< toc >}}
+
 ## Memahami Syarat Lulus CPNS
 
 Kelulusan dalam seleksi CPNS ditentukan melalui serangkaian tes yang berat. Ini tidak hanya bergantung pada kesiapan peserta dalam menghadapi tes atau ujian, tetapi juga sangat berkaitan dengan administrasi dan pemenuhan [syarat pendaftaran](https://www.detik.com/edu/edutainment/d-7199179/mau-daftar-cpns-2024-ketahui-syarat-dan-caranya).
