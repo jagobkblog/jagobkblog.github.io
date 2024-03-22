@@ -32,6 +32,8 @@ Belakangan ini, pemerintah gencar membuka formasi CPNS untuk peserta dengan lata
 
 Jika kamu berniat untuk melamar sebagai CPNS, berikut ini informasi daftar gaji dan tunjangan PNS lulusan SMA.
 
+{{< toc >}}
+
 ## Nominal Gaji PNS Lulusan SMA
 
 Ada dinamika baru terkait nominal gaji lulusan SMA. Menurut [Peraturan Pemerintah (PP) Nomor 15 tahun 2019](https://peraturan.bpk.go.id/Details/103323/pp-no-15-tahun-2019), gaji pokok bagi lulusan SMA berkisar antara Rp2 juta hingga Rp3,8 juta. 
