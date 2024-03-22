@@ -6,7 +6,7 @@
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Mar 2024 11:00:12 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 22 Mar 2024 04:32:48 +0000</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,39 @@
     <item>
       <title>CPNS</title>
       <link>/tags/cpns/</link>
-      <pubDate>Wed, 20 Mar 2024 11:00:12 +0700</pubDate>
+      <pubDate>Fri, 22 Mar 2024 04:32:48 +0000</pubDate>
       
       <guid>/tags/cpns/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>Gaji</title>
+      <link>/tags/gaji/</link>
+      <pubDate>Fri, 22 Mar 2024 04:32:48 +0000</pubDate>
+      
+      <guid>/tags/gaji/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>Gaji PNS Lulusan SMA</title>
+      <link>/tags/gaji-pns-lulusan-sma/</link>
+      <pubDate>Fri, 22 Mar 2024 04:32:48 +0000</pubDate>
+      
+      <guid>/tags/gaji-pns-lulusan-sma/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>SMA</title>
+      <link>/tags/sma/</link>
+      <pubDate>Fri, 22 Mar 2024 04:32:48 +0000</pubDate>
+      
+      <guid>/tags/sma/</guid>
       <description></description>
       <image></image>
     </item>
