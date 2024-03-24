@@ -18,8 +18,8 @@ authorname: "krisna prihadiyanto"
 authorlink: "https://koleksiprihadi.github.io/"
 authorphoto: "https://koleksiprihadi.github.io/images/koleksiprihadi.jpeg"
 
-image: /images/Tryout online skb.png
-thumbnail: /images/Tryout online skb.png
+image: https://jagoberkarir.com/images/Tryout Paket 3 CAT CPNS 2024.png
+thumbnail: https://jagoberkarir.com/images/Tryout Paket 3 CAT CPNS 2024.png
 width: 1024
 height: 576
 description: "yuk latihan soal-soal CAT CPNS dengan paket tryout CAT CPNS gratis dari jagoberkarir tanpa harus login"

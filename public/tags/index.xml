@@ -6,10 +6,40 @@
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Mar 2024 16:07:31 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2024 11:21:17 +0700</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CPNS</title>
+      <link>/tags/cpns/</link>
+      <pubDate>Sun, 24 Mar 2024 11:21:17 +0700</pubDate>
+      
+      <guid>/tags/cpns/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>PPPK</title>
+      <link>/tags/pppk/</link>
+      <pubDate>Sun, 24 Mar 2024 11:21:17 +0700</pubDate>
+      
+      <guid>/tags/pppk/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>Tes Wawasan Kebangsaan</title>
+      <link>/tags/tes-wawasan-kebangsaan/</link>
+      <pubDate>Sun, 24 Mar 2024 11:21:17 +0700</pubDate>
+      
+      <guid>/tags/tes-wawasan-kebangsaan/</guid>
+      <description></description>
+      <image></image>
+    </item>
     
     <item>
       <title>CAT</title>
@@ -17,16 +47,6 @@
       <pubDate>Sat, 23 Mar 2024 16:07:31 +0700</pubDate>
       
       <guid>/tags/cat/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>CPNS</title>
-      <link>/tags/cpns/</link>
-      <pubDate>Sat, 23 Mar 2024 16:07:31 +0700</pubDate>
-      
-      <guid>/tags/cpns/</guid>
       <description></description>
       <image></image>
     </item>
@@ -87,16 +107,6 @@
       <pubDate>Fri, 22 Mar 2024 04:32:48 +0000</pubDate>
       
       <guid>/tags/sma/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>PPPK</title>
-      <link>/tags/pppk/</link>
-      <pubDate>Wed, 20 Mar 2024 11:00:12 +0700</pubDate>
-      
-      <guid>/tags/pppk/</guid>
       <description></description>
       <image></image>
     </item>

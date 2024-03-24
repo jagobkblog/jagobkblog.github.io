@@ -16,8 +16,8 @@ authorname: "krisna prihadiyanto"
 authorlink: "https://koleksiprihadi.github.io/"
 authorphoto: "https://koleksiprihadi.github.io/images/koleksiprihadi.jpeg"
 
-image: /images/Tryout online skb.png
-thumbnail: /images/Tryout online skb.png
+image: https://jagoberkarir.com/images/Tryout online skb.png
+thumbnail: https://jagoberkarir.com/images/Tryout online skb.png
 width: 1024
 height: 576
 description: "test"
