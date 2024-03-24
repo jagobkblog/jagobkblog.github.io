@@ -9,8 +9,7 @@ tags:
     - SKB
 
 categories:
-    - Bank Soal
-    - Blog
+    - shop
 
 authorname: "krisna prihadiyanto"
 authorlink: "https://koleksiprihadi.github.io/"

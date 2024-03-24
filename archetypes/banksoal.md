@@ -10,7 +10,6 @@ tags:
 
 categories:
     - Bank Soal
-    - Blog
 
 authorname: "krisna prihadiyanto"
 authorlink: "https://koleksiprihadi.github.io/"

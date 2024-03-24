@@ -681,7 +681,7 @@ Jawaban: C"
     $("#quiz-finish-btn").hide();
     var waktu =  1200 ;
     $(".result").text(" " + waktu/60 + " Menit pengerjaan");
-    $("#jumlahkomentar").hide();
+    $("#jumlahkomentar").html(`<a class="nav-link text-dark disabled" aria-current="page"><i class="bi bi-ui-checks"></i> : ${soalan.length} Soal</a>`);
     $('#quiz').quiz({
       finishButtonText: 'Selesai',
       answerCallback: answerCallback,
