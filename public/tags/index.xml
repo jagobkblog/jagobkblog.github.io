@@ -6,7 +6,7 @@
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2024 15:46:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Mar 2024 13:05:23 +0700</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>CAT</title>
       <link>/tags/cat/</link>
-      <pubDate>Mon, 25 Mar 2024 15:46:53 +0000</pubDate>
+      <pubDate>Tue, 26 Mar 2024 13:05:23 +0700</pubDate>
       
       <guid>/tags/cat/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>CPNS</title>
       <link>/tags/cpns/</link>
-      <pubDate>Mon, 25 Mar 2024 15:46:53 +0000</pubDate>
+      <pubDate>Tue, 26 Mar 2024 13:05:23 +0700</pubDate>
       
       <guid>/tags/cpns/</guid>
       <description></description>
@@ -34,7 +34,7 @@
     <item>
       <title>Tryout CPNS</title>
       <link>/tags/tryout-cpns/</link>
-      <pubDate>Mon, 25 Mar 2024 15:46:53 +0000</pubDate>
+      <pubDate>Tue, 26 Mar 2024 13:05:23 +0700</pubDate>
       
       <guid>/tags/tryout-cpns/</guid>
       <description></description>
@@ -44,7 +44,7 @@
     <item>
       <title>Tryout CPNS Gratis</title>
       <link>/tags/tryout-cpns-gratis/</link>
-      <pubDate>Mon, 25 Mar 2024 15:46:53 +0000</pubDate>
+      <pubDate>Tue, 26 Mar 2024 13:05:23 +0700</pubDate>
       
       <guid>/tags/tryout-cpns-gratis/</guid>
       <description></description>
@@ -54,9 +54,19 @@
     <item>
       <title>tryout cpns online gratis</title>
       <link>/tags/tryout-cpns-online-gratis/</link>
-      <pubDate>Mon, 25 Mar 2024 15:46:53 +0000</pubDate>
+      <pubDate>Tue, 26 Mar 2024 13:05:23 +0700</pubDate>
       
       <guid>/tags/tryout-cpns-online-gratis/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>TWK</title>
+      <link>/tags/twk/</link>
+      <pubDate>Tue, 26 Mar 2024 13:05:23 +0700</pubDate>
+      
+      <guid>/tags/twk/</guid>
       <description></description>
       <image></image>
     </item>

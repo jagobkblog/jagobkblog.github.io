@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tryout CPNS on My New Hugo Site</title>
-    <link>/tags/tryout-cpns/</link>
-    <description>Recent content in Tryout CPNS on My New Hugo Site</description>
+    <title>TWK on My New Hugo Site</title>
+    <link>/tags/twk/</link>
+    <description>Recent content in TWK on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Mar 2024 13:05:23 +0700</lastBuildDate>
     
-  <atom:link href="/tags/tryout-cpns/index.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="/tags/twk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>/banksoal/tryout-cat-twk-paket-2-cpns-2024/</guid>
       <description>yuk latihan soal-soal CAT TWK CPNS dengan paket 2 tryout CAT TWK CPNS gratis dari jagoberkarir tanpa harus login</description>
       <image>https://jagoberkarir.com/images/Tryout CAT TWK Paket 2 CPNS 2024.png</image>
-    </item>
-    
-    <item>
-      <title>Tryout CAT TWK Paket 3 CPNS 2024</title>
-      <link>/banksoal/tryout-cat-twk-paket-3-cpns-2024/</link>
-      <pubDate>Mon, 25 Mar 2024 15:46:53 +0000</pubDate>
-      
-      <guid>/banksoal/tryout-cat-twk-paket-3-cpns-2024/</guid>
-      <description>yuk latihan soal-soal CAT CPNS dengan paket tryout CAT CPNS gratis dari jagoberkarir tanpa harus login</description>
-      <image>https://jagoberkarir.com/images/Tryout Paket 3 CAT CPNS 2024.png</image>
     </item>
     
   </channel>
