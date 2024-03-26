@@ -24,7 +24,7 @@ thumbnail: https://jagoberkarir.com/images/Tryout CAT TWK Paket 2 CPNS 2024.png
 width: 1024
 height: 576
 description: "yuk latihan soal-soal CAT TWK CPNS dengan paket 2 tryout CAT TWK CPNS gratis dari jagoberkarir tanpa harus login"
-waktu: 2200
+waktu: 2100
 soal: [
  {
    "q": "Pancasila sebagai dasar negara memiliki ciri khas yang menjadi identitas suatu negara. Salah satu ciri khas dari ideologi Pancasila adalah keselarasan dan keseimbangan, artinya...",
