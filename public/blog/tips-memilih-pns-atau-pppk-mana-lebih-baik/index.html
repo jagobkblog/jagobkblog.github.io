@@ -273,64 +273,65 @@ Share :
         <div class="isiartikel"><h1 id="tips-memilih-pns-atau-pppk-mana-yang-lebih-baik">Tips Memilih PNS atau PPPK, Mana yang Lebih Baik?</h1>
 <p>Pemerintah umumnya membuka penerimaan Aparatur Sipil Negara (ASN) setiap tahun. Namun, orang sering mempertimbangkan, mana yang lebih baik menjadi Pegawai Negeri Sipil (PNS) atau Pegawai Pemerintah dengan Perjanjian Kerja (PPPK)?</p>
 <p>Tentu saja, kedua profesi tersebut memiliki keunggulan untuk karir dan masa depan kamu. Agar pertimbangan kamu lebih matang, berikut ini tips memilih antara menjadi PNS atau PPPK agar kamu lebih yakin.</p>
-
-
 <style>
-     
-    #toc {
-        top: 10px;
-        right: 10px;
-        border: 1px solid #ccc;
-        padding: 10px;
-        background-color: #f9f9f9;
-    }
-    #toc ul {
-        list-style: none;
-        padding: 0;
-    }
-    #toc ul li a {
-        text-decoration: none;
-        color: blue;
-        transition: color 0.3s ease-in-out;
-    }
-    #toc ul li a:hover {
-        color: red;
-        cursor: pointer;
-    }
+   
+  #toc {
+    top: 10px;
+    right: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 80%;
+  }
+
+  #toc ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  #toc ul li a {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.3s ease-in-out;
+  }
+
+  #toc ul li a:hover {
+    color: red;
+    cursor: pointer;
+  }
 </style>
 <div id="toc">
-    <p><strong>Daftar Isi</strong></p>
-    </div>
-    <script>
-$(document).ready(function(){
+  <p><strong>Daftar Isi</strong></p>
+</div>
+<script>
+  $(document).ready(function () {
     var toc = "<ul>";
-    $("h1, h2").each(function(){
-        var el = $(this),
-            title = el.text(),
-            id = el.attr("id");
+    $("h1, h2").each(function () {
+      var el = $(this),
+        title = el.text(),
+        id = el.attr("id");
 
-        if (!id) {
-            id = title.replace(/\s+/g, '-').toLowerCase();
-            el.attr("id", id);
-        }
+      if (!id) {
+        id = title.replace(/\s+/g, '-').toLowerCase();
+        el.attr("id", id);
+      }
 
-        toc += `<li><a href="#${id}" class="${el.prop('tagName')}">${title}</a></li>`;
+      toc += `<li><a href="#${id}" class="${el.prop('tagName')}">${title}</a></li>`;
     });
     toc += "</ul>";
 
     $("#toc").append(toc);
 
     
-    $("#toc a").on('click', function(e) {
-        e.preventDefault();
-        var target = $(this.hash);
-        $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 1000); 
+    $("#toc a").on('click', function (e) {
+      e.preventDefault();
+      var target = $(this.hash);
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000); 
     });
-});
+  });
 </script>
-
 <h2 id="1-perbedaan-pppk-dan-pns">1. Perbedaan PPPK dan PNS</h2>
 <p>Perbedaan mencolok antara Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) dan Pegawai Negeri Sipil (PNS) adalah masa kerja. Keduanya memang memiliki status sebagai Aparatur Sipil Negara (ASN).</p>
 <p>Tetapi status masa kerja juga mempengaruhi kenaikan karir. PNS adalah pegawai tetap, sementara PPPK memiliki batasan masa kerja minimal satu tahun. Akibatnya, ini mempengaruhi hak dan kewajiban kepada pegawai PPPK dan PNS.</p>

@@ -275,64 +275,65 @@ Share :
 <p>Tes CPNS (Calon Pegawai Negeri Sipil) melibatkan serangkaian alur dan tahapan yang harus diikuti oleh para pelamar. Pertama-tama, terdapat Seleksi Administrasi, di mana pelamar harus melewati tahap administratif untuk memenuhi syarat-syarat yang ditetapkan.</p>
 <p>Kemudian, pelamar akan mengikuti SKD yang terdiri dari tiga komponen, yaitu Tes Wawasan Kebangsaan (TWK), Tes Intelegensia Umum (TIU), dan Tes Karakteristik Pribadi (TKP). Setelah melewati SKD, pelamar yang lolos akan melanjutkan ke tahap Seleksi Kompetensi Bidang (SKB).</p>
 <p>Tahap ini melibatkan beberapa jenis tes, termasuk Psikotes, Tes Potensi Akademik, Tes Kemampuan Bahasa Asing, Tes Fisik atau Kesamaptaan, serta Psikotes sekali lagi.</p>
-
-
 <style>
-     
-    #toc {
-        top: 10px;
-        right: 10px;
-        border: 1px solid #ccc;
-        padding: 10px;
-        background-color: #f9f9f9;
-    }
-    #toc ul {
-        list-style: none;
-        padding: 0;
-    }
-    #toc ul li a {
-        text-decoration: none;
-        color: blue;
-        transition: color 0.3s ease-in-out;
-    }
-    #toc ul li a:hover {
-        color: red;
-        cursor: pointer;
-    }
+   
+  #toc {
+    top: 10px;
+    right: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 80%;
+  }
+
+  #toc ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  #toc ul li a {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.3s ease-in-out;
+  }
+
+  #toc ul li a:hover {
+    color: red;
+    cursor: pointer;
+  }
 </style>
 <div id="toc">
-    <p><strong>Daftar Isi</strong></p>
-    </div>
-    <script>
-$(document).ready(function(){
+  <p><strong>Daftar Isi</strong></p>
+</div>
+<script>
+  $(document).ready(function () {
     var toc = "<ul>";
-    $("h1, h2").each(function(){
-        var el = $(this),
-            title = el.text(),
-            id = el.attr("id");
+    $("h1, h2").each(function () {
+      var el = $(this),
+        title = el.text(),
+        id = el.attr("id");
 
-        if (!id) {
-            id = title.replace(/\s+/g, '-').toLowerCase();
-            el.attr("id", id);
-        }
+      if (!id) {
+        id = title.replace(/\s+/g, '-').toLowerCase();
+        el.attr("id", id);
+      }
 
-        toc += `<li><a href="#${id}" class="${el.prop('tagName')}">${title}</a></li>`;
+      toc += `<li><a href="#${id}" class="${el.prop('tagName')}">${title}</a></li>`;
     });
     toc += "</ul>";
 
     $("#toc").append(toc);
 
     
-    $("#toc a").on('click', function(e) {
-        e.preventDefault();
-        var target = $(this.hash);
-        $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 1000); 
+    $("#toc a").on('click', function (e) {
+      e.preventDefault();
+      var target = $(this.hash);
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000); 
     });
-});
+  });
 </script>
-
 <h2 id="mengapa-twk-cpns-penting">Mengapa TWK CPNS Penting</h2>
 <p>TWK adalah komponen penting dalam SKD yang menguji pemahaman peserta tentang nilai-nilai nasionalisme, integritas, bela negara, dan pilar-pilar negara seperti Pancasila, UUD 1945, NKRI, dan Bhinneka Tunggal Ika. Bagian ini juga menilai kemampuan berbahasa Indonesia yang baik dan benar.</p>
 <h2 id="tips-jitu-menaklukkan-soal-twk-cpns">Tips Jitu Menaklukkan Soal TWK CPNS</h2>
