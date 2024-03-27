@@ -1,6 +1,7 @@
 ---
 draft: false
-date: 2024-03-26T14:34:0Alur Seleksi CPNS Dan PPPK 2024"
+date: 2024-03-26T14:34:0
+title: Alur Seleksi CPNS Dan PPPK 2024
 slug: Alur-Seleksi-CPNS-dan-PPPK-2024
 
 tags:
@@ -28,6 +29,7 @@ description: "Cari tahu jadwal, alur dan seleksi CPNS dan PPPK 2024. Poin-poin p
 Mengetahui alur seleksi merupakan kunci bagi para calon pelamar untuk mempersiapkan diri secara maksimal. karena kamu harus melewati setiap rangkain tes yang ada untuk bisa lolos menjadi CPNS dan PPPK.
 
 Adapun tahapan [seleksi CPNS 2024](https://umsu.ac.id/artikel/pendaftaran-cpns-2024-segera-dibuka-jadwal-dan-persyaratan-seleksi-cpns-dan-pppk-tahun-2024/) terdiri dari enam langkah yang wajib dipahami, yakni:
+{{< toc >}}
 
 ## Pendaftaran
 
