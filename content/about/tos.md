@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2024-03-18T11:06:28+07:00
 title: "Tos"
 slug: tos

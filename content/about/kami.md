@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2024-03-18T11:06:02+07:00
-title: "Kami"
+title: "Tentang Kami"
 slug: kami
 
 tags:

@@ -13,6 +13,10 @@ authorname: "Jagoberkarir"
 authorlink: ""
 authorphoto: ""
 
+image: /images/Tryout online skb.png
+thumbnail: /images/Tryout online skb.png
+width: 1024
+height: 576
 description: "Dokumen kebijakan privasi kami"
 
 ---
