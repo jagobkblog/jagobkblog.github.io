@@ -540,6 +540,121 @@ Share :
 
 
             </ul>
+            <ul>
+              <li>
+                <style>
+  @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+:root {
+  --start-color: #e60d05;
+  --end-color: hsl(9, 97%, 24%);
+  --p-color: #af8282;
+  --button-background: #e64505;
+  --input-background: #e4eff8;
+  --radius-50: 50px;
+  --padding-15: 15px;
+}
+
+.subswrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subswrap .content {
+  background: #fff;
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.subswrap .content header h1 {
+  font-size: 230%;
+  margin-top: 0;
+}
+.subswrap .content section {
+  color: var(--p-color);
+  font-size: 15px;
+}
+.subswrap .content footer {
+  padding: var(--padding-15);
+}
+.subswrap .content footer input {
+  border: unset;
+  background-color: var(--input-background);
+  padding: var(--padding-15);
+  font-size: 13px;
+  border-radius: var(--radius-50);
+  width: 250px;
+}
+.subswrap .content footer button {
+  background-color: var(--button-background);
+  color: #fff;
+  border: unset;
+  width: 120px;
+  border-radius: var(--radius-50);
+  padding: var(--padding-15);
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.subswrap .content footer input:focus, .subswrap .content footer button:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 720px) {
+  .subswrap .content {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    padding: var(--padding-15);
+  }
+  .subswrap .content footer input {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+}
+</style>
+<form action="" id="subscribe" style="margin-top: 10px; margin-bottom: 10px;">
+  <section class="subswrap">
+    <div class="content">
+      <header>
+        <h1>Subscribe Us</h1>
+      </header>
+      <section>
+        <p>
+          Dapatkan update terbaru kami melalui email.
+        </p>
+      </section>
+      <footer>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit" style="margin-top: 10px;">Let's go</button>
+      </footer>
+    </div>
+  </section>
+</form>
+  
+  <script>
+  
+    $("form#subscribe").submit(function(e){
+      e.preventDefault();
+      var str = $( "form" ).serialize();
+      $("#subscribe").html(`
+            <center><h1 class="textoren"><i class="bi bi-send"></i>Terimakasih</h1>
+            <p>Proses Subscribe Berhasil</p></center>
+            `)
+      var url = "https://script.google.com/macros/s/AKfycbwyUa1rkCXIZ2QU8eMANXzwJAb_c07_qgPkPBkJbLtlyGXnpGudwjvtWI_As3UpHmnD/exec?f=insert&s=subs&"
+      $.get(url+str, function(data, status){
+      });
+      
+  });
+  </script>
+              </li>
+            </ul>
         </div>
         
       </div>
