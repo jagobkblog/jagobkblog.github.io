@@ -6,10 +6,50 @@
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Mar 2024 13:05:23 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 28 Mar 2024 08:30:34 +0700</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CPNS</title>
+      <link>/tags/cpns/</link>
+      <pubDate>Thu, 28 Mar 2024 08:30:34 +0700</pubDate>
+      
+      <guid>/tags/cpns/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>PPPK</title>
+      <link>/tags/pppk/</link>
+      <pubDate>Thu, 28 Mar 2024 08:30:34 +0700</pubDate>
+      
+      <guid>/tags/pppk/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>Prikotes</title>
+      <link>/tags/prikotes/</link>
+      <pubDate>Thu, 28 Mar 2024 08:30:34 +0700</pubDate>
+      
+      <guid>/tags/prikotes/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>Tes Psikotes CPNS</title>
+      <link>/tags/tes-psikotes-cpns/</link>
+      <pubDate>Thu, 28 Mar 2024 08:30:34 +0700</pubDate>
+      
+      <guid>/tags/tes-psikotes-cpns/</guid>
+      <description></description>
+      <image></image>
+    </item>
     
     <item>
       <title>CAT</title>
@@ -17,16 +57,6 @@
       <pubDate>Tue, 26 Mar 2024 13:05:23 +0700</pubDate>
       
       <guid>/tags/cat/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>CPNS</title>
-      <link>/tags/cpns/</link>
-      <pubDate>Tue, 26 Mar 2024 13:05:23 +0700</pubDate>
-      
-      <guid>/tags/cpns/</guid>
       <description></description>
       <image></image>
     </item>
@@ -67,16 +97,6 @@
       <pubDate>Tue, 26 Mar 2024 13:05:23 +0700</pubDate>
       
       <guid>/tags/twk/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>PPPK</title>
-      <link>/tags/pppk/</link>
-      <pubDate>Sun, 24 Mar 2024 11:21:17 +0700</pubDate>
-      
-      <guid>/tags/pppk/</guid>
       <description></description>
       <image></image>
     </item>
