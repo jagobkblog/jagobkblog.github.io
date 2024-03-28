@@ -64,25 +64,123 @@
 
   <body>
     
-    <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tryout SKB Kementerian Hukum Dan Ham</title>
-  <link rel="icon" type="image/x-icon" href="/logo/LOGO Favicon 48 x 48-01.ico">
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/home.css">
-  
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHJGBEC8XL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 py-3 sticky-top">
+  <div class="container-xl">
+    
+    <a class="navbar-brand" href="/">
+      <img src="/logo/LOGO%20Web%20220%20x%2060-01%20animate.svg" class="logo" alt="...">
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      
+      <div class="navbar-nav mx-lg-auto">
+        <a class="nav-item nav-link active" href="/#home" aria-current="page">Home</a>
+        <a class="nav-item nav-link" href="/categories/bank-soal/">Bank Soal</a>
+        <a class="nav-item nav-link" href="/categories/blog/">Blog</a>
+        <a class="nav-item nav-link" href="/#langganan">Langganan</a>
+      </div>
+      
+      <div class="navbar-nav ms-lg-4">
+        
+      </div>
+      
+      <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
+        
+      </div>
+    </div>
+  </div>
+</nav>
+<style>
+   
+  :root {
+    --background: #007af7;
+    --white-text: #fff;
+    --hover-text: #222;
+    --button-background: #fff;
+    --button-background-hover: #000;
+    --button-text: #007af7;
 
-    gtag('config', 'G-QHJGBEC8XL');
-  </script>
+  }
+  .cookie-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #007af7;
+    color: #fff;
+    position: fixed;
+    bottom:0;
+    font-size: 1rem;
+    gap: 2rem;
+    opacity: 1;
+    visibility: visible;
+    flex-wrap: wrap;
+    z-index: 999999;
+  }
+
+  .cookie-container.hide {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .cookie-container a {
+    color: #fff;
+  }
+
+  .cookie-container a:hover {
+    color: #222;
+  }
+
+  .cookie-container .cookie-text {
+    flex: 8 768px;
+  }
+
+  .cookie-container .agree {
+    flex: 1 150px;
+    text-align: center;
+  }
+
+  .agree button {
+    background: #fff;
+    color: #007af7;
+    border: none;
+    padding: 0.4rem 1.2rem;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1rem;
+  }
+
+  .agree button:hover {
+    background: #000;
+      color: #fff;
+  }
+</style>
+<div class="cookie-container hide">
+  <p class="cookie-text">
+    We use cookies and similar technologies that are necessary to operate the website. Additional cookies are used to perform analysis of website usage. By continuing to use our website, consent to our use of cookies. For more information, please read our <a href="https://jagoberkarir.com/about/kebijakan-privasi/"> Privacy Policy.</a>
+  </p>
+  <div class="agree">
+  <button>Sounds good!</button>
+    </div>
+</div>
+<script>
+  const cookieContainer = document.querySelector(".cookie-container");
+  const agreeBtn = document.querySelector(".agree button");
+
+  setTimeout(() => {
+    cookieContainer.classList.remove("hide");
+  }, 1000);
+
+  agreeBtn.addEventListener("click", () => {
+    cookieContainer.classList.add("hide");
+  });
+
+</script>
     
 
 
