@@ -94,6 +94,20 @@
           <a href="//www.dmca.com/Protection/Status.aspx?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-2x1-04.png?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
           {{- .Content -}}
         </div>
+        <div style="margin-top: 10px; margin-bottom: 20px;">
+          <div class="d-flex justify-content-between">
+            <div style="margin-left: 10px;">
+              {{ with .NextInSection }}
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-secondary" href="{{ .RelPermalink }}">« {{ .Title | truncate 50 "..." }}</a>
+              {{ end }}
+            </div>
+            <div style="margin-right: 10px;">
+              {{ with .PrevInSection }}
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-secondary" href="{{ .RelPermalink }}">{{ .Title | truncate 50 "..."}} »</a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
       </div>
       <div class="colartikelR">
         <!-- Start recent post -->
