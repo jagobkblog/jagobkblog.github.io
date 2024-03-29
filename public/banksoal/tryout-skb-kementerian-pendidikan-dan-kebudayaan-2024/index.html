@@ -615,10 +615,11 @@ Jadi, jawaban yang tepat adalah pembelajaran dirancang dengan berpusat pada pese
       </div>
       <div class="colartikelR">
         
-        <div class="sidebar widget">
-            <h3 class="textoren">Postingan Terkait</h3>
-            <ul>
-              
+<div class="sidebar widget">
+          
+  <h3 class="textoren">Postingan Terkait</h3>
+  <ul>
+    
 
 
 <li style="margin-top: 10px;">
@@ -692,10 +693,12 @@ Jadi, jawaban yang tepat adalah pembelajaran dirancang dengan berpusat pada pese
 </li>
 
 
-            </ul>
-            <ul>
-              <li>
-                <style>
+  </ul>
+</div>
+
+
+<div class="sidebar widget" style="margin-top: 50px;">
+    <style>
   @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 :root {
@@ -737,7 +740,7 @@ Jadi, jawaban yang tepat adalah pembelajaran dirancang dengan berpusat pada pese
 .subswrap .content footer {
   padding: var(--padding-15);
 }
-.subswrap .content footer input {
+.subswrap .content footer .input {
   border: unset;
   background-color: var(--input-background);
   padding: var(--padding-15);
@@ -756,7 +759,7 @@ Jadi, jawaban yang tepat adalah pembelajaran dirancang dengan berpusat pada pese
   cursor: pointer;
 }
 
-.subswrap .content footer input:focus, .subswrap .content footer button:focus {
+.subswrap .content footer .input:focus, .subswrap .content footer button:focus {
   outline: none;
 }
 
@@ -766,10 +769,14 @@ Jadi, jawaban yang tepat adalah pembelajaran dirancang dengan berpusat pada pese
     margin-left: 20px !important;
     padding: var(--padding-15);
   }
-  .subswrap .content footer input {
+  .subswrap .content footer .input {
     width: 200px;
     margin-bottom: 10px;
   }
+}
+.checkbox{
+  justify-content: center;
+  align-items: center;
 }
 </style>
 <form action="" id="subscribe" style="margin-top: 10px; margin-bottom: 10px;">
@@ -783,12 +790,24 @@ Jadi, jawaban yang tepat adalah pembelajaran dirancang dengan berpusat pada pese
           Dapatkan update terbaru kami melalui email.
         </p>
       </section>
+      
       <footer>
-        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="email" name="email" class="input" placeholder="Enter your email" required>
         <button type="submit" style="margin-top: 10px;">Let's go</button>
+      </footer>
+      <section>
+        <p>
+          Atau melalui media sosial kami.
+        </p>
+      </section>
+      <footer>
+        <a href="https://www.instagram.com/jagoberkarir" target="_blank" class="btn oren text-light" style="margin-top: 10px; border-radius: 50px;"><i class="bi bi-instagram"></i> jagoberkarir</a>
       </footer>
     </div>
   </section>
+
+  
+  
 </form>
   
   <script>
@@ -806,10 +825,8 @@ Jadi, jawaban yang tepat adalah pembelajaran dirancang dengan berpusat pada pese
       
   });
   </script>
-              </li>
-            </ul>
-        </div>
-        
+</div>
+
       </div>
     </div>
   </div>

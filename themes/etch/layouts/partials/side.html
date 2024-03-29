@@ -1,4 +1,9 @@
-{{ $related := .Site.RegularPages.Related . | first 5 }}
+<!-- Start recent post -->
+<div class="sidebar widget">
+          
+  <h3 class="textoren">Postingan Terkait</h3>
+  <ul>
+    {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
 {{ range . }}
 <li style="margin-top: 10px;">
@@ -16,3 +21,10 @@
 </li>
 {{ end }}
 {{ end }}
+  </ul>
+</div>
+<!-- end recent post -->
+
+<div class="sidebar widget" style="margin-top: 50px;">
+    {{ partial "subs.html" . }}
+</div>
