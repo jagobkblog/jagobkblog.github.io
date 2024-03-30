@@ -106,7 +106,7 @@
       </div>
       
       <div class="navbar-nav ms-lg-4">
-        <div id=”divInstallApp”><button id="installApp" class="btn text-light oren" style="border-radius:50px">Install App</button></div>
+        <div id="divInstallApp"></div>
         
       </div>
       
@@ -886,7 +886,7 @@ Jadi, jawaban yang tepat adalah pidana pokok dikurangi 1/3.
         event.preventDefault();
         var installDiv = document.getElementById('divInstallApp');
         
-        $("#divInstallApp").html('<button id="installApp" class="btn text-light oren" style="border-radius:100%">Install App</button>')
+        $("#divInstallApp").html('<button id="installApp" class="btn text-light oren" style="border-radius:50px">Install App</button>')
         $("#installApp").click(function(){
           event.prompt();
           installDiv.innerHTML = ""
