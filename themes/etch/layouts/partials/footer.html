@@ -29,7 +29,7 @@
       $("#tahun").text(new Date().getFullYear());
     });
   </script>
-
+<!-- 
 <script>
     if('serviceWorker' in navigator) {
         navigator.serviceWorker
@@ -43,5 +43,30 @@
             .then(function(registration) {
                 //console.log('Service Worker Ready');
             });
+    }
+  </script> -->
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("/sw.js", { scope: "/" })
+        .then((registration) => {
+          registration.unregister().then((boolean) => {
+          });
+        })
+        .catch((error) => {
+
+        });
+        // Befor install prompt start
+        window.addEventListener('beforeinstallprompt', event => {
+        event.preventDefault();
+        var installDiv = document.getElementById('divInstallApp');
+        installDiv.innerHTML = '<button id="installApp" class="btn text-light oren" style="border-radius:100%">Install App</button>';
+        installDiv.addEventListener('click', () => {
+          event.prompt();
+          installDiv.innerHTML = ""
+        });
+      });
+      // Befor install prompt end
     }
   </script>

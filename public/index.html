@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.92.2" />
+	<meta name="generator" content="Hugo 0.106.0">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-adsense-account" content="ca-pub-4844862814263888">
@@ -92,6 +92,7 @@
       </div>
       
       <div class="navbar-nav ms-lg-4">
+        <div id=”divInstallApp”></div>
         
       </div>
       
@@ -714,19 +715,29 @@
     });
   </script>
 
-<script>
-    if('serviceWorker' in navigator) {
-        navigator.serviceWorker
-            .register('/sw.js', { scope: '/' })
-            .then(function(registration) {
-                
-            });
-  
-        navigator.serviceWorker
-            .ready
-            .then(function(registration) {
-                
-            });
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("/sw.js", { scope: "/" })
+        .then((registration) => {
+          registration.unregister().then((boolean) => {
+          });
+        })
+        .catch((error) => {
+
+        });
+        
+        window.addEventListener('beforeinstallprompt', event => {
+        event.preventDefault();
+        var installDiv = document.getElementById('divInstallApp');
+        installDiv.innerHTML = '<button id="installApp" class="btn text-light oren" style="border-radius:100%">Install App</button>';
+        installDiv.addEventListener('click', () => {
+          event.prompt();
+          installDiv.innerHTML = ""
+        });
+      });
+      
     }
   </script>
 

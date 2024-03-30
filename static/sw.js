@@ -380,3 +380,6 @@ self.addEventListener('message', (event) => {
     }
 
 });
+
+self.addEventListener('install', () => self.skipWaiting());
+self.addEventListener('activate', () => self.clients.claim());

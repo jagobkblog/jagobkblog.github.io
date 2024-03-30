@@ -9,7 +9,7 @@
   <meta itemprop="name" content="Kontak Kami">
 <meta itemprop="description" content="Kontak form jagoberkarir.com"><meta itemprop="datePublished" content="2024-03-18T10:38:07+07:00" />
 <meta itemprop="dateModified" content="2024-03-18T10:38:07+07:00" />
-<meta itemprop="wordCount" content="85">
+<meta itemprop="wordCount" content="11">
 <meta itemprop="keywords" content="" />
   <meta property="og:image" content="/images/Tryout online skb.png" />
   <meta property="og:image:width" content="1024" />
@@ -105,6 +105,7 @@
       </div>
       
       <div class="navbar-nav ms-lg-4">
+        <div id=”divInstallApp”></div>
         
       </div>
       
@@ -337,19 +338,29 @@
     });
   </script>
 
-<script>
-    if('serviceWorker' in navigator) {
-        navigator.serviceWorker
-            .register('/sw.js', { scope: '/' })
-            .then(function(registration) {
-                
-            });
-  
-        navigator.serviceWorker
-            .ready
-            .then(function(registration) {
-                
-            });
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("/sw.js", { scope: "/" })
+        .then((registration) => {
+          registration.unregister().then((boolean) => {
+          });
+        })
+        .catch((error) => {
+
+        });
+        
+        window.addEventListener('beforeinstallprompt', event => {
+        event.preventDefault();
+        var installDiv = document.getElementById('divInstallApp');
+        installDiv.innerHTML = '<button id="installApp" class="btn text-light oren" style="border-radius:100%">Install App</button>';
+        installDiv.addEventListener('click', () => {
+          event.prompt();
+          installDiv.innerHTML = ""
+        });
+      });
+      
     }
   </script>
 
