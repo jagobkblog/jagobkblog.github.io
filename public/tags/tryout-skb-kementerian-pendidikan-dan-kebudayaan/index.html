@@ -87,7 +87,7 @@
       </div>
       
       <div class="navbar-nav ms-lg-4">
-        <div id=”divInstallApp”></div>
+        <div id=”divInstallApp”><button id="installApp" class="btn text-light oren" style="border-radius:50px">Install App</button></div>
         
       </div>
       
@@ -275,13 +275,16 @@
         window.addEventListener('beforeinstallprompt', event => {
         event.preventDefault();
         var installDiv = document.getElementById('divInstallApp');
-        installDiv.innerHTML = '<button id="installApp" class="btn text-light oren" style="border-radius:100%">Install App</button>';
-        installDiv.addEventListener('click', () => {
+        
+        $("#divInstallApp").html('<button id="installApp" class="btn text-light oren" style="border-radius:100%">Install App</button>')
+        $("#installApp").click(function(){
           event.prompt();
           installDiv.innerHTML = ""
         });
       });
       
+    }else{
+      $("#divInstallApp").html('')
     }
   </script>
 

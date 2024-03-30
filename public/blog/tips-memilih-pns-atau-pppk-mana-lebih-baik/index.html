@@ -9,7 +9,7 @@
   <meta itemprop="name" content="Tips Memilih PNS Atau PPPK Mana Lebih Baik?">
 <meta itemprop="description" content="Bingung ingin bekerja sebagai PNS atau PPPK? Temukan tips memilih PNS atau P3K agar keputusanmu menjadi matang. Baca selengkapnya di sini."><meta itemprop="datePublished" content="2024-03-18T08:13:07+07:00" />
 <meta itemprop="dateModified" content="2024-03-18T08:13:07+07:00" />
-<meta itemprop="wordCount" content="522">
+<meta itemprop="wordCount" content="628">
 <meta itemprop="keywords" content="pilih cpns atau pppk,CPNS,PPPK," />
   <meta property="og:image" content="https://jagoberkarir.com/images/Tips Memilih PNS Atau PPPK Mana Lebih Baik.png" />
   <meta property="og:image:width" content="1024" />
@@ -105,7 +105,7 @@
       </div>
       
       <div class="navbar-nav ms-lg-4">
-        <div id=”divInstallApp”></div>
+        <div id=”divInstallApp”><button id="installApp" class="btn text-light oren" style="border-radius:50px">Install App</button></div>
         
       </div>
       
@@ -717,13 +717,16 @@ Share :
         window.addEventListener('beforeinstallprompt', event => {
         event.preventDefault();
         var installDiv = document.getElementById('divInstallApp');
-        installDiv.innerHTML = '<button id="installApp" class="btn text-light oren" style="border-radius:100%">Install App</button>';
-        installDiv.addEventListener('click', () => {
+        
+        $("#divInstallApp").html('<button id="installApp" class="btn text-light oren" style="border-radius:100%">Install App</button>')
+        $("#installApp").click(function(){
           event.prompt();
           installDiv.innerHTML = ""
         });
       });
       
+    }else{
+      $("#divInstallApp").html('')
     }
   </script>
 
