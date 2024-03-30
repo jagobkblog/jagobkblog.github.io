@@ -4,23 +4,23 @@
   <h3 class="textoren">Postingan Terkait</h3>
   <ul>
     {{ $related := .Site.RegularPages.Related . | first 5 }}
-{{ with $related }}
-{{ range . }}
-<li style="margin-top: 10px;">
-    <div class="sidebar-thumb">
-        <img class="animated rollIn" src='{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ .Params.Image}}{{end}}' alt="{{ .Title }}: {{ range .Params.tags }}{{ . }},{{ end }}" />
-    </div>
-    <div class="sidebar-content">
-        <h5 class="animated bounceInRight"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
-    </div>
-    <div class="sidebar-meta">
-      {{ range .Params.tags }}
-        <span class="time" ><i class="bi bi-tags"></i> {{ . }}</span>
-      {{ end }}
-    </div>
-</li>
-{{ end }}
-{{ end }}
+    {{ with $related }}
+    {{ range . }}
+    <li style="margin-top: 10px;">
+        <div class="sidebar-thumb">
+            <img class="animated rollIn" src='{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ .Params.Image}}{{end}}' alt="{{ .Title }}: {{ range .Params.tags }}{{ . }},{{ end }}" />
+        </div>
+        <div class="sidebar-content">
+            <h5 class="animated bounceInRight"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+        </div>
+        <div class="sidebar-meta">
+          {{ range .Params.tags }}
+            <span class="time" ><i class="bi bi-tags"></i> {{ . }}</span>
+          {{ end }}
+        </div>
+    </li>
+    {{ end }}
+    {{ end }}
   </ul>
 </div>
 <!-- end recent post -->
