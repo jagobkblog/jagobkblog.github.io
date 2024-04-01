@@ -32,6 +32,8 @@ Latihan soal CPNS merupakan cara efektif untuk melengkapi persiapan kamu dalam m
 
 Jenis soal yang ada disesuaikan dengan tes SKD CPNS yang pernah ada. Dengan melakukan latihan secara berulang dengan contoh soal beragam, kamu akan memiliki pengetahuan yang cukup untuk menjawab soal tes nanti. Berikut ini prediksi dan kisi-kisi soal tes CPNS beserta jawabannya.
 
+{{< toc >}}
+
 ## Prediksi Soal dan Kisi-kisi Tes Wawasan Kebangsaan (TWK)
 
 1. Apa tujuan utama dari upaya gerakan nasionalis Indonesia dalam bidang politik?

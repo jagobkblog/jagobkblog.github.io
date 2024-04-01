@@ -32,6 +32,8 @@ Kamu tentu ingin meraih hasil sempurna saat menyelesaikan serangkaian tes CPNS. 
 
 Masalah seperti kegugupan ini bisa diatasi jika kamu melakukan persiapan yang baik. Jadi, apa saja yang harus dilakukan? Berikut ini tips jitu menghadapi tes CPNS agar kamu berhasil.
 
+{{< toc >}}
+
 ## 1. Latihan Soal Sebanyak Mungkin
 
 Sebelum kamu menghadapi tes CPNS, ada baiknya kamu mempersiapkan diri dengan baik. Salah satu cara yang bisa kamu lakukan adalah dengan rajin latihan soal sebanyak mungkin. 
