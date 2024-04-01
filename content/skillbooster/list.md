@@ -36,7 +36,7 @@ soal:
       title: "Database MsAccess",
       desc: "Menjadi Profesional Unggul di Dunia Kerja dengan Menguasai Database MsAccess: Panduan Terbaik untuk Meningkatkan Keahlian Anda",
       link: "/categories/msaccess/",
-      image: "/images/skillbooster-excel.png",
+      image: "/images/skillbooster-msaccess.png",
       status: 0,
     },
     {
