@@ -193,9 +193,12 @@ function hideLoader() {
 
 async function uploadImage(imageData, filename) {
     var apiUrl = url; // Ganti dengan URL web app yang Anda deploy
+    var dataGambar = imageData.replace("data:image/png;base64,", "");
+    dataGambar = dataGambar.replace("data:image/jpg;base64,", "");
+    dataGambar = dataGambar.replace("data:image/jpeg;base64,", "");
 
     var formData = {
-        contents: imageData.replace("data:image/png;base64,", ""),
+        contents: dataGambar,
         mimeType: "image/png", // Ganti sesuai tipe gambar yang Anda unggah
         filename: filename,
         pass: $("#pass").val()
