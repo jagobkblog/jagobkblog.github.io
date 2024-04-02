@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown Editor</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+</head>
+<body>
+    <div>
+        <input type="text" id="inputField">
+        <select id="dropdown">
+        </select>
+      </div>
+
+  <textarea id="editor"></textarea>
+  <button onclick="saveText()">Save</button>
+  <button onclick="loadText()">Load</button>
+  <button onclick="deleteText()">delete</button>
+
+  <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+  <script>
+    function showKeys() {
+        $('#dropdown').html('<option value="">Pilih</option>'); // Kosongkan daftar sebelum memuat kembali
+
+        for (var i = 0; i < localStorage.length; i++) {
+          var key = localStorage.key(i);
+          $('#dropdown').append(`<option value="${key}">${key}</option>`);
+        }
+      }
+  </script>
+  <script>
+    var simplemde = new SimpleMDE({
+      element: document.getElementById("editor"),
+      spellChecker: false, // Optional: Disable spellchecker
+      toolbar: [
+        "bold", "italic", "heading", "|",
+        "quote", "unordered-list", "ordered-list", "|",
+        "link", "image", "table", "|",
+        "preview", "side-by-side", "fullscreen", "|",
+        {
+          name: "save",
+          action: function customSaveFunction() {
+            saveText();
+            return;
+          },
+          className: "fa fa-save",
+          title: "Save"
+        }
+      ]
+    });
+
+    function saveText() {
+        var textToSave = simplemde.value();
+        if ($("#inputField").val() != "") {
+            var confirmSave = confirm("Simpan kerjaan?");
+        }
+        
+        if (confirmSave && $("#inputField").val() != "") {
+            localStorage.setItem($("#inputField").val(), textToSave);
+            showKeys();
+            alert("tersimpan");
+        }
+    }
+
+    function deleteText() {
+        if ($("#inputField").val() != "") {
+            var confirmDelete = confirm("yakin ingin menghapus?");
+        }
+        
+        if (confirmDelete && $("#inputField").val() != "") {
+            localStorage.removeItem($("#inputField").val());
+            alert("terhapus");
+            showKeys();
+        }
+        
+    }
+
+    function loadText() {
+      var loadedText = localStorage.getItem($("#inputField").val());
+      if (loadedText !== null) {
+        simplemde.value(loadedText);
+        console.log("Text loaded from local storage.");
+      } else {
+        console.log("No text found in local storage.");
+      }
+    }
+
+    // Load text from local storage on page load
+    window.onload = loadText;
+  </script>
+
+  <!-- -->
+  <script>
+    // Menangani perubahan pada elemen <select>
+    $('#dropdown').change(function() {
+      // Mengambil nilai yang dipilih dari <select>
+      var selectedValue = $(this).val();
+      
+      // Mengatur nilai dari elemen <input> berdasarkan nilai yang dipilih dari <select>
+      $('#inputField').val(selectedValue);
+    });
+  </script>
+
+<script>
+    $(document).ready(function(){
+      showKeys();
+    });
+  </script>
+
+</body>
+</html>
