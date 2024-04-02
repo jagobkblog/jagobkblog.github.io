@@ -4,11 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Markdown Editor</title>
+  <style>
+    button{
+      background-color: #3b3b3b;
+      color: #1f1e1e;
+    }
+    input {
+      background-color: #3b3b3b;
+      color: #1f1e1e;
+    }
+    select {
+      background-color: #3b3b3b;
+      color: #1f1e1e;
+    }
+    option{
+      background-color: #3b3b3b;
+      color: #1f1e1e;
+    }
+  </style>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/xcatliu/simplemde-theme-dark/master/dist/simplemde-theme-dark.min.css
+">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css"> -->
 </head>
-<body>
-    <div>
+<body style="color: #ffffff; background-color: #444;">
+    <div style="margin-bottom: 20px; margin-top: 10px;">
         <input type="text" id="inputField" placeholder="judul artikel">
         <select id="dropdown">
         </select>
@@ -19,6 +40,7 @@
   <button onclick="loadText()">Load</button>
   <button onclick="deleteText()">delete</button>
 
+  <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
   <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
   <script>
     function showKeys() {
@@ -33,7 +55,9 @@
   <script>
     var simplemde = new SimpleMDE({
       element: document.getElementById("editor"),
-      spellChecker: false, // Optional: Disable spellchecker
+      spellChecker: false,
+      theme: 'dark',
+      codeSyntaxHighlighting: true,
       toolbar: [
         "bold", "italic", "heading", "|",
         "quote", "unordered-list", "ordered-list", "|",
