@@ -51,6 +51,19 @@
     .hidden {
         display: none;
     }
+
+    #upload-popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+    }
   </style>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
@@ -61,6 +74,11 @@
 <body style="color: #ffffff; background-color: #444;">
     <div id="loader" class="loader-container">
         <div class="loader"></div>
+    </div>
+
+    <div id="upload-popup">
+        <input type="file" id="image-upload" accept="image/*">
+        <button id="upload-btn">Unggah Gambar</button>
     </div>
     
     <div style="margin-bottom: 20px; margin-top: 10px;">
@@ -79,19 +97,22 @@
   <button onclick="loadText()">Load</button>
   <button onclick="deleteText()">delete</button>
 
+  <p id="output"></p>
+
   <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
   <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
 
   <script>
-    var url = "https://script.google.com/macros/s/AKfycbwyUa1rkCXIZ2QU8eMANXzwJAb_c07_qgPkPBkJbLtlyGXnpGudwjvtWI_As3UpHmnD/exec"
-    var temp = [];
-    var tempId = [];
-    function showKeys() {
-        temp = [];
-        tempId = [];
-        showLoader();
-        $('#dropdown').html('<option value="">Pilih</option>'); // Kosongkan daftar sebelum memuat kembali
-        $.get(url+`?f=readartikel&s=artikel`, function(data) {
+var url = "https://script.google.com/macros/s/AKfycbwyUa1rkCXIZ2QU8eMANXzwJAb_c07_qgPkPBkJbLtlyGXnpGudwjvtWI_As3UpHmnD/exec"
+var temp = [];
+var tempId = [];
+
+function showKeys() {
+    temp = [];
+    tempId = [];
+    showLoader();
+    $('#dropdown').html('<option value="">Pilih</option>'); // Kosongkan daftar sebelum memuat kembali
+    $.get(url + `?f=readartikel&s=artikel`, function(data) {
             data.records.forEach(element => {
                 $('#dropdown').append(`<option value="${element.id}">${element.id}</option>`);
                 temp.push(element);
@@ -105,52 +126,52 @@
         .fail(function() {
             console.error("Error occurred");
         });
-      }
+}
 
-      function htmlToMarkdown(html) {
-          // Replace HTML tags with Markdown equivalents
-          html = decodeURIComponent(html)
-          let markdown = html
-              .replace(/<h1(.*?)>(.*?)<\/h1>/g, '# $1$2\n')
-              .replace(/<h2(.*?)>(.*?)<\/h2>/g, '## $1$2\n')
-              .replace(/<h3(.*?)>(.*?)<\/h3>/g, '### $1$2\n')
-              .replace(/<h4(.*?)>(.*?)<\/h4>/g, '#### $1$2\n')
-              .replace(/<h5(.*?)>(.*?)<\/h5>/g, '##### $1$2\n')
-              .replace(/<h6(.*?)>(.*?)<\/h6>/g, '###### $1$2\n')
-              .replace(/<p(.*?)>(.*?)<\/p>/g, '$2\n')
-              .replace(/<strong(.*?)>(.*?)<\/strong>/g, '**$2**')
-              .replace(/<em(.*?)>(.*?)<\/em>/g, '*$2*')
-              .replace(/<u(.*?)>(.*?)<\/u>/g, '<u>$2</u>')
-              .replace(/<li(.*?)>(.*?)<\/li>/g, '- $2\n')
-              .replace(/<a href="(.*?)">(.*?)<\/a>/g, '[$2]($1)')
-              .replace(/<img src="(.*?)"(.*?)>/g, '![]($1)')
-              .replace(/<br(.*?)>/g, '\n')  // Convert <br> to new line
-              .replace(/<p(.*?)>(.*?)<\/p>/g, '$2\n');  // Convert <p> to new line
+function htmlToMarkdown(html) {
+    // Replace HTML tags with Markdown equivalents
+    html = decodeURIComponent(html)
+    let markdown = html
+        .replace(/<h1(.*?)>(.*?)<\/h1>/g, '# $1$2\n')
+        .replace(/<h2(.*?)>(.*?)<\/h2>/g, '## $1$2\n')
+        .replace(/<h3(.*?)>(.*?)<\/h3>/g, '### $1$2\n')
+        .replace(/<h4(.*?)>(.*?)<\/h4>/g, '#### $1$2\n')
+        .replace(/<h5(.*?)>(.*?)<\/h5>/g, '##### $1$2\n')
+        .replace(/<h6(.*?)>(.*?)<\/h6>/g, '###### $1$2\n')
+        .replace(/<p(.*?)>(.*?)<\/p>/g, '$2\n')
+        .replace(/<strong(.*?)>(.*?)<\/strong>/g, '**$2**')
+        .replace(/<em(.*?)>(.*?)<\/em>/g, '*$2*')
+        .replace(/<u(.*?)>(.*?)<\/u>/g, '<u>$2</u>')
+        .replace(/<li(.*?)>(.*?)<\/li>/g, '- $2\n')
+        .replace(/<a href="(.*?)">(.*?)<\/a>/g, '[$2]($1)')
+        .replace(/<img src="(.*?)"(.*?)>/g, '![]($1)')
+        .replace(/<br(.*?)>/g, '\n') // Convert <br> to new line
+        .replace(/<p(.*?)>(.*?)<\/p>/g, '$2\n'); // Convert <p> to new line
 
-          // Remove remaining HTML tags
-          markdown = markdown.replace(/<[^>]*>/g, '');
+    // Remove remaining HTML tags
+    markdown = markdown.replace(/<[^>]*>/g, '');
 
-          return markdown;
-      }
+    return markdown;
+}
 
 
-      function markdownToHtml(markdown) {
+function markdownToHtml(markdown) {
     // Convert Markdown to HTML
     // This is a very basic example, you may need a more sophisticated solution for real-world use
     const html = markdown.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                        .replace(/\*(.*?)\*/g, '<em>$1</em>')
-                        .replace(/_(.*?)_/g, '<u>$1</u>')
-                        .replace(/# (.*?)\n/g, '<h1>$1</h1>')
-                        .replace(/## (.*?)\n/g, '<h2>$1</h2>')
-                        .replace(/### (.*?)\n/g, '<h3>$1</h3>')
-                        .replace(/#### (.*?)\n/g, '<h4>$1</h4>')
-                        .replace(/##### (.*?)\n/g, '<h5>$1</h5>')
-                        .replace(/###### (.*?)\n/g, '<h6>$1</h6>')
-                        .replace(/(?:^|\n)((?:- .*?\n)+)/g, '<ul>$1</ul>')
-                        .replace(/- (.*?)\n/g, '<li>$1</li>')
-                        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
-                        .replace(/!\[\]\((.*?)\)/g, '<img src="$1">')
-                        .replace(/\n/g, '<br>'); // Convert new lines to <br> tags
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+        .replace(/_(.*?)_/g, '<u>$1</u>')
+        .replace(/# (.*?)\n/g, '<h1>$1</h1>')
+        .replace(/## (.*?)\n/g, '<h2>$1</h2>')
+        .replace(/### (.*?)\n/g, '<h3>$1</h3>')
+        .replace(/#### (.*?)\n/g, '<h4>$1</h4>')
+        .replace(/##### (.*?)\n/g, '<h5>$1</h5>')
+        .replace(/###### (.*?)\n/g, '<h6>$1</h6>')
+        .replace(/(?:^|\n)((?:- .*?\n)+)/g, '<ul>$1</ul>')
+        .replace(/- (.*?)\n/g, '<li>$1</li>')
+        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
+        .replace(/!\[\]\((.*?)\)/g, '<img src="$1">')
+        .replace(/\n/g, '<br>'); // Convert new lines to <br> tags
 
     return encodeURIComponent(html);
 }
@@ -168,83 +189,156 @@ function hideLoader() {
     loader.classList.add('hidden');
 }
 
-  </script>
-  <script>
-    var simplemde = new SimpleMDE({
-      element: document.getElementById("editor"),
-      spellChecker: false,
-      theme: 'dark',
-      codeSyntaxHighlighting: true,
-      toolbar: [
+
+
+async function uploadImage(imageData, filename) {
+    var apiUrl = url; // Ganti dengan URL web app yang Anda deploy
+
+    var formData = {
+        contents: imageData.replace("data:image/png;base64,", ""),
+        mimeType: "image/png", // Ganti sesuai tipe gambar yang Anda unggah
+        filename: filename,
+        pass: $("#pass").val()
+    };
+
+    var hasil = await $.ajax({
+        url: url,
+        type: "POST",
+        data: formData,
+        success: function(response) {
+            if (response.success) {
+                return response.imageUrl
+            }
+        },
+        error: function(xhr, status, error) {
+            console.error("Terjadi kesalahan: " + error);
+        }
+    });
+    return hasil;
+}
+
+var simplemde = new SimpleMDE({
+    element: document.getElementById("editor"),
+    spellChecker: false,
+    theme: 'dark',
+    codeSyntaxHighlighting: true,
+    toolbar: [
         "bold", "italic", "heading", "|",
         "quote", "unordered-list", "ordered-list", "|",
         "link", "image", "table", "|",
         "preview", "side-by-side", "fullscreen", "|",
         {
-          name: "save",
-          action: function customSaveFunction() {
-            saveText();
-            return;
-          },
-          className: "fa fa-save",
-          title: "Save"
-        }
-      ]
-    });
+            name: "save",
+            action: function customSaveFunction() {
+                saveText();
+                return;
+            },
+            className: "fa fa-save",
+            title: "Save"
+        },
+        {
+            name: "insertImage",
+            action: function customFunction(editor) {
+                $('#upload-popup').fadeIn();
+                $("#upload-btn").fadeIn();
+                var cm = editor.codemirror;
+                $("#upload-btn").click(function() {
+                    $("#upload-btn").fadeOut();
+                    var fileInput = document.getElementById('image-upload');
+                    var file = fileInput.files[0];
 
-    function saveText() {
-        var cek = true;
-        var textToSave = simplemde.value();
-        if ($("#inputField").val() != "" && !tempId.includes($("#inputField").val())) {
-            var confirmSave = confirm("Simpan kerjaan?");
-            if (confirmSave) {
-                $.get(url+`?f=insert&s=artikel&isi=${markdownToHtml(textToSave)}&id=${$("#inputField").val()}&pass=${$("#pass").val()}`, function(data) {
-                    if(data.status == false){
+                    if (!file) {
+                        alert("Pilih file gambar terlebih dahulu!");
+                        return;
+                    }
+
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
+                        var imageData = e.target.result;
+                        var filename = file.name;
+
+                        uploadImage(imageData, filename).then(imageurlupload => {
+                            $('#upload-popup').fadeOut();
+                            if (JSON.parse(imageurlupload).imageUrl != false) {
+                                var url = JSON.parse(imageurlupload).imageUrl;
+                                if (url) {
+                                    cm.replaceSelection("![](" + url + ")");
+                                }else{
+                                    alert("upload gagal")
+                                }
+                            }
+                        })
+                    };
+
+                    reader.readAsDataURL(file);
+                });
+
+
+            },
+            className: "fa fa-image",
+            title: "Insert Image",
+        },
+
+    ]
+});
+
+function saveText() {
+    var cek = true;
+    var textToSave = simplemde.value();
+    if ($("#inputField").val() != "" && !tempId.includes($("#inputField").val())) {
+        var confirmSave = confirm("Simpan kerjaan?");
+        if (confirmSave) {
+            $.get(url + `?f=insert&s=artikel&isi=${markdownToHtml(textToSave)}&id=${$("#inputField").val()}&pass=${$("#pass").val()}`, function(data) {
+                    if (data.status == false) {
                         cek = false
                         alert("gagal")
-                    } 
-            })
-            .done(function() {
-                if(cek){showKeys()}
-            })
-            .fail(function() {
-                alert("Error occurred");
-            });
-            }
-        }else if ($("#inputField").val() != "" && tempId.includes($("#inputField").val())) {
-            var confirmSave = confirm("Simpan kerjaan (update)?");
-            if (confirmSave) {
-                $.get(url+`?f=update&s=artikel&data=${markdownToHtml(textToSave)}&id=${$("#inputField").val()}&pass=${$("#pass").val()}`, function(data) {
-                    if(data.status == false){
+                    }
+                })
+                .done(function() {
+                    if (cek) {
+                        showKeys()
+                    }
+                })
+                .fail(function() {
+                    alert("Error occurred");
+                });
+        }
+    } else if ($("#inputField").val() != "" && tempId.includes($("#inputField").val())) {
+        var confirmSave = confirm("Simpan kerjaan (update)?");
+        if (confirmSave) {
+            $.get(url + `?f=update&s=artikel&data=${markdownToHtml(textToSave)}&id=${$("#inputField").val()}&pass=${$("#pass").val()}`, function(data) {
+                    if (data.status == false) {
                         cek = false;
                         alert("gagal")
-                    } 
-            })
-            .done(function() {
-                if(cek){showKeys()}
-            })
-            .fail(function() {
-                alert("Error occurred");
-            });
-            }
+                    }
+                })
+                .done(function() {
+                    if (cek) {
+                        showKeys()
+                    }
+                })
+                .fail(function() {
+                    alert("Error occurred");
+                });
         }
     }
+}
 
-    function deleteText() {
-        var cek = true
-        if ($("#inputField").val() != "") {
-            var confirmDelete = confirm("yakin ingin menghapus?");
-        }
-        
-        if (confirmDelete && $("#inputField").val() != "") {
-            $.get(url+`?f=delete&s=artikel&id=${$("#inputField").val()}&pass=${$("#pass").val()}`, function(data) {
-                    if(data.status == false){
-                        cek = false;
-                        alert("gagal")
-                    } 
+function deleteText() {
+    var cek = true
+    if ($("#inputField").val() != "") {
+        var confirmDelete = confirm("yakin ingin menghapus?");
+    }
+
+    if (confirmDelete && $("#inputField").val() != "") {
+        $.get(url + `?f=delete&s=artikel&id=${$("#inputField").val()}&pass=${$("#pass").val()}`, function(data) {
+                if (data.status == false) {
+                    cek = false;
+                    alert("gagal")
+                }
             })
             .done(function() {
-                if(cek){
+                if (cek) {
                     showKeys()
                     $("#inputField").val("")
                 }
@@ -252,37 +346,32 @@ function hideLoader() {
             .fail(function() {
                 alert("Error occurred");
             });
-            }
-        }
-
-    function loadText() {
-        temp.forEach(element => {
-            if (element.id == $("#inputField").val()) {
-                simplemde.value(htmlToMarkdown(element.isi));
-            }
-        });
     }
+}
 
-    // Load text from local storage on page load
-    window.onload = loadText;
-  </script>
-
-  <!-- -->
-  <script>
-    // Menangani perubahan pada elemen <select>
-    $('#dropdown').change(function() {
-      // Mengambil nilai yang dipilih dari <select>
-      var selectedValue = $(this).val();
-      
-      // Mengatur nilai dari elemen <input> berdasarkan nilai yang dipilih dari <select>
-      $('#inputField').val(selectedValue);
+function loadText() {
+    temp.forEach(element => {
+        if (element.id == $("#inputField").val()) {
+            simplemde.value(htmlToMarkdown(element.isi));
+        }
     });
-  </script>
+}
 
-<script>
-    $(document).ready(function(){
-      showKeys();
-    });
+// Load text from local storage on page load
+window.onload = loadText;
+
+// Menangani perubahan pada elemen <select>
+$('#dropdown').change(function() {
+    // Mengambil nilai yang dipilih dari <select>
+    var selectedValue = $(this).val();
+
+    // Mengatur nilai dari elemen <input> berdasarkan nilai yang dipilih dari <select>
+    $('#inputField').val(selectedValue);
+});
+
+$(document).ready(function() {
+    showKeys();
+});
   </script>
 
 </body>
