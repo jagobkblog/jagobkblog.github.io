@@ -21,6 +21,36 @@
       background-color: #3b3b3b;
       color: #aaa;
     }
+    .loader-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px); /* Efek blur latar belakang */
+        z-index: 2; /* Mengatur loader di depan konten utama */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .loader {
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        border-left: 4px solid #333;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 20px auto;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    .hidden {
+        display: none;
+    }
   </style>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
@@ -29,11 +59,20 @@
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css"> -->
 </head>
 <body style="color: #ffffff; background-color: #444;">
+    <div id="loader" class="loader-container">
+        <div class="loader"></div>
+    </div>
+    
     <div style="margin-bottom: 20px; margin-top: 10px;">
+        <input type="password" id="pass" placeholder="Password">
         <input type="text" id="inputField" placeholder="judul artikel">
         <select id="dropdown">
         </select>
+        <button onclick="saveText()">Save</button>
+  <button onclick="loadText()">Load</button>
+  <button onclick="deleteText()">delete</button>
       </div>
+    
 
   <textarea id="editor"></textarea>
   <button onclick="saveText()">Save</button>
@@ -44,14 +83,28 @@
   <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
 
   <script>
-    
+    var url = "https://script.google.com/macros/s/AKfycbwyUa1rkCXIZ2QU8eMANXzwJAb_c07_qgPkPBkJbLtlyGXnpGudwjvtWI_As3UpHmnD/exec"
+    var temp = [];
+    var tempId = [];
     function showKeys() {
+        temp = [];
+        tempId = [];
+        showLoader();
         $('#dropdown').html('<option value="">Pilih</option>'); // Kosongkan daftar sebelum memuat kembali
-
-        for (var i = 0; i < localStorage.length; i++) {
-          var key = localStorage.key(i);
-          $('#dropdown').append(`<option value="${key}">${key}</option>`);
-        }
+        $.get(url+`?f=readartikel&s=artikel`, function(data) {
+            data.records.forEach(element => {
+                $('#dropdown').append(`<option value="${element.id}">${element.id}</option>`);
+                temp.push(element);
+                tempId.push(element.id)
+            });
+        })
+        .done(function() {
+            hideLoader()
+            console.log("Request completed successfully");
+        })
+        .fail(function() {
+            console.error("Error occurred");
+        });
       }
 
       function htmlToMarkdown(html) {
@@ -102,6 +155,19 @@
     return encodeURIComponent(html);
 }
 
+
+// Show loader
+function showLoader() {
+    var loader = document.getElementById('loader');
+    loader.classList.remove('hidden');
+}
+
+// Hide loader
+function hideLoader() {
+    var loader = document.getElementById('loader');
+    loader.classList.add('hidden');
+}
+
   </script>
   <script>
     var simplemde = new SimpleMDE({
@@ -127,40 +193,71 @@
     });
 
     function saveText() {
+        var cek = true;
         var textToSave = simplemde.value();
-        if ($("#inputField").val() != "") {
+        if ($("#inputField").val() != "" && !tempId.includes($("#inputField").val())) {
             var confirmSave = confirm("Simpan kerjaan?");
-        }
-        
-        if (confirmSave && $("#inputField").val() != "") {
-            localStorage.setItem($("#inputField").val(), markdownToHtml(textToSave));
-            console.log(textToSave)
-            showKeys();
-            alert("tersimpan");
+            if (confirmSave) {
+                $.get(url+`?f=insert&s=artikel&isi=${markdownToHtml(textToSave)}&id=${$("#inputField").val()}&pass=${$("#pass").val()}`, function(data) {
+                    if(data.status == false){
+                        cek = false
+                        alert("gagal")
+                    } 
+            })
+            .done(function() {
+                if(cek){showKeys()}
+            })
+            .fail(function() {
+                alert("Error occurred");
+            });
+            }
+        }else if ($("#inputField").val() != "" && tempId.includes($("#inputField").val())) {
+            var confirmSave = confirm("Simpan kerjaan (update)?");
+            if (confirmSave) {
+                $.get(url+`?f=update&s=artikel&data=${markdownToHtml(textToSave)}&id=${$("#inputField").val()}&pass=${$("#pass").val()}`, function(data) {
+                    if(data.status == false){
+                        cek = false;
+                        alert("gagal")
+                    } 
+            })
+            .done(function() {
+                if(cek){showKeys()}
+            })
+            .fail(function() {
+                alert("Error occurred");
+            });
+            }
         }
     }
 
     function deleteText() {
+        var cek = true
         if ($("#inputField").val() != "") {
             var confirmDelete = confirm("yakin ingin menghapus?");
         }
         
         if (confirmDelete && $("#inputField").val() != "") {
-            localStorage.removeItem($("#inputField").val());
-            alert("terhapus");
-            showKeys();
+            $.get(url+`?f=delete&s=artikel&id=${$("#inputField").val()}&pass=${$("#pass").val()}`, function(data) {
+                    if(data.status == false){
+                        cek = false;
+                        alert("gagal")
+                    } 
+            })
+            .done(function() {
+                if(cek){showKeys()}
+            })
+            .fail(function() {
+                alert("Error occurred");
+            });
+            }
         }
-        
-    }
 
     function loadText() {
-      var loadedText = localStorage.getItem($("#inputField").val());
-      if (loadedText !== null) {
-        simplemde.value(htmlToMarkdown(loadedText));
-        console.log("Text loaded from local storage.");
-      } else {
-        console.log("No text found in local storage.");
-      }
+        temp.forEach(element => {
+            if (element.id == $("#inputField").val()) {
+                simplemde.value(htmlToMarkdown(element.isi));
+            }
+        });
     }
 
     // Load text from local storage on page load

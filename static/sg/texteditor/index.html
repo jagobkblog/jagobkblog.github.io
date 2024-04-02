@@ -7,19 +7,19 @@
   <style>
     button{
       background-color: #3b3b3b;
-      color: #1f1e1e;
+      color: #aaa;
     }
     input {
       background-color: #3b3b3b;
-      color: #1f1e1e;
+      color: #aaa;
     }
     select {
       background-color: #3b3b3b;
-      color: #1f1e1e;
+      color: #aaa;
     }
     option{
       background-color: #3b3b3b;
-      color: #1f1e1e;
+      color: #aaa;
     }
   </style>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -42,7 +42,9 @@
 
   <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
   <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+
   <script>
+    
     function showKeys() {
         $('#dropdown').html('<option value="">Pilih</option>'); // Kosongkan daftar sebelum memuat kembali
 
@@ -51,6 +53,55 @@
           $('#dropdown').append(`<option value="${key}">${key}</option>`);
         }
       }
+
+      function htmlToMarkdown(html) {
+          // Replace HTML tags with Markdown equivalents
+          html = decodeURIComponent(html)
+          let markdown = html
+              .replace(/<h1(.*?)>(.*?)<\/h1>/g, '# $1$2\n')
+              .replace(/<h2(.*?)>(.*?)<\/h2>/g, '## $1$2\n')
+              .replace(/<h3(.*?)>(.*?)<\/h3>/g, '### $1$2\n')
+              .replace(/<h4(.*?)>(.*?)<\/h4>/g, '#### $1$2\n')
+              .replace(/<h5(.*?)>(.*?)<\/h5>/g, '##### $1$2\n')
+              .replace(/<h6(.*?)>(.*?)<\/h6>/g, '###### $1$2\n')
+              .replace(/<p(.*?)>(.*?)<\/p>/g, '$2\n')
+              .replace(/<strong(.*?)>(.*?)<\/strong>/g, '**$2**')
+              .replace(/<em(.*?)>(.*?)<\/em>/g, '*$2*')
+              .replace(/<u(.*?)>(.*?)<\/u>/g, '<u>$2</u>')
+              .replace(/<li(.*?)>(.*?)<\/li>/g, '- $2\n')
+              .replace(/<a href="(.*?)">(.*?)<\/a>/g, '[$2]($1)')
+              .replace(/<img src="(.*?)"(.*?)>/g, '![]($1)')
+              .replace(/<br(.*?)>/g, '\n')  // Convert <br> to new line
+              .replace(/<p(.*?)>(.*?)<\/p>/g, '$2\n');  // Convert <p> to new line
+
+          // Remove remaining HTML tags
+          markdown = markdown.replace(/<[^>]*>/g, '');
+
+          return markdown;
+      }
+
+
+      function markdownToHtml(markdown) {
+    // Convert Markdown to HTML
+    // This is a very basic example, you may need a more sophisticated solution for real-world use
+    const html = markdown.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                        .replace(/_(.*?)_/g, '<u>$1</u>')
+                        .replace(/# (.*?)\n/g, '<h1>$1</h1>')
+                        .replace(/## (.*?)\n/g, '<h2>$1</h2>')
+                        .replace(/### (.*?)\n/g, '<h3>$1</h3>')
+                        .replace(/#### (.*?)\n/g, '<h4>$1</h4>')
+                        .replace(/##### (.*?)\n/g, '<h5>$1</h5>')
+                        .replace(/###### (.*?)\n/g, '<h6>$1</h6>')
+                        .replace(/(?:^|\n)((?:- .*?\n)+)/g, '<ul>$1</ul>')
+                        .replace(/- (.*?)\n/g, '<li>$1</li>')
+                        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
+                        .replace(/!\[\]\((.*?)\)/g, '<img src="$1">')
+                        .replace(/\n/g, '<br>'); // Convert new lines to <br> tags
+
+    return encodeURIComponent(html);
+}
+
   </script>
   <script>
     var simplemde = new SimpleMDE({
@@ -82,7 +133,8 @@
         }
         
         if (confirmSave && $("#inputField").val() != "") {
-            localStorage.setItem($("#inputField").val(), textToSave);
+            localStorage.setItem($("#inputField").val(), markdownToHtml(textToSave));
+            console.log(textToSave)
             showKeys();
             alert("tersimpan");
         }
@@ -104,7 +156,7 @@
     function loadText() {
       var loadedText = localStorage.getItem($("#inputField").val());
       if (loadedText !== null) {
-        simplemde.value(loadedText);
+        simplemde.value(htmlToMarkdown(loadedText));
         console.log("Text loaded from local storage.");
       } else {
         console.log("No text found in local storage.");
