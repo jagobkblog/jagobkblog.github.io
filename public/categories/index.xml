@@ -6,10 +6,20 @@
     <description>Recent content in Categories on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Apr 2024 10:49:51 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2024 15:35:41 +0000</lastBuildDate>
     
   <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blog</title>
+      <link>/categories/blog/</link>
+      <pubDate>Wed, 03 Apr 2024 15:35:41 +0000</pubDate>
+      
+      <guid>/categories/blog/</guid>
+      <description></description>
+      <image></image>
+    </item>
     
     <item>
       <title>skill booster</title>
@@ -17,16 +27,6 @@
       <pubDate>Mon, 01 Apr 2024 10:49:51 +0700</pubDate>
       
       <guid>/categories/skill-booster/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>/categories/blog/</link>
-      <pubDate>Mon, 01 Apr 2024 08:27:04 +0700</pubDate>
-      
-      <guid>/categories/blog/</guid>
       <description></description>
       <image></image>
     </item>

@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Apr 2024 08:27:04 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2024 15:35:41 +0000</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,39 @@
     <item>
       <title>CPNS</title>
       <link>/tags/cpns/</link>
-      <pubDate>Mon, 01 Apr 2024 08:27:04 +0700</pubDate>
+      <pubDate>Wed, 03 Apr 2024 15:35:41 +0000</pubDate>
       
       <guid>/tags/cpns/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>PPPK</title>
+      <link>/tags/pppk/</link>
+      <pubDate>Wed, 03 Apr 2024 15:35:41 +0000</pubDate>
+      
+      <guid>/tags/pppk/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>SKD</title>
+      <link>/tags/skd/</link>
+      <pubDate>Wed, 03 Apr 2024 15:35:41 +0000</pubDate>
+      
+      <guid>/tags/skd/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>tes skd cpns</title>
+      <link>/tags/tes-skd-cpns/</link>
+      <pubDate>Wed, 03 Apr 2024 15:35:41 +0000</pubDate>
+      
+      <guid>/tags/tes-skd-cpns/</guid>
       <description></description>
       <image></image>
     </item>
@@ -27,16 +57,6 @@
       <pubDate>Mon, 01 Apr 2024 08:27:04 +0700</pubDate>
       
       <guid>/tags/latihan-soal-cpns-gratis/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>PPPK</title>
-      <link>/tags/pppk/</link>
-      <pubDate>Mon, 01 Apr 2024 08:27:04 +0700</pubDate>
-      
-      <guid>/tags/pppk/</guid>
       <description></description>
       <image></image>
     </item>
@@ -287,16 +307,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/seleksi-cpns-dan-pppk/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>SKD</title>
-      <link>/tags/skd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/skd/</guid>
       <description></description>
       <image></image>
     </item>

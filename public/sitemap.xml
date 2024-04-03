@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2024-04-01T10:49:51+07:00</lastmod>
+    <loc>/categories/blog/</loc>
+    <lastmod>2024-04-03T15:35:41+00:00</lastmod>
   </url><url>
-    <loc>/skillbooster/list/</loc>
-    <lastmod>2024-04-01T10:49:51+07:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2024-04-03T15:35:41+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2024-04-03T15:35:41+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cpns/</loc>
+    <lastmod>2024-04-03T15:35:41+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2024-04-03T15:35:41+00:00</lastmod>
+  </url><url>
+    <loc>/tags/pppk/</loc>
+    <lastmod>2024-04-03T15:35:41+00:00</lastmod>
+  </url><url>
+    <loc>/tags/skd/</loc>
+    <lastmod>2024-04-03T15:35:41+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-04-03T15:35:41+00:00</lastmod>
+  </url><url>
+    <loc>/tags/tes-skd-cpns/</loc>
+    <lastmod>2024-04-03T15:35:41+00:00</lastmod>
+  </url><url>
+    <loc>/blog/tes-skd-cpns-pengertian-dan-jenis-materi-ujian/</loc>
+    <lastmod>2024-04-03T15:35:41+00:00</lastmod>
+  </url><url>
+    <loc>/skillbooster/list/</loc>
     <lastmod>2024-04-01T10:49:51+07:00</lastmod>
   </url><url>
     <loc>/categories/skill-booster/</loc>
@@ -17,25 +41,10 @@
     <loc>/skillbooster/</loc>
     <lastmod>2024-04-01T10:49:51+07:00</lastmod>
   </url><url>
-    <loc>/categories/blog/</loc>
-    <lastmod>2024-04-01T08:27:04+07:00</lastmod>
-  </url><url>
-    <loc>/blog/</loc>
-    <lastmod>2024-04-01T08:27:04+07:00</lastmod>
-  </url><url>
-    <loc>/tags/cpns/</loc>
-    <lastmod>2024-04-01T08:27:04+07:00</lastmod>
-  </url><url>
     <loc>/tags/latihan-soal-cpns-gratis/</loc>
     <lastmod>2024-04-01T08:27:04+07:00</lastmod>
   </url><url>
     <loc>/blog/latihan-soal-skd-cpns-dan-kunci-jawaban-2023/</loc>
-    <lastmod>2024-04-01T08:27:04+07:00</lastmod>
-  </url><url>
-    <loc>/tags/pppk/</loc>
-    <lastmod>2024-04-01T08:27:04+07:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-04-01T08:27:04+07:00</lastmod>
   </url><url>
     <loc>/tags/tiu/</loc>
@@ -182,7 +191,5 @@
     <loc>/blog/alur-seleksi-cpns-dan-pppk-2024/</loc>
   </url><url>
     <loc>/tags/seleksi-cpns-dan-pppk/</loc>
-  </url><url>
-    <loc>/tags/skd/</loc>
   </url>
 </urlset>
