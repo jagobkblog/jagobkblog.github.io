@@ -35,7 +35,7 @@ image: https://jagoberkarir.com/images/Pelatihan Excel Online Temukan Keterampil
 thumbnail: https://jagoberkarir.com/images/Pelatihan Excel Online Temukan Keterampilan Yang Dibutuhkan Di Era Digital.jpg
 width: 1024
 height: 576
-description: "test"
+description: "Pelajari Excel melalui Skillbooster: Materi lengkap mulai dari dasar hingga lanjutan, termasuk visualisasi data dan studi kasus praktis. Tingkatkan karir Anda dengan Excel!"
 ---
 
 # introduction: pengenalan aplikasi excel
