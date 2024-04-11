@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Apr 2024 15:35:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Apr 2024 00:40:19 +0000</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>CPNS</title>
       <link>/tags/cpns/</link>
-      <pubDate>Wed, 03 Apr 2024 15:35:41 +0000</pubDate>
+      <pubDate>Thu, 11 Apr 2024 00:40:19 +0000</pubDate>
       
       <guid>/tags/cpns/</guid>
       <description></description>
@@ -22,11 +22,31 @@
     </item>
     
     <item>
+      <title>daftar cpns</title>
+      <link>/tags/daftar-cpns/</link>
+      <pubDate>Thu, 11 Apr 2024 00:40:19 +0000</pubDate>
+      
+      <guid>/tags/daftar-cpns/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
       <title>PPPK</title>
       <link>/tags/pppk/</link>
-      <pubDate>Wed, 03 Apr 2024 15:35:41 +0000</pubDate>
+      <pubDate>Thu, 11 Apr 2024 00:40:19 +0000</pubDate>
       
       <guid>/tags/pppk/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>SSCASN</title>
+      <link>/tags/sscasn/</link>
+      <pubDate>Thu, 11 Apr 2024 00:40:19 +0000</pubDate>
+      
+      <guid>/tags/sscasn/</guid>
       <description></description>
       <image></image>
     </item>
