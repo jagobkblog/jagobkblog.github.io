@@ -2,6 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/accesstutorial/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/databasedesign/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/databasemanagement/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/databasetraining/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/datamanipulation/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/dataskills/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/learnmsaccess/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/microsoftoffice/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/categories/msaccess/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/msaccess/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/msaccess/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/officeskills/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/msaccess/pengantar/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/professionaldevelopment/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/sql/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/techeducation/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/techlearning/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
+    <loc>/tags/vba/</loc>
+    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+  </url><url>
     <loc>/tags/akun-sscasn/</loc>
     <lastmod>2024-04-12T17:49:31+00:00</lastmod>
   </url><url>
@@ -17,22 +80,13 @@
     <loc>/blog/cara-membuat-akun-cpns-2024/</loc>
     <lastmod>2024-04-12T17:49:31+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2024-04-12T17:49:31+00:00</lastmod>
-  </url><url>
     <loc>/tags/cpns/</loc>
-    <lastmod>2024-04-12T17:49:31+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2024-04-12T17:49:31+00:00</lastmod>
   </url><url>
     <loc>/tags/pppk/</loc>
     <lastmod>2024-04-12T17:49:31+00:00</lastmod>
   </url><url>
     <loc>/tags/sscasn/</loc>
-    <lastmod>2024-04-12T17:49:31+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-04-12T17:49:31+00:00</lastmod>
   </url><url>
     <loc>/tags/conditional-formatting/</loc>
