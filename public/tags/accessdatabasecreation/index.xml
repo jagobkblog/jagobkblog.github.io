@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DataSkills on Jagoberkarir</title>
-    <link>/tags/dataskills/</link>
-    <description>Recent content in DataSkills on Jagoberkarir</description>
+    <title>AccessDatabaseCreation on Jagoberkarir</title>
+    <link>/tags/accessdatabasecreation/</link>
+    <description>Recent content in AccessDatabaseCreation on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 Apr 2024 14:12:53 +0700</lastBuildDate>
     
-  <atom:link href="/tags/dataskills/index.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="/tags/accessdatabasecreation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>/msaccess/modul-1-pengantar-msaccess-dan-lingkungan-kerja/</guid>
       <description>Mulai petualangan Anda dalam manajemen database dengan &#34;MS Access untuk Pemula: Modul 1 Pengantar.&#34; Artikel ini memberikan panduan menyeluruh untuk memahami dasar-dasar Microsoft Access. Dari menjelajahi antarmuka intuitif, menciptakan database pertama Anda, hingga mempelajari cara berinteraksi dengan berbagai objek database seperti tabel, query, formulir, dan laporan. Modul ini ideal bagi pemula yang ingin menguasai prinsip dasar MS Access dan membangun dasar yang kuat untuk pengelolaan data yang lebih maju.</description>
       <image>https://jagoberkarir.com/images/MsAccess-Modul1.jpg</image>
-    </item>
-    
-    <item>
-      <title>Pengantar Tutorial MsAccess</title>
-      <link>/msaccess/pengantar/</link>
-      <pubDate>Sun, 14 Apr 2024 12:50:51 +0700</pubDate>
-      
-      <guid>/msaccess/pengantar/</guid>
-      <description>Jelajahi serangkaian modul pembelajaran MS Access yang komprehensif dalam panduan ini, dirancang untuk memandu pemula hingga profesional dalam memahami dan menguasai manajemen database. Mulai dari dasar antarmuka MS Access, pengelolaan data, hingga penggunaan fitur lanjutan seperti Macro dan VBA, panduan ini memberikan instruksi langkah demi langkah yang mendalam. Sempurnakan keterampilan Anda dan bangun database yang efisien dan efektif dengan mempelajari setiap modul yang ditawarkan dalam seri ini.</description>
-      <image>https://jagoberkarir.com/images/MsAccess-Pengantar.jpg</image>
     </item>
     
   </channel>

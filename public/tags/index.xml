@@ -6,15 +6,25 @@
     <description>Recent content in Tags on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Apr 2024 12:50:51 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2024 14:12:53 +0700</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>AccessDatabaseCreation</title>
+      <link>/tags/accessdatabasecreation/</link>
+      <pubDate>Sun, 14 Apr 2024 14:12:53 +0700</pubDate>
+      
+      <guid>/tags/accessdatabasecreation/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
       <title>AccessTutorial</title>
       <link>/tags/accesstutorial/</link>
-      <pubDate>Sun, 14 Apr 2024 12:50:51 +0700</pubDate>
+      <pubDate>Sun, 14 Apr 2024 14:12:53 +0700</pubDate>
       
       <guid>/tags/accesstutorial/</guid>
       <description></description>
@@ -24,7 +34,7 @@
     <item>
       <title>DatabaseDesign</title>
       <link>/tags/databasedesign/</link>
-      <pubDate>Sun, 14 Apr 2024 12:50:51 +0700</pubDate>
+      <pubDate>Sun, 14 Apr 2024 14:12:53 +0700</pubDate>
       
       <guid>/tags/databasedesign/</guid>
       <description></description>
@@ -34,9 +44,69 @@
     <item>
       <title>DatabaseManagement</title>
       <link>/tags/databasemanagement/</link>
-      <pubDate>Sun, 14 Apr 2024 12:50:51 +0700</pubDate>
+      <pubDate>Sun, 14 Apr 2024 14:12:53 +0700</pubDate>
       
       <guid>/tags/databasemanagement/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>DataManipulation</title>
+      <link>/tags/datamanipulation/</link>
+      <pubDate>Sun, 14 Apr 2024 14:12:53 +0700</pubDate>
+      
+      <guid>/tags/datamanipulation/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>DataSkills</title>
+      <link>/tags/dataskills/</link>
+      <pubDate>Sun, 14 Apr 2024 14:12:53 +0700</pubDate>
+      
+      <guid>/tags/dataskills/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>LearnMSAccess</title>
+      <link>/tags/learnmsaccess/</link>
+      <pubDate>Sun, 14 Apr 2024 14:12:53 +0700</pubDate>
+      
+      <guid>/tags/learnmsaccess/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>MicrosoftOffice</title>
+      <link>/tags/microsoftoffice/</link>
+      <pubDate>Sun, 14 Apr 2024 14:12:53 +0700</pubDate>
+      
+      <guid>/tags/microsoftoffice/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>MSAccessBeginners</title>
+      <link>/tags/msaccessbeginners/</link>
+      <pubDate>Sun, 14 Apr 2024 14:12:53 +0700</pubDate>
+      
+      <guid>/tags/msaccessbeginners/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>MSAccessTraining</title>
+      <link>/tags/msaccesstraining/</link>
+      <pubDate>Sun, 14 Apr 2024 14:12:53 +0700</pubDate>
+      
+      <guid>/tags/msaccesstraining/</guid>
       <description></description>
       <image></image>
     </item>
@@ -47,46 +117,6 @@
       <pubDate>Sun, 14 Apr 2024 12:50:51 +0700</pubDate>
       
       <guid>/tags/databasetraining/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>DataManipulation</title>
-      <link>/tags/datamanipulation/</link>
-      <pubDate>Sun, 14 Apr 2024 12:50:51 +0700</pubDate>
-      
-      <guid>/tags/datamanipulation/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>DataSkills</title>
-      <link>/tags/dataskills/</link>
-      <pubDate>Sun, 14 Apr 2024 12:50:51 +0700</pubDate>
-      
-      <guid>/tags/dataskills/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>LearnMSAccess</title>
-      <link>/tags/learnmsaccess/</link>
-      <pubDate>Sun, 14 Apr 2024 12:50:51 +0700</pubDate>
-      
-      <guid>/tags/learnmsaccess/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>MicrosoftOffice</title>
-      <link>/tags/microsoftoffice/</link>
-      <pubDate>Sun, 14 Apr 2024 12:50:51 +0700</pubDate>
-      
-      <guid>/tags/microsoftoffice/</guid>
       <description></description>
       <image></image>
     </item>

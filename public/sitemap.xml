@@ -2,43 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/accessdatabasecreation/</loc>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
+  </url><url>
     <loc>/tags/accesstutorial/</loc>
-    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
   </url><url>
     <loc>/tags/databasedesign/</loc>
-    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
   </url><url>
     <loc>/tags/databasemanagement/</loc>
-    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
+  </url><url>
+    <loc>/tags/datamanipulation/</loc>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
+  </url><url>
+    <loc>/tags/dataskills/</loc>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
+  </url><url>
+    <loc>/tags/learnmsaccess/</loc>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
+  </url><url>
+    <loc>/tags/microsoftoffice/</loc>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
+  </url><url>
+    <loc>/msaccess/modul-1-pengantar-msaccess-dan-lingkungan-kerja/</loc>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
+  </url><url>
+    <loc>/categories/msaccess/</loc>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
+  </url><url>
+    <loc>/tags/msaccessbeginners/</loc>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
+  </url><url>
+    <loc>/msaccess/</loc>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
+  </url><url>
+    <loc>/tags/msaccesstraining/</loc>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
   </url><url>
     <loc>/tags/databasetraining/</loc>
     <lastmod>2024-04-14T12:50:51+07:00</lastmod>
   </url><url>
-    <loc>/tags/datamanipulation/</loc>
-    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
-  </url><url>
-    <loc>/tags/dataskills/</loc>
-    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
-  </url><url>
-    <loc>/tags/learnmsaccess/</loc>
-    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
-  </url><url>
-    <loc>/tags/microsoftoffice/</loc>
-    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
-  </url><url>
-    <loc>/categories/msaccess/</loc>
-    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
-  </url><url>
     <loc>/tags/msaccess/</loc>
-    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
-  </url><url>
-    <loc>/msaccess/</loc>
     <lastmod>2024-04-14T12:50:51+07:00</lastmod>
   </url><url>
     <loc>/tags/officeskills/</loc>
@@ -51,9 +66,6 @@
     <lastmod>2024-04-14T12:50:51+07:00</lastmod>
   </url><url>
     <loc>/tags/sql/</loc>
-    <lastmod>2024-04-14T12:50:51+07:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-04-14T12:50:51+07:00</lastmod>
   </url><url>
     <loc>/tags/techeducation/</loc>
