@@ -39,6 +39,8 @@ description: "Jelajahi serangkaian modul pembelajaran MS Access yang komprehensi
 
 Selamat datang di seri pembelajaran MS Access kami, sebuah jalan pintas menuju kemahiran database yang efektif dan efisien. Apakah Anda baru mengenal manajemen database atau seorang profesional yang ingin meningkatkan keterampilan, modul-modul ini dirancang untuk memenuhi kebutuhan belajar Anda. Dari memahami dasar-dasar MS Access hingga mengotomatiskan tugas-tugas dengan Macro dan VBA, panduan ini akan membawa Anda melalui setiap langkah dengan kejelasan dan kedalaman materi yang dibutuhkan untuk menguasai alat yang kuat ini.
 
+{{< toc >}}
+
 ## Pengantar: Menavigasi Database dengan MS Access
 
 MS Access adalah alat manajemen database yang menakjubkan yang menawarkan fleksibilitas dan kontrol bagi pengguna untuk menyimpan, mengatur, dan mengakses data dengan cara yang terstruktur. Kursus ini dimulai dengan memperkenalkan Anda ke antarmuka MS Access dan konsep-konsep penting yang akan menjadi fondasi pengetahuan Anda.

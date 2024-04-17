@@ -39,6 +39,8 @@ description: "Perkuat kemampuan Anda dalam manajemen database dengan 'MS Access 
 
 Selamat datang di Modul 2 dari seri pelatihan MS Access kami. Setelah memahami dasar-dasar MS Access dan lingkungan kerjanya di Modul 1, Modul 2 akan membawa Anda lebih dalam ke dalam pengelolaan dan manipulasi data yang merupakan inti dari manajemen database efektif. Modul ini difokuskan pada cara mengatur tipe data, mengelola properti data, serta menerapkan konsep kunci utama dan indeks yang sangat penting untuk menjaga integritas dan performa database Anda.
 
+{{< toc >}}
+
 ## Mengatur Tipe Data dan Properti
 
 Memilih tipe data yang tepat untuk kolom-kolom dalam tabel Anda adalah langkah kritikal dalam pembuatan database yang efisien. Setiap tipe data memiliki karakteristik yang mempengaruhi bagaimana informasi disimpan dan diquery.

@@ -34,6 +34,8 @@ description: "Mulai petualangan Anda dalam manajemen database dengan \"MS Access
 
 Dalam modul pertama ini, kita akan membahas dasar-dasar Microsoft Access, memperkenalkan antarmuka pengguna, dan membimbing Anda melalui proses pembuatan database pertama Anda. Modul ini dirancang untuk memberikan pemahaman yang kuat tentang lingkungan kerja MS Access, membantu Anda mulai menggunakan alat ini untuk manajemen data yang efektif.
 
+{{< toc >}}
+
 ## Mengenali MS Access dan Lingkungan Kerjanya
 
 Microsoft Access adalah bagian dari suite aplikasi Microsoft Office, memberikan kemampuan manajemen database yang kuat dengan antarmuka yang ramah pengguna. Di bagian ini, kita akan menjelajahi konsep-konsep dasar yang membentuk fondasi penggunaan MS Access, termasuk kegunaan utamanya, kelebihan dibandingkan solusi database lainnya, dan situasi umum penggunaannya.

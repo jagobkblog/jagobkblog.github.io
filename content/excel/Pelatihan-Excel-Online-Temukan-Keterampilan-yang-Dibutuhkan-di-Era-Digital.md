@@ -45,6 +45,8 @@ Dalam era digital yang terus berkembang, kemampuan untuk mengelola data dan meng
 
 Berikut beberapa materi yang akan kita bahas di *Skillbooster* ini:
 
+{{< toc >}}
+
 ## Tujuan Pembelajaran:
 
 1. Memahami konsep dasar spreadsheet dan peran Excel dalam analisis data.
