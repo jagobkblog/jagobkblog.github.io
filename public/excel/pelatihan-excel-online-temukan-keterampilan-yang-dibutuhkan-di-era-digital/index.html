@@ -9,7 +9,7 @@
   <meta itemprop="name" content="Pelatihan Excel Online Temukan Keterampilan Yang Dibutuhkan Di Era Digital (Introduction)">
 <meta itemprop="description" content="Pelajari Excel melalui Skillbooster: Materi lengkap mulai dari dasar hingga lanjutan, termasuk visualisasi data dan studi kasus praktis. Tingkatkan karir Anda dengan Excel!"><meta itemprop="datePublished" content="2024-04-11T01:08:38+00:00" />
 <meta itemprop="dateModified" content="2024-04-11T01:08:38+00:00" />
-<meta itemprop="wordCount" content="324">
+<meta itemprop="wordCount" content="326">
 <meta itemprop="keywords" content="Excel,Pelatihan Excel untuk pemula,Kursus Excel online,Rumus Excel,Pivot table,Grafik Excel,VLOOKUP,Fungsi Excel,Spreadsheet,Data analysis Excel,Conditional formatting,Excel tips,Excel tutorial,Data visualization Excel,Excel formulas,Excel shortcuts,Excel dashboard,Excel templates," />
   <meta property="og:image" content="https://jagoberkarir.com/images/Pelatihan Excel Online Temukan Keterampilan Yang Dibutuhkan Di Era Digital.jpg" />
   <meta property="og:image:width" content="1024" />
@@ -278,6 +278,65 @@ Share :
 <p>halo selamat datang di <em>skillbooster</em> aplikasi excel, disini kita akan membahas penggunaan dan fungsi atau formula pada excel yang akan sangat membantu anda dalam dunia kerja. Dengan <em>skillbooster</em>  ini kami harap anda bisa meningkatkan karir anda ditempat anda bekerja saat ini ataupun untuk mempersiapkan diri anda untuk menuju tempat kerja impian anda.</p>
 <p>Dalam era digital yang terus berkembang, kemampuan untuk mengelola data dan menganalisis informasi adalah keterampilan yang sangat berharga. Microsoft Excel telah menjadi salah satu alat utama yang digunakan di hampir setiap industri untuk mengatur data, membuat analisis, dan membuat keputusan berdasarkan informasi yang diperoleh.</p>
 <p>Berikut beberapa materi yang akan kita bahas di <em>Skillbooster</em> ini:</p>
+<style>
+   
+  #toc {
+    top: 10px;
+    right: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 80%;
+  }
+
+  #toc ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  #toc ul li a {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.3s ease-in-out;
+  }
+
+  #toc ul li a:hover {
+    color: red;
+    cursor: pointer;
+  }
+</style>
+<div id="toc">
+  <p><strong>Daftar Isi</strong></p>
+</div>
+<script>
+  $(document).ready(function () {
+    var toc = "<ul>";
+    $("h1, h2").each(function () {
+      var el = $(this),
+        title = el.text(),
+        id = el.attr("id");
+
+      if (!id) {
+        id = title.replace(/\s+/g, '-').toLowerCase();
+        el.attr("id", id);
+      }
+
+      toc += `<li><a href="#${id}" class="${el.prop('tagName')}">${title}</a></li>`;
+    });
+    toc += "</ul>";
+
+    $("#toc").append(toc);
+
+    
+    $("#toc a").on('click', function (e) {
+      e.preventDefault();
+      var target = $(this.hash);
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000); 
+    });
+  });
+</script>
 <h2 id="tujuan-pembelajaran">Tujuan Pembelajaran:</h2>
 <ol>
 <li>Memahami konsep dasar spreadsheet dan peran Excel dalam analisis data.</li>

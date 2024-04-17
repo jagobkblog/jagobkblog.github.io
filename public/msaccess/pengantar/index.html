@@ -9,7 +9,7 @@
   <meta itemprop="name" content="Pengantar Tutorial MsAccess">
 <meta itemprop="description" content="Jelajahi serangkaian modul pembelajaran MS Access yang komprehensif dalam panduan ini, dirancang untuk memandu pemula hingga profesional dalam memahami dan menguasai manajemen database. Mulai dari dasar antarmuka MS Access, pengelolaan data, hingga penggunaan fitur lanjutan seperti Macro dan VBA, panduan ini memberikan instruksi langkah demi langkah yang mendalam. Sempurnakan keterampilan Anda dan bangun database yang efisien dan efektif dengan mempelajari setiap modul yang ditawarkan dalam seri ini."><meta itemprop="datePublished" content="2024-04-14T12:50:51+07:00" />
 <meta itemprop="dateModified" content="2024-04-14T12:50:51+07:00" />
-<meta itemprop="wordCount" content="387">
+<meta itemprop="wordCount" content="389">
 <meta itemprop="keywords" content="MSAccess,DatabaseManagement,LearnMSAccess,DataSkills,MicrosoftOffice,TechEducation,DatabaseDesign,SQL,VBA,ProfessionalDevelopment,TechLearning,AccessTutorial,DataManipulation,DatabaseTraining,OfficeSkills," />
   <meta property="og:image" content="https://jagoberkarir.com/images/MsAccess-Pengantar.jpg" />
   <meta property="og:image:width" content="1024" />
@@ -300,6 +300,65 @@ Share :
         <a href="//www.dmca.com/Protection/Status.aspx?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-2x1-04.png?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
         <div class="isiartikel"><h1 id="memulai-perjalanan-anda-dengan-ms-access-panduan-modul-pembelajaran">Memulai Perjalanan Anda dengan MS Access: Panduan Modul Pembelajaran</h1>
 <p>Selamat datang di seri pembelajaran MS Access kami, sebuah jalan pintas menuju kemahiran database yang efektif dan efisien. Apakah Anda baru mengenal manajemen database atau seorang profesional yang ingin meningkatkan keterampilan, modul-modul ini dirancang untuk memenuhi kebutuhan belajar Anda. Dari memahami dasar-dasar MS Access hingga mengotomatiskan tugas-tugas dengan Macro dan VBA, panduan ini akan membawa Anda melalui setiap langkah dengan kejelasan dan kedalaman materi yang dibutuhkan untuk menguasai alat yang kuat ini.</p>
+<style>
+   
+  #toc {
+    top: 10px;
+    right: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 80%;
+  }
+
+  #toc ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  #toc ul li a {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.3s ease-in-out;
+  }
+
+  #toc ul li a:hover {
+    color: red;
+    cursor: pointer;
+  }
+</style>
+<div id="toc">
+  <p><strong>Daftar Isi</strong></p>
+</div>
+<script>
+  $(document).ready(function () {
+    var toc = "<ul>";
+    $("h1, h2").each(function () {
+      var el = $(this),
+        title = el.text(),
+        id = el.attr("id");
+
+      if (!id) {
+        id = title.replace(/\s+/g, '-').toLowerCase();
+        el.attr("id", id);
+      }
+
+      toc += `<li><a href="#${id}" class="${el.prop('tagName')}">${title}</a></li>`;
+    });
+    toc += "</ul>";
+
+    $("#toc").append(toc);
+
+    
+    $("#toc a").on('click', function (e) {
+      e.preventDefault();
+      var target = $(this.hash);
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000); 
+    });
+  });
+</script>
 <h2 id="pengantar-menavigasi-database-dengan-ms-access">Pengantar: Menavigasi Database dengan MS Access</h2>
 <p>MS Access adalah alat manajemen database yang menakjubkan yang menawarkan fleksibilitas dan kontrol bagi pengguna untuk menyimpan, mengatur, dan mengakses data dengan cara yang terstruktur. Kursus ini dimulai dengan memperkenalkan Anda ke antarmuka MS Access dan konsep-konsep penting yang akan menjadi fondasi pengetahuan Anda.</p>
 <h3 id="modul-1-pengantar-ms-access-dan-lingkungan-kerja">Modul 1: Pengantar MS Access dan Lingkungan Kerja</h3>
