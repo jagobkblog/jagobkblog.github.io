@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MSAccess on Jagoberkarir</title>
-    <link>/tags/msaccess/</link>
-    <description>Recent content in MSAccess on Jagoberkarir</description>
+    <title>DataHandling on Jagoberkarir</title>
+    <link>/tags/datahandling/</link>
+    <description>Recent content in DataHandling on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Apr 2024 14:43:13 +0700</lastBuildDate>
     
-  <atom:link href="/tags/msaccess/index.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="/tags/datahandling/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>/msaccess/modul-2-penanganan-tabel-dan-data/</guid>
       <description>Perkuat kemampuan Anda dalam manajemen database dengan &#39;MS Access untuk Pemula: Modul 2 - Penanganan Tabel dan Data&#39;. Pelajari cara mengatur tipe data, mengelola properti, serta implementasi kunci utama dan indeks untuk memastikan integritas dan efisiensi database Anda. Modul ini menyediakan instruksi langkah demi langkah untuk membuat dan mengoptimalkan tabel, memberikan Anda dasar yang kuat untuk pengelolaan data yang lebih kompleks.</description>
       <image>https://jagoberkarir.com/images/MsAccess-Modul2.jpg</image>
-    </item>
-    
-    <item>
-      <title>Pengantar Tutorial MsAccess</title>
-      <link>/msaccess/pengantar/</link>
-      <pubDate>Sun, 14 Apr 2024 12:50:51 +0700</pubDate>
-      
-      <guid>/msaccess/pengantar/</guid>
-      <description>Jelajahi serangkaian modul pembelajaran MS Access yang komprehensif dalam panduan ini, dirancang untuk memandu pemula hingga profesional dalam memahami dan menguasai manajemen database. Mulai dari dasar antarmuka MS Access, pengelolaan data, hingga penggunaan fitur lanjutan seperti Macro dan VBA, panduan ini memberikan instruksi langkah demi langkah yang mendalam. Sempurnakan keterampilan Anda dan bangun database yang efisien dan efektif dengan mempelajari setiap modul yang ditawarkan dalam seri ini.</description>
-      <image>https://jagoberkarir.com/images/MsAccess-Pengantar.jpg</image>
     </item>
     
   </channel>
