@@ -86,12 +86,12 @@
           <div class="d-flex justify-content-between">
             <div style="margin-left: 10px;">
               {{ with .PrevInSection }}
-                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-secondary" href="{{ .RelPermalink }}">{{ .Title | truncate 50 "..."}} »</a>
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-secondary" href="{{ .RelPermalink }}">« {{ .Title | truncate 50 "..."}}</a>
               {{ end }}
             </div>
             <div style="margin-right: 10px;">
               {{ with .NextInSection }}
-                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-secondary" href="{{ .RelPermalink }}">« {{ .Title | truncate 50 "..." }}</a>
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-secondary" href="{{ .RelPermalink }}">{{ .Title | truncate 50 "..." }} »</a>
               {{ end }}
             </div>
           </div>
