@@ -114,6 +114,62 @@
     --button-text: #007af7;
 
   }
+
+  .navbar {
+    transition: background-color 0.5s ease, box-shadow 0.3s ease;
+  }
+
+  .nav-link {
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #f4623a;
+     
+  }
+
+   
+  .navbar.scrolled {
+    background-color: #fff;
+     
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+     
+  }
+
+   
+  .navbar.scrolled .nav-link {
+    color: #007af7;
+     
+  }
+
+  .navbar.scrolled #divInstallApp .btn {
+    background-color: #007af7;
+     
+  }
+
+  .navbar.scrolled #divInstallApp .btn:hover {
+    background-color: var(--button-background-hover);
+     
+  }
+
+   
+  .navbar.scrolled .nav-link:hover,
+  .navbar.scrolled .nav-item.active .nav-link {
+    color: #f4623a;
+     
+  }
+
+   
+  .navbar.scrolled .btn {
+    background-color: var(--button-background);
+    color: var(--button-text);
+  }
+
+  .navbar.scrolled .btn:hover {
+    background-color: var(--button-background-hover);
+    color: var(--white-text);
+  }
+
   .cookie-container {
     display: flex;
     align-content: center;
@@ -122,7 +178,7 @@
     background: #007af7;
     color: #fff;
     position: fixed;
-    bottom:0;
+    bottom: 0;
     font-size: 1rem;
     gap: 2rem;
     opacity: 1;
@@ -165,29 +221,19 @@
 
   .agree button:hover {
     background: #000;
-      color: #fff;
+    color: #fff;
   }
 </style>
-<div class="cookie-container hide">
-  <p class="cookie-text">
-    We use cookies and similar technologies that are necessary to operate the website. Additional cookies are used to perform analysis of website usage. By continuing to use our website, consent to our use of cookies. For more information, please read our <a href="https://jagoberkarir.com/about/kebijakan-privasi/"> Privacy Policy.</a>
-  </p>
-  <div class="agree">
-  <button>Sounds good!</button>
-    </div>
-</div>
+
 <script>
-  const cookieContainer = document.querySelector(".cookie-container");
-  const agreeBtn = document.querySelector(".agree button");
-
-  setTimeout(() => {
-    cookieContainer.classList.remove("hide");
-  }, 1000);
-
-  agreeBtn.addEventListener("click", () => {
-    cookieContainer.classList.add("hide");
+  window.addEventListener('scroll', () => {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 0) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
   });
-
 </script>
   
 
