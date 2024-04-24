@@ -9,7 +9,7 @@
   <meta itemprop="name" content="Modul 3 Kueri Dasar">
 <meta itemprop="description" content="Dalam Modul 3 dari seri MS Access untuk Pemula, pelajari cara esensial dalam membuat kueri yang efektif menggunakan SQL dan Query Design. Modul ini mengajarkan Anda cara menyaring dan memproses data untuk memenuhi kebutuhan spesifik, meningkatkan kemampuan Anda untuk mengelola dan menganalisis informasi database dengan presisi."><meta itemprop="datePublished" content="2024-04-17T14:43:13+07:00" />
 <meta itemprop="dateModified" content="2024-04-17T14:43:13+07:00" />
-<meta itemprop="wordCount" content="456">
+<meta itemprop="wordCount" content="458">
 <meta itemprop="keywords" content="MSAccessQueries,SQLBasics,QueryDesign,DataFilteringMSAccess,LearnMSAccess," />
   <meta property="og:image" content="https://jagoberkarir.com/images/MsAccess-Modul3.jpg" />
   <meta property="og:image:width" content="1024" />
@@ -326,6 +326,65 @@ Share :
         <a href="//www.dmca.com/Protection/Status.aspx?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-2x1-04.png?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
         <div class="isiartikel"><h1 id="ms-access-untuk-pemula-modul-3---kueri-dasar-dalam-ms-access">MS Access untuk Pemula: Modul 3 - Kueri Dasar dalam MS Access</h1>
 <p>Setelah memahami bagaimana mengatur tabel dan data di Modul 2, Modul 3 dari seri pelatihan MS Access kita akan fokus pada pembelajaran dasar-dasar kueri. Kueri adalah fondasi dari interaksi pengguna dengan database, memungkinkan untuk menyaring, mengurutkan, dan mengekstrak data secara efisien. Di modul ini, Anda akan menguasai cara membuat kueri yang efektif menggunakan SQL dan Query Design.</p>
+<style>
+   
+  #toc {
+    top: 10px;
+    right: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 80%;
+  }
+
+  #toc ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  #toc ul li a {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.3s ease-in-out;
+  }
+
+  #toc ul li a:hover {
+    color: red;
+    cursor: pointer;
+  }
+</style>
+<div id="toc">
+  <p><strong>Daftar Isi</strong></p>
+</div>
+<script>
+  $(document).ready(function () {
+    var toc = "<ul>";
+    $("h1, h2").each(function () {
+      var el = $(this),
+        title = el.text(),
+        id = el.attr("id");
+
+      if (!id) {
+        id = title.replace(/\s+/g, '-').toLowerCase();
+        el.attr("id", id);
+      }
+
+      toc += `<li><a href="#${id}" class="${el.prop('tagName')}">${title}</a></li>`;
+    });
+    toc += "</ul>";
+
+    $("#toc").append(toc);
+
+    
+    $("#toc a").on('click', function (e) {
+      e.preventDefault();
+      var target = $(this.hash);
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000); 
+    });
+  });
+</script>
 <h2 id="memperdalam-kueri-dalam-ms-access">Memperdalam Kueri dalam MS Access</h2>
 <p>Belajar membuat kueri yang baik adalah keterampilan penting untuk mengelola database dengan efektif. Kueri memungkinkan Anda untuk mengajukan pertanyaan kepada database Anda dan mendapatkan jawaban yang tepat dalam bentuk data yang diorganisir.</p>
 <h3 id="penerapan-kueri-seleksi">Penerapan Kueri Seleksi:</h3>

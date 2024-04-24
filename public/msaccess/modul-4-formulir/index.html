@@ -9,7 +9,7 @@
   <meta itemprop="name" content="Modul 4 Formulir">
 <meta itemprop="description" content="Modul 4 menggali ke dalam pembuatan dan pengelolaan formulir di MS Access, memungkinkan Anda untuk merancang cara interaktif bagi pengguna untuk memasukkan dan menampilkan data. Pelajari cara menggunakan Form Wizard, mendesain formulir secara manual, mengatur properti kontrol, dan membuat subform untuk meningkatkan efisiensi dan fungsionalitas database Anda."><meta itemprop="datePublished" content="2024-04-24T11:35:45+07:00" />
 <meta itemprop="dateModified" content="2024-04-24T11:35:45+07:00" />
-<meta itemprop="wordCount" content="466">
+<meta itemprop="wordCount" content="468">
 <meta itemprop="keywords" content="MSAccess,MSAccessForms,FormWizard,ManualFormDesign,ControlProperties,SubformsMSAccess," />
   <meta property="og:image" content="https://jagoberkarir.com/images/MsAccess-Modul4.jpg" />
   <meta property="og:image:width" content="1024" />
@@ -328,6 +328,65 @@ Share :
         <a href="//www.dmca.com/Protection/Status.aspx?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-2x1-04.png?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
         <div class="isiartikel"><h1 id="ms-access-untuk-pemula-modul-4---formulir-form">MS Access untuk Pemula: Modul 4 - Formulir (Form)</h1>
 <p>Setelah membekali diri dengan pengetahuan tentang kueri di Modul 3, Modul 4 dari seri pelatihan MS Access kita akan mengeksplorasi pembuatan dan desain formulir (form). Formulir adalah komponen interaktif yang memungkinkan pengguna untuk memasukkan, memodifikasi, dan melihat data dengan mudah dan efisien. Modul ini akan membawa Anda melalui proses menggunakan Form Wizard, mendesain form secara manual, mengatur properties, dan membuat subform.</p>
+<style>
+   
+  #toc {
+    top: 10px;
+    right: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 80%;
+  }
+
+  #toc ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  #toc ul li a {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.3s ease-in-out;
+  }
+
+  #toc ul li a:hover {
+    color: red;
+    cursor: pointer;
+  }
+</style>
+<div id="toc">
+  <p><strong>Daftar Isi</strong></p>
+</div>
+<script>
+  $(document).ready(function () {
+    var toc = "<ul>";
+    $("h1, h2").each(function () {
+      var el = $(this),
+        title = el.text(),
+        id = el.attr("id");
+
+      if (!id) {
+        id = title.replace(/\s+/g, '-').toLowerCase();
+        el.attr("id", id);
+      }
+
+      toc += `<li><a href="#${id}" class="${el.prop('tagName')}">${title}</a></li>`;
+    });
+    toc += "</ul>";
+
+    $("#toc").append(toc);
+
+    
+    $("#toc a").on('click', function (e) {
+      e.preventDefault();
+      var target = $(this.hash);
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000); 
+    });
+  });
+</script>
 <h2 id="membangun-form-dengan-form-wizard">Membangun Form dengan Form Wizard</h2>
 <p>Form Wizard adalah alat bantu yang memberikan langkah cepat untuk membuat form yang berfungsi penuh, tanpa harus mendalami desain form secara mendetail.</p>
 <h3 id="langkah-langkah-menggunakan-form-wizard">Langkah-Langkah Menggunakan Form Wizard:</h3>

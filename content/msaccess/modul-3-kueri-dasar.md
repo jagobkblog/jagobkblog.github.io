@@ -29,6 +29,8 @@ description: "Dalam Modul 3 dari seri MS Access untuk Pemula, pelajari cara esen
 
 Setelah memahami bagaimana mengatur tabel dan data di Modul 2, Modul 3 dari seri pelatihan MS Access kita akan fokus pada pembelajaran dasar-dasar kueri. Kueri adalah fondasi dari interaksi pengguna dengan database, memungkinkan untuk menyaring, mengurutkan, dan mengekstrak data secara efisien. Di modul ini, Anda akan menguasai cara membuat kueri yang efektif menggunakan SQL dan Query Design.
 
+{{< toc >}}
+
 ## Memperdalam Kueri dalam MS Access
 
 Belajar membuat kueri yang baik adalah keterampilan penting untuk mengelola database dengan efektif. Kueri memungkinkan Anda untuk mengajukan pertanyaan kepada database Anda dan mendapatkan jawaban yang tepat dalam bentuk data yang diorganisir.

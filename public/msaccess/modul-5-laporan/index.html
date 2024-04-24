@@ -9,9 +9,9 @@
   <meta itemprop="name" content="Modul 5 Laporan">
 <meta itemprop="description" content="Dalam Modul 5, jelajahi kemampuan MS Access dalam membuat laporan yang terstruktur dan menarik. Modul ini menutupi penggunaan Report Wizard, desain laporan manual, serta teknik grouping dan sorting dalam laporan. Pelajari juga cara menggunakan expressions untuk melakukan kalkulasi dalam laporan, mengoptimalkan cara Anda menyajikan data analitis."><meta itemprop="datePublished" content="2024-04-24T11:38:31+07:00" />
 <meta itemprop="dateModified" content="2024-04-24T11:38:31+07:00" />
-<meta itemprop="wordCount" content="454">
+<meta itemprop="wordCount" content="456">
 <meta itemprop="keywords" content="MSAccess,MSAccessReports,ReportWizard,ManualReportDesign,GroupingSortingReports,ExpressionsInReports," />
-  <meta property="og:image" content="https://jagoberkarir.com/images/MsAccess-Modul3.jpg" />
+  <meta property="og:image" content="https://jagoberkarir.com/images/MsAccess-Modul5.jpg" />
   <meta property="og:image:width" content="1024" />
   <meta property="og:image:height" content="576" />
   <meta property="og:image:type" content="image/jpeg" />
@@ -288,7 +288,7 @@
   
   
   <div class="container" id="pembahasan">
-    <img class='lazyload mb-3 img-fluid img-thumbnail' src='https://jagoberkarir.com/images/MsAccess-Modul3.jpg' alt='Modul 5 Laporan' title="Modul 5 Laporan" loading='lazy' style="width:100%;" />
+    <img class='lazyload mb-3 img-fluid img-thumbnail' src='https://jagoberkarir.com/images/MsAccess-Modul5.jpg' alt='Modul 5 Laporan' title="Modul 5 Laporan" loading='lazy' style="width:100%;" />
      
 <ul class="nav nav-underline">
    <li class="nav-item">
@@ -328,6 +328,65 @@ Share :
         <a href="//www.dmca.com/Protection/Status.aspx?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-2x1-04.png?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
         <div class="isiartikel"><h1 id="ms-access-untuk-pemula-modul-5---laporan-report">MS Access untuk Pemula: Modul 5 - Laporan (Report)</h1>
 <p>Setelah Anda mempelajari pembuatan dan pengelolaan formulir dalam Modul 4, Modul 5 akan membawa Anda ke dalam dunia pembuatan laporan di MS Access. Laporan memungkinkan Anda untuk menyajikan data dalam format yang rapi dan profesional, sangat bermanfaat untuk analisis data atau pembagian informasi dengan orang lain. Di modul ini, Anda akan belajar cara menggunakan Report Wizard, mendesain laporan secara manual, mengimplementasikan grouping dan sorting, serta menggunakan expressions untuk melakukan kalkulasi dalam laporan.</p>
+<style>
+   
+  #toc {
+    top: 10px;
+    right: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 80%;
+  }
+
+  #toc ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  #toc ul li a {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.3s ease-in-out;
+  }
+
+  #toc ul li a:hover {
+    color: red;
+    cursor: pointer;
+  }
+</style>
+<div id="toc">
+  <p><strong>Daftar Isi</strong></p>
+</div>
+<script>
+  $(document).ready(function () {
+    var toc = "<ul>";
+    $("h1, h2").each(function () {
+      var el = $(this),
+        title = el.text(),
+        id = el.attr("id");
+
+      if (!id) {
+        id = title.replace(/\s+/g, '-').toLowerCase();
+        el.attr("id", id);
+      }
+
+      toc += `<li><a href="#${id}" class="${el.prop('tagName')}">${title}</a></li>`;
+    });
+    toc += "</ul>";
+
+    $("#toc").append(toc);
+
+    
+    $("#toc a").on('click', function (e) {
+      e.preventDefault();
+      var target = $(this.hash);
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000); 
+    });
+  });
+</script>
 <h2 id="pembuatan-laporan-dengan-report-wizard">Pembuatan Laporan dengan Report Wizard</h2>
 <p>Report Wizard menyediakan pendekatan langkah demi langkah yang memudahkan pembuatan laporan, terutama bagi pemula.</p>
 <h3 id="langkah-langkah-menggunakan-report-wizard">Langkah-Langkah Menggunakan Report Wizard:</h3>

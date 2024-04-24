@@ -19,8 +19,8 @@ authorname: "Riofebri Prasetia"
 authorlink: "https://rii92-portofolio.web.app/"
 authorphoto: "https://media.licdn.com/dms/image/D5603AQHsWRz4U7IKzA/profile-displayphoto-shrink_200_200/0/1690182368248?e=1718841600&v=beta&t=UrTxqBd5G0GRg7UsKkoxTP99WK_An-NJpp4Nu2RXlO8"
 
-image: https://jagoberkarir.com/images/MsAccess-Modul3.jpg
-thumbnail: https://jagoberkarir.com/images/MsAccess-Modul3.jpg
+image: https://jagoberkarir.com/images/MsAccess-Modul5.jpg
+thumbnail: https://jagoberkarir.com/images/MsAccess-Modul5.jpg
 width: 1024
 height: 576
 description: "Dalam Modul 5, jelajahi kemampuan MS Access dalam membuat laporan yang terstruktur dan menarik. Modul ini menutupi penggunaan Report Wizard, desain laporan manual, serta teknik grouping dan sorting dalam laporan. Pelajari juga cara menggunakan expressions untuk melakukan kalkulasi dalam laporan, mengoptimalkan cara Anda menyajikan data analitis."
@@ -28,6 +28,8 @@ description: "Dalam Modul 5, jelajahi kemampuan MS Access dalam membuat laporan 
 # MS Access untuk Pemula: Modul 5 - Laporan (Report)
 
 Setelah Anda mempelajari pembuatan dan pengelolaan formulir dalam Modul 4, Modul 5 akan membawa Anda ke dalam dunia pembuatan laporan di MS Access. Laporan memungkinkan Anda untuk menyajikan data dalam format yang rapi dan profesional, sangat bermanfaat untuk analisis data atau pembagian informasi dengan orang lain. Di modul ini, Anda akan belajar cara menggunakan Report Wizard, mendesain laporan secara manual, mengimplementasikan grouping dan sorting, serta menggunakan expressions untuk melakukan kalkulasi dalam laporan.
+
+{{< toc >}}
 
 ## Pembuatan Laporan dengan Report Wizard
 

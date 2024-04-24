@@ -30,6 +30,8 @@ description: "Modul 4 menggali ke dalam pembuatan dan pengelolaan formulir di MS
 
 Setelah membekali diri dengan pengetahuan tentang kueri di Modul 3, Modul 4 dari seri pelatihan MS Access kita akan mengeksplorasi pembuatan dan desain formulir (form). Formulir adalah komponen interaktif yang memungkinkan pengguna untuk memasukkan, memodifikasi, dan melihat data dengan mudah dan efisien. Modul ini akan membawa Anda melalui proses menggunakan Form Wizard, mendesain form secara manual, mengatur properties, dan membuat subform.
 
+{{< toc >}}
+
 ## Membangun Form dengan Form Wizard
 
 Form Wizard adalah alat bantu yang memberikan langkah cepat untuk membuat form yang berfungsi penuh, tanpa harus mendalami desain form secara mendetail.
