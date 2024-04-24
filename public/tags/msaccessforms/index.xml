@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MSAccessForms on Jagoberkarir</title>
+    <link>/tags/msaccessforms/</link>
+    <description>Recent content in MSAccessForms on Jagoberkarir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Apr 2024 11:35:45 +0700</lastBuildDate>
+    
+  <atom:link href="/tags/msaccessforms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modul 4 Formulir</title>
+      <link>/msaccess/modul-4-formulir/</link>
+      <pubDate>Wed, 24 Apr 2024 11:35:45 +0700</pubDate>
+      
+      <guid>/msaccess/modul-4-formulir/</guid>
+      <description>Modul 4 menggali ke dalam pembuatan dan pengelolaan formulir di MS Access, memungkinkan Anda untuk merancang cara interaktif bagi pengguna untuk memasukkan dan menampilkan data. Pelajari cara menggunakan Form Wizard, mendesain formulir secara manual, mengatur properti kontrol, dan membuat subform untuk meningkatkan efisiensi dan fungsionalitas database Anda.</description>
+      <image>https://jagoberkarir.com/images/MsAccess-Modul4.jpg</image>
+    </item>
+    
+  </channel>
+</rss>

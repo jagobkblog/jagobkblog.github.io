@@ -6,10 +6,30 @@
     <description>Recent content in MsAccess on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Apr 2024 14:43:13 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 24 Apr 2024 11:38:31 +0700</lastBuildDate>
     
   <atom:link href="/categories/msaccess/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Modul 5 Laporan</title>
+      <link>/msaccess/modul-5-laporan/</link>
+      <pubDate>Wed, 24 Apr 2024 11:38:31 +0700</pubDate>
+      
+      <guid>/msaccess/modul-5-laporan/</guid>
+      <description>Dalam Modul 5, jelajahi kemampuan MS Access dalam membuat laporan yang terstruktur dan menarik. Modul ini menutupi penggunaan Report Wizard, desain laporan manual, serta teknik grouping dan sorting dalam laporan. Pelajari juga cara menggunakan expressions untuk melakukan kalkulasi dalam laporan, mengoptimalkan cara Anda menyajikan data analitis.</description>
+      <image>https://jagoberkarir.com/images/MsAccess-Modul3.jpg</image>
+    </item>
+    
+    <item>
+      <title>Modul 4 Formulir</title>
+      <link>/msaccess/modul-4-formulir/</link>
+      <pubDate>Wed, 24 Apr 2024 11:35:45 +0700</pubDate>
+      
+      <guid>/msaccess/modul-4-formulir/</guid>
+      <description>Modul 4 menggali ke dalam pembuatan dan pengelolaan formulir di MS Access, memungkinkan Anda untuk merancang cara interaktif bagi pengguna untuk memasukkan dan menampilkan data. Pelajari cara menggunakan Form Wizard, mendesain formulir secara manual, mengatur properti kontrol, dan membuat subform untuk meningkatkan efisiensi dan fungsionalitas database Anda.</description>
+      <image>https://jagoberkarir.com/images/MsAccess-Modul4.jpg</image>
+    </item>
     
     <item>
       <title>Modul 2 Penanganan Tabel Dan Data</title>
@@ -19,6 +39,16 @@
       <guid>/msaccess/modul-2-penanganan-tabel-dan-data/</guid>
       <description>Perkuat kemampuan Anda dalam manajemen database dengan &#39;MS Access untuk Pemula: Modul 2 - Penanganan Tabel dan Data&#39;. Pelajari cara mengatur tipe data, mengelola properti, serta implementasi kunci utama dan indeks untuk memastikan integritas dan efisiensi database Anda. Modul ini menyediakan instruksi langkah demi langkah untuk membuat dan mengoptimalkan tabel, memberikan Anda dasar yang kuat untuk pengelolaan data yang lebih kompleks.</description>
       <image>https://jagoberkarir.com/images/MsAccess-Modul2.jpg</image>
+    </item>
+    
+    <item>
+      <title>Modul 3 Kueri Dasar</title>
+      <link>/msaccess/modul-3-kueri-dasar/</link>
+      <pubDate>Wed, 17 Apr 2024 14:43:13 +0700</pubDate>
+      
+      <guid>/msaccess/modul-3-kueri-dasar/</guid>
+      <description>Dalam Modul 3 dari seri MS Access untuk Pemula, pelajari cara esensial dalam membuat kueri yang efektif menggunakan SQL dan Query Design. Modul ini mengajarkan Anda cara menyaring dan memproses data untuk memenuhi kebutuhan spesifik, meningkatkan kemampuan Anda untuk mengelola dan menganalisis informasi database dengan presisi.</description>
+      <image>https://jagoberkarir.com/images/MsAccess-Modul3.jpg</image>
     </item>
     
     <item>

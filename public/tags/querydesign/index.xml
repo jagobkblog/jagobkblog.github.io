@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QueryDesign on Jagoberkarir</title>
+    <link>/tags/querydesign/</link>
+    <description>Recent content in QueryDesign on Jagoberkarir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Apr 2024 14:43:13 +0700</lastBuildDate>
+    
+  <atom:link href="/tags/querydesign/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modul 3 Kueri Dasar</title>
+      <link>/msaccess/modul-3-kueri-dasar/</link>
+      <pubDate>Wed, 17 Apr 2024 14:43:13 +0700</pubDate>
+      
+      <guid>/msaccess/modul-3-kueri-dasar/</guid>
+      <description>Dalam Modul 3 dari seri MS Access untuk Pemula, pelajari cara esensial dalam membuat kueri yang efektif menggunakan SQL dan Query Design. Modul ini mengajarkan Anda cara menyaring dan memproses data untuk memenuhi kebutuhan spesifik, meningkatkan kemampuan Anda untuk mengelola dan menganalisis informasi database dengan presisi.</description>
+      <image>https://jagoberkarir.com/images/MsAccess-Modul3.jpg</image>
+    </item>
+    
+  </channel>
+</rss>

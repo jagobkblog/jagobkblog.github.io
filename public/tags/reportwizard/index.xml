@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ReportWizard on Jagoberkarir</title>
+    <link>/tags/reportwizard/</link>
+    <description>Recent content in ReportWizard on Jagoberkarir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Apr 2024 11:38:31 +0700</lastBuildDate>
+    
+  <atom:link href="/tags/reportwizard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modul 5 Laporan</title>
+      <link>/msaccess/modul-5-laporan/</link>
+      <pubDate>Wed, 24 Apr 2024 11:38:31 +0700</pubDate>
+      
+      <guid>/msaccess/modul-5-laporan/</guid>
+      <description>Dalam Modul 5, jelajahi kemampuan MS Access dalam membuat laporan yang terstruktur dan menarik. Modul ini menutupi penggunaan Report Wizard, desain laporan manual, serta teknik grouping dan sorting dalam laporan. Pelajari juga cara menggunakan expressions untuk melakukan kalkulasi dalam laporan, mengoptimalkan cara Anda menyajikan data analitis.</description>
+      <image>https://jagoberkarir.com/images/MsAccess-Modul3.jpg</image>
+    </item>
+    
+  </channel>
+</rss>

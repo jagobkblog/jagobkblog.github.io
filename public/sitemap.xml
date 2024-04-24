@@ -2,10 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/accessmodul2/</loc>
-    <lastmod>2024-04-17T14:43:13+07:00</lastmod>
-  </url><url>
     <loc>/categories/</loc>
+    <lastmod>2024-04-24T11:38:31+07:00</lastmod>
+  </url><url>
+    <loc>/tags/expressionsinreports/</loc>
+    <lastmod>2024-04-24T11:38:31+07:00</lastmod>
+  </url><url>
+    <loc>/tags/groupingsortingreports/</loc>
+    <lastmod>2024-04-24T11:38:31+07:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-04-24T11:38:31+07:00</lastmod>
+  </url><url>
+    <loc>/tags/manualreportdesign/</loc>
+    <lastmod>2024-04-24T11:38:31+07:00</lastmod>
+  </url><url>
+    <loc>/msaccess/modul-5-laporan/</loc>
+    <lastmod>2024-04-24T11:38:31+07:00</lastmod>
+  </url><url>
+    <loc>/categories/msaccess/</loc>
+    <lastmod>2024-04-24T11:38:31+07:00</lastmod>
+  </url><url>
+    <loc>/tags/msaccess/</loc>
+    <lastmod>2024-04-24T11:38:31+07:00</lastmod>
+  </url><url>
+    <loc>/msaccess/</loc>
+    <lastmod>2024-04-24T11:38:31+07:00</lastmod>
+  </url><url>
+    <loc>/tags/msaccessreports/</loc>
+    <lastmod>2024-04-24T11:38:31+07:00</lastmod>
+  </url><url>
+    <loc>/tags/reportwizard/</loc>
+    <lastmod>2024-04-24T11:38:31+07:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-04-24T11:38:31+07:00</lastmod>
+  </url><url>
+    <loc>/tags/controlproperties/</loc>
+    <lastmod>2024-04-24T11:35:45+07:00</lastmod>
+  </url><url>
+    <loc>/tags/formwizard/</loc>
+    <lastmod>2024-04-24T11:35:45+07:00</lastmod>
+  </url><url>
+    <loc>/tags/manualformdesign/</loc>
+    <lastmod>2024-04-24T11:35:45+07:00</lastmod>
+  </url><url>
+    <loc>/msaccess/modul-4-formulir/</loc>
+    <lastmod>2024-04-24T11:35:45+07:00</lastmod>
+  </url><url>
+    <loc>/tags/msaccessforms/</loc>
+    <lastmod>2024-04-24T11:35:45+07:00</lastmod>
+  </url><url>
+    <loc>/tags/subformsmsaccess/</loc>
+    <lastmod>2024-04-24T11:35:45+07:00</lastmod>
+  </url><url>
+    <loc>/tags/accessmodul2/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
     <loc>/tags/databasedesign/</loc>
@@ -15,6 +66,9 @@
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
     <loc>/tags/databaseoptimization/</loc>
+    <lastmod>2024-04-17T14:43:13+07:00</lastmod>
+  </url><url>
+    <loc>/tags/datafilteringmsaccess/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
     <loc>/tags/datahandling/</loc>
@@ -29,9 +83,6 @@
     <loc>/tags/ittraining/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2024-04-17T14:43:13+07:00</lastmod>
-  </url><url>
     <loc>/tags/learnmsaccess/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
@@ -41,13 +92,10 @@
     <loc>/msaccess/modul-2-penanganan-tabel-dan-data/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
-    <loc>/categories/msaccess/</loc>
+    <loc>/msaccess/modul-3-kueri-dasar/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
-    <loc>/tags/msaccess/</loc>
-    <lastmod>2024-04-17T14:43:13+07:00</lastmod>
-  </url><url>
-    <loc>/msaccess/</loc>
+    <loc>/tags/msaccessqueries/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
     <loc>/tags/primarykeys/</loc>
@@ -56,10 +104,13 @@
     <loc>/tags/professionaldevelopment/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
-    <loc>/tags/tablesanddata/</loc>
+    <loc>/tags/querydesign/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>/tags/sqlbasics/</loc>
+    <lastmod>2024-04-17T14:43:13+07:00</lastmod>
+  </url><url>
+    <loc>/tags/tablesanddata/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
     <loc>/tags/techskills/</loc>
