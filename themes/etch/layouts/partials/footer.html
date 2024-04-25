@@ -1,69 +1,76 @@
 <style>
   .footer {
-  background-color: #343a40;
-  transition: background-color 0.3s;
-}
+    background-color: #343a40;
+    transition: background-color 0.3s;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.5s ease, box-shadow 0.3s ease;
+  }
 
-.footer h5 {
-  color: #f8f9fa;
-  letter-spacing: 1px;
-}
+  .footer h5 {
+    color: #f8f9fa;
+    letter-spacing: 1px;
+  }
 
-.footer p, .footer a, .footer .small {
-  color: #adb5bd;
-  transition: color 0.3s;
-}
+  .footer p,
+  .footer a,
+  .footer .small {
+    color: #adb5bd;
+    transition: color 0.3s;
+  }
 
-.footer-link:hover, .footer-social:hover {
-  color: #f4623a;
-  text-decoration: none;
-}
+  .footer-link:hover,
+  .footer-social:hover {
+    color: #f4623a;
+    text-decoration: none;
+  }
 
-.footer-link {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  transition: color 0.3s;
-}
+  .footer-link {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: color 0.3s;
+  }
 
-.footer-link::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #f4623a;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.3s;
-}
+  .footer-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #f4623a;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s;
+  }
 
-.footer-link:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
+  .footer-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
 
-.footer-social {
-  font-size: 24px;
-}
+  .footer-social {
+    font-size: 40px;
+  }
 
-.footer-social:hover {
-  transform: scale(1.1);
-}
+  .footer-social:hover {
+    transform: scale(1.1);
+  }
 
-hr {
-  border-color: rgba(255, 255, 255, 0.1);
-}
+  hr {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
 
-.footer-year {
-  display: inline-block;
-  transition: all 0.3s ease-in-out;
-}
+  .footer-year {
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+  }
 
-.footer-year:hover {
-  transform: scale(1.1);
-}
+  .footer-year:hover {
+    transform: scale(1.1);
+  }
 </style>
 <footer class="footer bg-dark text-light py-5 mt-5">
   <div class="container">
@@ -72,7 +79,7 @@ hr {
         <a class="navbar-brand" href="/">
           <img src="/logo/LOGO%20Web%20220%20x%2060-01%20animate.svg" class="logo" alt="...">
         </a>
-        <p>Platform yang membantu Anda mempersiapkan karir dengan tips, trik, dan latihan soal untuk CPNS, PNS, dan BUMN.</p>
+        <p>Platform andalan untuk meraih kesuksesan karier Anda. Dapatkan panduan terpercaya, tips keberhasilan, dan latihan soal untuk CPNS, PNS, dan BUMN.</p>
       </div>
 
       <div class="col-md-4 mb-4 mb-md-0">
@@ -91,7 +98,8 @@ hr {
         <div>
           <!-- <a href="#" class="me-3 footer-social"><i class="bi bi-twitter"></i></a> -->
           <!-- <a href="#" class="me-3 footer-social"><i class="bi bi-facebook"></i></a> -->
-          <a href="https://www.instagram.com/jagoberkarir/" class="me-3 footer-social"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.instagram.com/jagoberkarir/" class="me-3 footer-social"><i
+              class="bi bi-instagram"></i></a>
           <!-- <a href="#" class="footer-social"><i class="bi bi-linkedin"></i></a> -->
         </div>
       </div>
@@ -101,8 +109,10 @@ hr {
 
     <div class="row text-center">
       <div class="col">
-        <span class="footer-year"><p class="small">&copy; <span id="tahun"></span> Jago Berkari. All Rights Reserved.</p></span>
-        
+        <span class="footer-year">
+          <p class="small">&copy; <span id="tahun"></span> JagoBerkarir. All Rights Reserved.</p>
+        </span>
+
       </div>
     </div>
   </div>

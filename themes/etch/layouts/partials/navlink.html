@@ -33,8 +33,8 @@
     </div>
   </div>
 </nav>
+
 <style>
-  /* https://codepen.io/yasmink88/pen/OJpdRqG */
   :root {
     --background: #007af7;
     --white-text: #fff;
@@ -42,139 +42,41 @@
     --button-background: #fff;
     --button-background-hover: #000;
     --button-text: #007af7;
-
+    --link-color: #333;
+    --link-hover-color: #f4623a;
   }
 
   .navbar {
+    font-family: Arial, sans-serif;
+    font-size: 18px; 
+    font-weight: bold; 
     transition: background-color 0.5s ease, box-shadow 0.3s ease;
   }
 
   .nav-link {
+    color: var(--link-color); 
     transition: color 0.3s ease;
+    padding: 8px 12px; 
   }
 
   .nav-link:hover {
-    color: #f4623a;
-    /* Warna highlight saat hover */
+    color: var(--link-hover-color);
   }
 
-  /* Efek shadow pada Navbar saat scroll */
   .navbar.scrolled {
-    background-color: #fff;
-    /* Warna background navbar saat discroll */
+    background-color: #fff; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    /* Shadow untuk efek depth */
   }
 
-  /* Mengubah warna link saat navbar discroll */
   .navbar.scrolled .nav-link {
-    color: #2dc972;
-    /* Warna yang sesuai dengan logo saat navbar discroll */
+    color: #2dc972; 
   }
 
-  .navbar.scrolled #divInstallApp .btn {
-    background-color: #2dc972;
-    /* Warna yang sesuai dengan logo saat navbar discroll */
-  }
-
-  .navbar.scrolled #divInstallApp .btn:hover {
-    background-color: var(--button-background-hover);
-    /* Warna yang sesuai dengan logo saat navbar discroll */
-  }
-
-  /* Mengubah warna link aktif atau saat page di hover */
-  .navbar.scrolled .nav-link:hover,
-  .navbar.scrolled .nav-item.active .nav-link {
-    color: #f4623a;
-    /* Warna untuk nav item aktif atau hover saat navbar discroll */
-  }
-
-  /* Style tambahan jika Anda memiliki button pada navbar */
-  .navbar.scrolled .btn {
-    background-color: var(--button-background);
-    color: var(--button-text);
-  }
-
-  .navbar.scrolled .btn:hover {
-    background-color: var(--button-background-hover);
-    color: var(--white-text);
-  }
-
-  .cookie-container {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    padding: 1rem 2rem;
-    background: #007af7;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    font-size: 1rem;
-    gap: 2rem;
-    opacity: 1;
-    visibility: visible;
-    flex-wrap: wrap;
-    z-index: 999999;
-  }
-
-  .cookie-container.hide {
-    opacity: 0;
-    visibility: hidden;
-  }
-
-  .cookie-container a {
-    color: #fff;
-  }
-
-  .cookie-container a:hover {
-    color: #222;
-  }
-
-  .cookie-container .cookie-text {
-    flex: 8 768px;
-  }
-
-  .cookie-container .agree {
-    flex: 1 150px;
-    text-align: center;
-  }
-
-  .agree button {
-    background: #fff;
-    color: #007af7;
-    border: none;
-    padding: 0.4rem 1.2rem;
-    cursor: pointer;
-    border-radius: 20px;
-    font-size: 1rem;
-  }
-
-  .agree button:hover {
-    background: #000;
-    color: #fff;
+  .navbar.scrolled .nav-link:hover {
+    color: var(--link-hover-color); 
   }
 </style>
-<!-- <div class="cookie-container hide">
-  <p class="cookie-text">
-    We use cookies and similar technologies that are necessary to operate the website. Additional cookies are used to perform analysis of website usage. By continuing to use our website, consent to our use of cookies. For more information, please read our <a href="https://jagoberkarir.com/about/kebijakan-privasi/"> Privacy Policy.</a>
-  </p>
-  <div class="agree">
-  <button>Sounds good!</button>
-    </div>
-</div>
-<script>
-  const cookieContainer = document.querySelector(".cookie-container");
-  const agreeBtn = document.querySelector(".agree button");
 
-  setTimeout(() => {
-    cookieContainer.classList.remove("hide");
-  }, 1000);
-
-  agreeBtn.addEventListener("click", () => {
-    cookieContainer.classList.add("hide");
-  });
-
-</script> -->
 <script>
   window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
