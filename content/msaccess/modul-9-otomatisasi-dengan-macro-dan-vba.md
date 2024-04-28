@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2024-04-24T12:58:38+07:00
 title: "Modul 9 Otomatisasi Dengan Macro Dan Vba"
 slug: modul-9-otomatisasi-dengan-macro-dan-vba

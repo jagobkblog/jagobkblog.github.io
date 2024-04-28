@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2024-04-24T12:57:29+07:00
 title: "Modul 8 Pemodelan Data Dengan Relationships"
 slug: modul-8-pemodelan-data-dengan-relationships

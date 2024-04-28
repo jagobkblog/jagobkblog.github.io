@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2024-04-24T12:56:17+07:00
 title: "Modul 6 Impor Dan Ekspor Data"
 slug: modul-6-impor-dan-ekspor-data

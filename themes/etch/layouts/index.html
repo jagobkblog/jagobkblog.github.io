@@ -9,11 +9,13 @@
   <title>home | Jagoberkarir</title>
   <link rel="manifest" href="/manifest.json">
   <meta itemprop="name" content="Jagoberkarir">
-  <meta itemprop="description" content="Jagoberkarir.com adalah platform yang memungkinkan Anda untuk meningkatkan peluang karir terbaik sesuai dengan minat dan keterampilan Anda">
+  <meta itemprop="description"
+    content="Jagoberkarir.com adalah platform yang memungkinkan Anda untuk meningkatkan peluang karir terbaik sesuai dengan minat dan keterampilan Anda">
   <meta itemprop="keywords" content="prediksi soal cpns,SKB,CPNS,PPPK,TWK,TIU,TKP," />
   <meta property="og:image" content="https://jagoberkarir.com/logo/LOGO Web 220 x 60-01 animate.svg" />
   <meta property="og:url" content="https://jagoberkarir.com" />
-  <meta property="og:description" content="Jagoberkarir.com adalah platform yang memungkinkan Anda untuk meningkatkan peluang karir terbaik sesuai dengan minat dan keterampilan Anda" />
+  <meta property="og:description"
+    content="Jagoberkarir.com adalah platform yang memungkinkan Anda untuk meningkatkan peluang karir terbaik sesuai dengan minat dan keterampilan Anda" />
   <link rel="icon" type="image/x-icon" href="/logo/LOGO Favicon 48 x 48-01.ico">
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -23,7 +25,14 @@
   <link rel="stylesheet" type="text/css" href="/css/home.css">
   {{ partial "gtag.html" . }}
 </head>
-
+<!-- <style>
+  .btn-hover:hover {
+    background-color: #D32F2F; /* Warna baru untuk hover state */
+  }
+  .btn-hover {
+    background-color: #F44336; /* Warna baru untuk hover state */
+  }
+</style> -->
 <body>
   <!-- Start Nav -->
   {{ partial "navlink.html" . }}
@@ -32,20 +41,32 @@
 
 
 
-  <div class="homebanner" id="home">
+  <!-- <div class="homebanner" id="home" style="background-color: #FF8C42; padding: 50px 0;"> -->
+  <div class="homebanner" id="home" style=" padding: 50px 0;">
     <div class="container">
-      <div class="rowitem">
-        <div class="colitem text-light">
-          <h1 class="judulutama">Jago Berkarir</h1>
-          <p>Kuasai Masa Depan Karirmu: Ayo, bergabunglah bersama kami untuk mengasah kemampuanmu demi mencapai karir
+      <div class="row align-items-center">
+        <div class="col-md-8 text-white">
+          <!-- <h1 class="display-4 fw-bold" style="color: #333333;">Jago Berkarir</h1> -->
+          <h1 class="display-4 fw-bold">Jago Berkarir</h1>
+          <!-- <p class="lead " style="color: #333333;"> -->
+          <p class="lead ">
+            Kuasai Masa Depan Karirmu: Ayo, bergabunglah bersama kami untuk mengasah kemampuanmu demi mencapai karir
             impian! Dengan tulisan-tulisan dan bimbingan dari ekspertis kami, Anda akan menjelajahi berbagai tes
             kompetensi dasar seperti CPNS, PCPM, dan BUMN, sambil memperoleh strategi cerdas untuk memoles kemampuan
-            Anda.
-            Dapatkan insight terbaik untuk memastikan Anda tampil memukau di hadapan setiap HRD.</p>
-            <a href="//www.dmca.com/Protection/Status.aspx?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-2x1-04.png?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-          <a href="/categories/bank-soal/" class="btn btn-light btn-rounded">Latihan Gratis</a>
+            Anda. Dapatkan insight terbaik untuk memastikan Anda tampil memukau di hadapan setiap HRD.
+          </p>
+          <!-- DMCA Badge -->
+          <a href="//www.dmca.com/Protection/Status.aspx?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf"
+            title="DMCA.com Protection Status" class="dmca-badge me-3 text-decoration-none">
+            <img src="https://images.dmca.com/Badges/dmca-badge-w100-2x1-04.png?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf"
+              alt="DMCA.com Protection Status" />
+          </a>
+          <!-- DMCA Badge Script -->
+          <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+          <!-- Latihan Gratis Button -->
+          <a href="/categories/bank-soal/" class="btn btn-outline-light btn-lg btn-hover">Latihan Gratis</a>
         </div>
-        <div class="colitem hidemobile">
+        <div class="col-md-4 d-none d-md-block">
           <img src="/logo/image.svg" class="img-fluid" alt="Image">
         </div>
       </div>
@@ -54,6 +75,7 @@
 
   <!--Waves Container-->
   <!-- CSS Waves from goodkatz (https://codepen.io/goodkatz/pen/LYPGxQz) -->
+  <!-- <div class="oren" style="background-color: #FF8C42;"> -->
   <div class="oren">
     <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -175,7 +197,7 @@
     <!-- end tip dan saran karir -->
 
     <!-- Start testimoni -->
-    
+
     <div id="testidiv" class="rowitem jarakatas50px hidedesktop hidemobile">
       <hr>
       <div class="colitem textoren">
@@ -419,7 +441,7 @@
       var sitemaplen = json.length;
       if (sitemaplen == 0) {
         $("#banksoaldiv").hide()
-      }else{
+      } else {
         var index = random(sitemaplen)
         $("#banksoalT1").html(json[index].title);
         $("#banksoalD1").html(truncate(json[index].desc));
@@ -438,7 +460,7 @@
       var sitemaplen = json.length;
       if (sitemaplen == 0) {
         $("#artikeldiv").hide()
-      }else{
+      } else {
         var index = random(sitemaplen)
         $("#tipsandtrikT1").html(json[index].title);
         $("#tipsandtrikD1").html(truncate(json[index].desc));
@@ -490,9 +512,6 @@
         }
       });
     }
-
-
-
   </script>
 </body>
 

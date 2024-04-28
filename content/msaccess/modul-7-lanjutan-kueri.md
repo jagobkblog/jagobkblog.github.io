@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2024-04-24T12:57:05+07:00
 title: "Modul 7 Lanjutan Kueri"
 slug: modul-7-lanjutan-kueri

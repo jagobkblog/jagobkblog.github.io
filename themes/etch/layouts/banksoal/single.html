@@ -37,8 +37,8 @@
     <div class="container">
       <div class="rowitem">
         <div class="colitem text-light">
-          <h1 class="judulutama">{{ .Title }}</h1>
-          <div>
+          <h1 class="display-4 fw-bold">{{ .Title }}</h1>
+          <div class="lead ">
             {{- if isset .Params "date" -}}
                 {{ if eq .Lastmod .Date }}
                 <time>{{ .Date.Format "2 January 2006" }}</time>
