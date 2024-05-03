@@ -6,10 +6,60 @@
     <description>Recent content in MsAccess on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Apr 2024 11:38:31 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2024 11:42:00 +0700</lastBuildDate>
     
   <atom:link href="/categories/msaccess/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Modul 1 Pengenalan R</title>
+      <link>/basicrstudio/modul-1-pengenalan-r/</link>
+      <pubDate>Fri, 03 May 2024 11:42:00 +0700</pubDate>
+      
+      <guid>/basicrstudio/modul-1-pengenalan-r/</guid>
+      <description>Dalam Modul 3 dari seri MS Access untuk Pemula, pelajari cara esensial dalam membuat kueri yang efektif menggunakan SQL dan Query Design. Modul ini mengajarkan Anda cara menyaring dan memproses data untuk memenuhi kebutuhan spesifik, meningkatkan kemampuan Anda untuk mengelola dan menganalisis informasi database dengan presisi.</description>
+      <image>https://jagoberkarir.com/images/MsAccess-Modul3.jpg</image>
+    </item>
+    
+    <item>
+      <title>Modul 9 Otomatisasi Dengan Macro Dan Vba</title>
+      <link>/msaccess/modul-9-otomatisasi-dengan-macro-dan-vba/</link>
+      <pubDate>Wed, 24 Apr 2024 12:58:38 +0700</pubDate>
+      
+      <guid>/msaccess/modul-9-otomatisasi-dengan-macro-dan-vba/</guid>
+      <description>Modul 9 membuka dunia otomatisasi dalam MS Access melalui penggunaan Macro dan VBA (Visual Basic for Applications). Dari pengenalan dasar hingga penerapan yang lebih kompleks, pelajari cara mengautomasi tugas rutin dan memprogram logika kustom untuk meningkatkan fungsi dan efisiensi aplikasi database Anda.</description>
+      <image>https://jagoberkarir.com/images/MsAccess-Modul9.jpg</image>
+    </item>
+    
+    <item>
+      <title>Modul 8 Pemodelan Data Dengan Relationships</title>
+      <link>/msaccess/modul-8-pemodelan-data-dengan-relationships/</link>
+      <pubDate>Wed, 24 Apr 2024 12:57:29 +0700</pubDate>
+      
+      <guid>/msaccess/modul-8-pemodelan-data-dengan-relationships/</guid>
+      <description>Modul 8 mendalami pemodelan data dengan menggunakan relationships dalam MS Access. Anda akan belajar cara membuat dan mengelola relationships antar tabel, termasuk one-to-one, one-to-many, dan many-to-many, serta menggunakan lookup fields dan mengatur referential integrity. Tingkatkan struktur dan efisiensi database Anda dengan penerapan relationships yang tepat.</description>
+      <image>https://jagoberkarir.com/images/MsAccess-Modul8.jpg</image>
+    </item>
+    
+    <item>
+      <title>Modul 7 Lanjutan Kueri</title>
+      <link>/msaccess/modul-7-lanjutan-kueri/</link>
+      <pubDate>Wed, 24 Apr 2024 12:57:05 +0700</pubDate>
+      
+      <guid>/msaccess/modul-7-lanjutan-kueri/</guid>
+      <description>Di Modul 7, pelajari teknik-teknik lanjutan dalam pembuatan kueri di MS Access, termasuk kueri update untuk mengubah data secara massal, kueri delete untuk menghapus data berdasarkan kriteria, dan kueri make-table serta append untuk manipulasi data yang efisien. Tingkatkan kemampuan Anda untuk mengelola dan memodifikasi data dengan kueri yang kuat dan dinamis.</description>
+      <image>https://jagoberkarir.com/images/MsAccess-Modul7.jpg</image>
+    </item>
+    
+    <item>
+      <title>Modul 6 Impor Dan Ekspor Data</title>
+      <link>/msaccess/modul-6-impor-dan-ekspor-data/</link>
+      <pubDate>Wed, 24 Apr 2024 12:56:17 +0700</pubDate>
+      
+      <guid>/msaccess/modul-6-impor-dan-ekspor-data/</guid>
+      <description>Modul 6 mengajarkan teknik-teknik penting untuk mengimpor dan mengekspor data antara MS Access dan berbagai sumber data seperti Excel, CSV, dan database lain. Pelajari cara melakukan linking table dari database eksternal untuk mempermudah integrasi dan akses data dalam praktik nyata, memastikan bahwa informasi Anda selalu up-to-date dan mudah diakses.</description>
+      <image>https://jagoberkarir.com/images/MsAccess-Modul6.jpg</image>
+    </item>
     
     <item>
       <title>Modul 5 Laporan</title>

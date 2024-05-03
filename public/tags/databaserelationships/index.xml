@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DatabaseRelationships on Jagoberkarir</title>
+    <link>/tags/databaserelationships/</link>
+    <description>Recent content in DatabaseRelationships on Jagoberkarir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Apr 2024 12:57:29 +0700</lastBuildDate>
+    
+  <atom:link href="/tags/databaserelationships/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modul 8 Pemodelan Data Dengan Relationships</title>
+      <link>/msaccess/modul-8-pemodelan-data-dengan-relationships/</link>
+      <pubDate>Wed, 24 Apr 2024 12:57:29 +0700</pubDate>
+      
+      <guid>/msaccess/modul-8-pemodelan-data-dengan-relationships/</guid>
+      <description>Modul 8 mendalami pemodelan data dengan menggunakan relationships dalam MS Access. Anda akan belajar cara membuat dan mengelola relationships antar tabel, termasuk one-to-one, one-to-many, dan many-to-many, serta menggunakan lookup fields dan mengatur referential integrity. Tingkatkan struktur dan efisiensi database Anda dengan penerapan relationships yang tepat.</description>
+      <image>https://jagoberkarir.com/images/MsAccess-Modul8.jpg</image>
+    </item>
+    
+  </channel>
+</rss>
