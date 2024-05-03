@@ -1,31 +1,31 @@
 ---
 draft: false
-date: 2024-05-03T11:42:00+07:00
+date: 2024-05-03T12:42:05+07:00
 title: "Modul 1 Pengenalan R"
 slug: modul-1-pengenalan-r
 
 tags:
-    - MSAccessQueries
-    - SQLBasics
-    - QueryDesign
-    - DataFilteringMSAccess
-    - LearnMSAccess
+    - IntroToR
+    - RInstallation
+    - LearnR
+    - RStudioTips
+    - CodingInR
 
 categories:
-    - MsAccess
+    - BasicRStudio
 
 authorname: "Riofebri Prasetia"
 authorlink: "https://rii92-portofolio.web.app/"
 authorphoto: "https://media.licdn.com/dms/image/D5603AQHsWRz4U7IKzA/profile-displayphoto-shrink_200_200/0/1690182368248?e=1718841600&v=beta&t=UrTxqBd5G0GRg7UsKkoxTP99WK_An-NJpp4Nu2RXlO8"
 
-image: https://jagoberkarir.com/images/MsAccess-Modul3.jpg
-thumbnail: https://jagoberkarir.com/images/MsAccess-Modul3.jpg
+image: https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-1.jpg
+thumbnail: https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-1.jpg
 width: 1024
 height: 576
-description: "Dalam Modul 3 dari seri MS Access untuk Pemula, pelajari cara esensial dalam membuat kueri yang efektif menggunakan SQL dan Query Design. Modul ini mengajarkan Anda cara menyaring dan memproses data untuk memenuhi kebutuhan spesifik, meningkatkan kemampuan Anda untuk mengelola dan menganalisis informasi database dengan presisi."
+description: "Pelajari cara menginstal R dan RStudio, dasar-dasar sintaks R, jenis-jenis data, operator, variabel, serta cara menggunakan RStudio sebagai lingkungan pengembangan utama Anda."
 ---
-
 # **Modul 1: Pengenalan ke R**
+{{< toc >}}
 
 ## **Instalasi dan Setup**
 
