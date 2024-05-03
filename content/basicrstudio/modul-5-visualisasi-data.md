@@ -5,22 +5,22 @@ title: "Modul 5 Visualisasi Data"
 slug: modul-5-visualisasi-data
 
 tags:
-    - Bank Soal
-    - SKB
+    - DataManagementR
+    - ImportExportR
+    - DataManipulation
+    - DplyrTutorial
+    - TidyData
 
 categories:
-    - Bank Soal
-    - Blog
+    - BasicRStudio
 
-authorname: "krisna prihadiyanto"
-authorlink: "https://koleksiprihadi.github.io/"
-authorphoto: "https://koleksiprihadi.github.io/images/koleksiprihadi.jpeg"
+authorname: "Riofebri Prasetia"
+authorlink: "https://rii92-portofolio.web.app/"
+authorphoto: "https://media.licdn.com/dms/image/D5603AQHsWRz4U7IKzA/profile-displayphoto-shrink_200_200/0/1690182368248?e=1718841600&v=beta&t=UrTxqBd5G0GRg7UsKkoxTP99WK_An-NJpp4Nu2RXlO8"
 
-image: https://jagoberkarir.com/images/Tryout online skb.png
-thumbnail: https://jagoberkarir.com/images/Tryout online skb.png
+image: https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-3.jpg
+thumbnail: https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-3.jpg
 width: 1024
 height: 576
-description: "test"
-waktu: 60
-soal:
+description: "Pelajari teknik import dan export data dari dan ke berbagai format file seperti CSV dan Excel, serta cara menggunakan paket dplyr dan tidyr untuk manipulasi dan persiapan data yang efisien."
 ---

@@ -23,6 +23,40 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" type="text/css" href="/css/home.css">
+  <style>
+    .card {
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      /* Transisi halus untuk transform dan bayangan */
+      cursor: pointer;
+      /* Menunjukkan bahwa card bisa diklik */
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      /* Sedikit membesar saat hover */
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      /* Menambah bayangan saat hover */
+    }
+
+    .oren {
+      background-color: #FF6700;
+      /* Warna oranye cerah sebagai warna dasar tombol */
+      border: none;
+      /* Menghilangkan border */
+      transition: background-color 0.3s ease;
+      /* Transisi warna saat hover */
+    }
+
+    .oren:hover {
+      background-color: #E65A00;
+      /* Warna saat hover menjadi sedikit lebih gelap */
+    }
+
+    .btn i {
+      margin-right: 5px;
+      /* Menambahkan jarak antara ikon dan teks */
+    }
+  </style>
   {{ partial "gtag.html" . }}
 </head>
 <!-- <style>
@@ -33,6 +67,7 @@
     background-color: #F44336; /* Warna baru untuk hover state */
   }
 </style> -->
+
 <body>
   <!-- Start Nav -->
   {{ partial "navlink.html" . }}
@@ -97,7 +132,7 @@
     <div id="banksoaldiv" class="rowitem jarakatas50px">
       <div class="colitem textoren">
         <h1>Bank Soal SKD</h1>
-        <p>Dapatkan kumpulan soal latihan dan kuis cepat untuk siapa saja yang ingin bersiap melamar kerja.</p>
+        <p>Persiapkan diri Anda dengan akses eksklusif ke koleksi soal latihan dan simulasi kuis yang dirancang untuk memperkuat kesiapan Anda dalam melamar pekerjaan.</p>
         <a href="/categories/bank-soal/" class="btn oren text-light btn-rounded">Mulai Latihan</a>
       </div>
       <div class="colitem" id="banksoal">
@@ -112,9 +147,7 @@
                 <p class="card-text" id="banksoalD1">Some quick example text to build on the card title and make up the
                   bulk of the
                   card's content.</p>
-                <a href="#" id="banksoalL1" class="btn text-light oren"><i class="bi bi-pencil"></i> <i
-                    class="bi bi-alarm"></i>
-                  Mulai</a>
+                <a href="#" id="banksoalL1" class="btn text-light oren"><i class="bi bi-play-fill"></i> Mulai</a>
               </div>
             </div>
           </div>
@@ -128,9 +161,7 @@
                 <p class="card-text" id="banksoalD2">Some quick example text to build on the card title and make up the
                   bulk of the
                   card's content.</p>
-                <a href="#" id="banksoalL2" class="btn text-light oren"><i class="bi bi-pencil"></i> <i
-                    class="bi bi-alarm"></i>
-                  Mulai</a>
+                <a href="#" id="banksoalL2" class="btn text-light oren"><i class="bi bi-play-fill"></i> Mulai</a>
               </div>
             </div>
           </div>
@@ -143,9 +174,9 @@
     <hr>
     <div id="artikeldiv" class="rowitem jarakatas50px">
       <div class="colitem textoren">
-        <h1>Tip dan Saran Karir</h1>
-        <p>Jelajahi artikel-artikel bermanfaat tentang bimbingan karir dan kuasai wawancara Anda.</p>
-        <a href="/categories/blog/" class="btn oren text-light btn-rounded">Baca Lebih Lanjut</a>
+        <h1>Karir Insight</h1>
+        <p>Temukan tips karir berharga dan panduan mendalam untuk menguasai setiap tahapan wawancara dan memaksimalkan potensi karir Anda.</p>
+        <a href="/categories/blog/" class="btn oren text-light btn-rounded">Jelajahi Tips</a>
       </div>
       <div class="colitem jarakcard">
         <!-- start article card -->
