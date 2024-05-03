@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CodingInR on Jagoberkarir</title>
+    <link>/tags/codinginr/</link>
+    <description>Recent content in CodingInR on Jagoberkarir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2024 12:42:05 +0700</lastBuildDate>
+    
+  <atom:link href="/tags/codinginr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modul 1 Pengenalan R</title>
+      <link>/basicrstudio/modul-1-pengenalan-r/</link>
+      <pubDate>Fri, 03 May 2024 12:42:05 +0700</pubDate>
+      
+      <guid>/basicrstudio/modul-1-pengenalan-r/</guid>
+      <description>Pelajari cara menginstal R dan RStudio, dasar-dasar sintaks R, jenis-jenis data, operator, variabel, serta cara menggunakan RStudio sebagai lingkungan pengembangan utama Anda.</description>
+      <image>https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-1.jpg</image>
+    </item>
+    
+  </channel>
+</rss>

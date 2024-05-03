@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/categories/basicrstudio/</loc>
+    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
+  </url><url>
     <loc>/basicrstudio/</loc>
-    <lastmod>2024-05-03T11:42:00+07:00</lastmod>
+    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-05-03T11:42:00+07:00</lastmod>
+    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
-    <loc>/tags/datafilteringmsaccess/</loc>
-    <lastmod>2024-05-03T11:42:00+07:00</lastmod>
+    <loc>/tags/codinginr/</loc>
+    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
+  </url><url>
+    <loc>/tags/introtor/</loc>
+    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2024-05-03T11:42:00+07:00</lastmod>
+    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
-    <loc>/tags/learnmsaccess/</loc>
-    <lastmod>2024-05-03T11:42:00+07:00</lastmod>
+    <loc>/tags/learnr/</loc>
+    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
     <loc>/basicrstudio/modul-1-pengenalan-r/</loc>
-    <lastmod>2024-05-03T11:42:00+07:00</lastmod>
+    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
-    <loc>/categories/msaccess/</loc>
-    <lastmod>2024-05-03T11:42:00+07:00</lastmod>
+    <loc>/tags/rinstallation/</loc>
+    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
-    <loc>/tags/msaccessqueries/</loc>
-    <lastmod>2024-05-03T11:42:00+07:00</lastmod>
-  </url><url>
-    <loc>/tags/querydesign/</loc>
-    <lastmod>2024-05-03T11:42:00+07:00</lastmod>
-  </url><url>
-    <loc>/tags/sqlbasics/</loc>
-    <lastmod>2024-05-03T11:42:00+07:00</lastmod>
+    <loc>/tags/rstudiotips/</loc>
+    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2024-05-03T11:42:00+07:00</lastmod>
+    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
     <loc>/tags/automatetasks/</loc>
     <lastmod>2024-04-24T12:58:38+07:00</lastmod>
@@ -45,6 +45,9 @@
     <lastmod>2024-04-24T12:58:38+07:00</lastmod>
   </url><url>
     <loc>/msaccess/modul-9-otomatisasi-dengan-macro-dan-vba/</loc>
+    <lastmod>2024-04-24T12:58:38+07:00</lastmod>
+  </url><url>
+    <loc>/categories/msaccess/</loc>
     <lastmod>2024-04-24T12:58:38+07:00</lastmod>
   </url><url>
     <loc>/tags/msaccess/</loc>
@@ -158,6 +161,9 @@
     <loc>/tags/databaseoptimization/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
+    <loc>/tags/datafilteringmsaccess/</loc>
+    <lastmod>2024-04-17T14:43:13+07:00</lastmod>
+  </url><url>
     <loc>/tags/datahandling/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
@@ -170,6 +176,9 @@
     <loc>/tags/ittraining/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
+    <loc>/tags/learnmsaccess/</loc>
+    <lastmod>2024-04-17T14:43:13+07:00</lastmod>
+  </url><url>
     <loc>/tags/microsoftoffice/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
@@ -179,10 +188,19 @@
     <loc>/msaccess/modul-3-kueri-dasar/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
+    <loc>/tags/msaccessqueries/</loc>
+    <lastmod>2024-04-17T14:43:13+07:00</lastmod>
+  </url><url>
     <loc>/tags/primarykeys/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
     <loc>/tags/professionaldevelopment/</loc>
+    <lastmod>2024-04-17T14:43:13+07:00</lastmod>
+  </url><url>
+    <loc>/tags/querydesign/</loc>
+    <lastmod>2024-04-17T14:43:13+07:00</lastmod>
+  </url><url>
+    <loc>/tags/sqlbasics/</loc>
     <lastmod>2024-04-17T14:43:13+07:00</lastmod>
   </url><url>
     <loc>/tags/tablesanddata/</loc>

@@ -6,57 +6,57 @@
     <description>Recent content in Tags on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 May 2024 11:42:00 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2024 12:42:05 +0700</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>DataFilteringMSAccess</title>
-      <link>/tags/datafilteringmsaccess/</link>
-      <pubDate>Fri, 03 May 2024 11:42:00 +0700</pubDate>
+      <title>CodingInR</title>
+      <link>/tags/codinginr/</link>
+      <pubDate>Fri, 03 May 2024 12:42:05 +0700</pubDate>
       
-      <guid>/tags/datafilteringmsaccess/</guid>
+      <guid>/tags/codinginr/</guid>
       <description></description>
       <image></image>
     </item>
     
     <item>
-      <title>LearnMSAccess</title>
-      <link>/tags/learnmsaccess/</link>
-      <pubDate>Fri, 03 May 2024 11:42:00 +0700</pubDate>
+      <title>IntroToR</title>
+      <link>/tags/introtor/</link>
+      <pubDate>Fri, 03 May 2024 12:42:05 +0700</pubDate>
       
-      <guid>/tags/learnmsaccess/</guid>
+      <guid>/tags/introtor/</guid>
       <description></description>
       <image></image>
     </item>
     
     <item>
-      <title>MSAccessQueries</title>
-      <link>/tags/msaccessqueries/</link>
-      <pubDate>Fri, 03 May 2024 11:42:00 +0700</pubDate>
+      <title>LearnR</title>
+      <link>/tags/learnr/</link>
+      <pubDate>Fri, 03 May 2024 12:42:05 +0700</pubDate>
       
-      <guid>/tags/msaccessqueries/</guid>
+      <guid>/tags/learnr/</guid>
       <description></description>
       <image></image>
     </item>
     
     <item>
-      <title>QueryDesign</title>
-      <link>/tags/querydesign/</link>
-      <pubDate>Fri, 03 May 2024 11:42:00 +0700</pubDate>
+      <title>RInstallation</title>
+      <link>/tags/rinstallation/</link>
+      <pubDate>Fri, 03 May 2024 12:42:05 +0700</pubDate>
       
-      <guid>/tags/querydesign/</guid>
+      <guid>/tags/rinstallation/</guid>
       <description></description>
       <image></image>
     </item>
     
     <item>
-      <title>SQLBasics</title>
-      <link>/tags/sqlbasics/</link>
-      <pubDate>Fri, 03 May 2024 11:42:00 +0700</pubDate>
+      <title>RStudioTips</title>
+      <link>/tags/rstudiotips/</link>
+      <pubDate>Fri, 03 May 2024 12:42:05 +0700</pubDate>
       
-      <guid>/tags/sqlbasics/</guid>
+      <guid>/tags/rstudiotips/</guid>
       <description></description>
       <image></image>
     </item>
@@ -402,6 +402,16 @@
     </item>
     
     <item>
+      <title>DataFilteringMSAccess</title>
+      <link>/tags/datafilteringmsaccess/</link>
+      <pubDate>Wed, 17 Apr 2024 14:43:13 +0700</pubDate>
+      
+      <guid>/tags/datafilteringmsaccess/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
       <title>DataHandling</title>
       <link>/tags/datahandling/</link>
       <pubDate>Wed, 17 Apr 2024 14:43:13 +0700</pubDate>
@@ -442,11 +452,31 @@
     </item>
     
     <item>
+      <title>LearnMSAccess</title>
+      <link>/tags/learnmsaccess/</link>
+      <pubDate>Wed, 17 Apr 2024 14:43:13 +0700</pubDate>
+      
+      <guid>/tags/learnmsaccess/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
       <title>MicrosoftOffice</title>
       <link>/tags/microsoftoffice/</link>
       <pubDate>Wed, 17 Apr 2024 14:43:13 +0700</pubDate>
       
       <guid>/tags/microsoftoffice/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>MSAccessQueries</title>
+      <link>/tags/msaccessqueries/</link>
+      <pubDate>Wed, 17 Apr 2024 14:43:13 +0700</pubDate>
+      
+      <guid>/tags/msaccessqueries/</guid>
       <description></description>
       <image></image>
     </item>
@@ -467,6 +497,26 @@
       <pubDate>Wed, 17 Apr 2024 14:43:13 +0700</pubDate>
       
       <guid>/tags/professionaldevelopment/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>QueryDesign</title>
+      <link>/tags/querydesign/</link>
+      <pubDate>Wed, 17 Apr 2024 14:43:13 +0700</pubDate>
+      
+      <guid>/tags/querydesign/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>SQLBasics</title>
+      <link>/tags/sqlbasics/</link>
+      <pubDate>Wed, 17 Apr 2024 14:43:13 +0700</pubDate>
+      
+      <guid>/tags/sqlbasics/</guid>
       <description></description>
       <image></image>
     </item>

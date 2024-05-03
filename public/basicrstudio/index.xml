@@ -6,7 +6,7 @@
     <description>Recent content in Basicrstudios on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 May 2024 11:42:00 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2024 12:42:05 +0700</lastBuildDate>
     
   <atom:link href="/basicrstudio/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,11 +14,11 @@
     <item>
       <title>Modul 1 Pengenalan R</title>
       <link>/basicrstudio/modul-1-pengenalan-r/</link>
-      <pubDate>Fri, 03 May 2024 11:42:00 +0700</pubDate>
+      <pubDate>Fri, 03 May 2024 12:42:05 +0700</pubDate>
       
       <guid>/basicrstudio/modul-1-pengenalan-r/</guid>
-      <description>Dalam Modul 3 dari seri MS Access untuk Pemula, pelajari cara esensial dalam membuat kueri yang efektif menggunakan SQL dan Query Design. Modul ini mengajarkan Anda cara menyaring dan memproses data untuk memenuhi kebutuhan spesifik, meningkatkan kemampuan Anda untuk mengelola dan menganalisis informasi database dengan presisi.</description>
-      <image>https://jagoberkarir.com/images/MsAccess-Modul3.jpg</image>
+      <description>Pelajari cara menginstal R dan RStudio, dasar-dasar sintaks R, jenis-jenis data, operator, variabel, serta cara menggunakan RStudio sebagai lingkungan pengembangan utama Anda.</description>
+      <image>https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-1.jpg</image>
     </item>
     
   </channel>
