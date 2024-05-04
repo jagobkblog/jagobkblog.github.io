@@ -15,8 +15,8 @@ authorname: "Rio Febri"
 authorlink: "https://rii92-portofolio.web.app/"
 authorphoto: "https://avatars.githubusercontent.com/u/85161948?v=4"
 
-image: /images/Strategi Sukses Menghadapi Seleksi Cpns-01.jpg
-thumbnail: /images/Strategi Sukses Menghadapi Seleksi Cpns-01.jpg
+image: /images/Strategi Sukses Menghadapi Seleksi Cpns-01.png
+thumbnail: /images/Strategi Sukses Menghadapi Seleksi Cpns-01.png
 width: 1024
 height: 576
 description: "proses seleksi CPNS dilakukan dalam beberapa tahapan. Pertama adalah pendaftaran online, di mana calon peserta mendaftar melalui portal resmi yang disediakan oleh pemerintah. berikut strategi sukses menghadapi sleksi cpns"

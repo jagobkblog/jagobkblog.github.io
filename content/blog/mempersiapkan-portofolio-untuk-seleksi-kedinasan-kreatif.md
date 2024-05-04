@@ -18,8 +18,8 @@ authorname: "Rio Febri"
 authorlink: "https://rii92-portofolio.web.app/"
 authorphoto: "https://avatars.githubusercontent.com/u/85161948?v=4"
 
-image: /images/Mempersiapkan Portofolio Untuk Seleksi Kedinasan-01.jpg
-thumbnail: /images/Mempersiapkan Portofolio Untuk Seleksi Kedinasan-01.jpg
+image: /images/Mempersiapkan Portofolio Untuk Seleksi Kedinasan-01.png
+thumbnail: /images/Mempersiapkan Portofolio Untuk Seleksi Kedinasan-01.png
 width: 1024
 height: 576
 description: "Mempersiapkan portofolio yang memenuhi persyaratan seleksi kedinasan kreatif merupakan langkah awal yang fundamental bagi setiap pelamar"

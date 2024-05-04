@@ -15,8 +15,8 @@ authorname: "Rio Febri"
 authorlink: "https://rii92-portofolio.web.app/"
 authorphoto: "https://avatars.githubusercontent.com/u/85161948?v=4"
 
-image: /images/Analisis Tren Soal Tes Kedinasan-01.jpg
-thumbnail: /images/Analisis Tren Soal Tes Kedinasan-01.jpg
+image: /images/Analisis Tren Soal Tes Kedinasan-01.png
+thumbnail: /images/Analisis Tren Soal Tes Kedinasan-01.png
 width: 1024
 height: 576
 description: "Mempelajari tren soal tes kedinasan untuk membantu mempersiapkan dengan matang sebelum tes kedinasan"
