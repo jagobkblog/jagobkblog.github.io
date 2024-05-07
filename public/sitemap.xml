@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/bank-soal/</loc>
+    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
+  </url><url>
+    <loc>/categories/blog/</loc>
+    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
+  </url><url>
+    <loc>/blog/</loc>
+    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
+  </url><url>
+    <loc>/blog/pentingnya-keterampilan-soft-skill-dalam-karier-profesional/</loc>
+    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
+  </url><url>
+    <loc>/tags/skb/</loc>
+    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
+  </url><url>
     <loc>/categories/basicrstudio/</loc>
     <lastmod>2024-05-03T15:49:36+07:00</lastmod>
   </url><url>
     <loc>/basicrstudio/</loc>
-    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
     <lastmod>2024-05-03T15:49:36+07:00</lastmod>
   </url><url>
     <loc>/tags/datamanagementr/</loc>
@@ -23,13 +44,7 @@
     <loc>/tags/importexportr/</loc>
     <lastmod>2024-05-03T15:49:36+07:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
-  </url><url>
     <loc>/basicrstudio/modul-3-pengolahan-data/</loc>
-    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-05-03T15:49:36+07:00</lastmod>
   </url><url>
     <loc>/tags/tidydata/</loc>
@@ -284,12 +299,6 @@
     <loc>/tags/akun-sscasn/</loc>
     <lastmod>2024-04-12T17:49:31+00:00</lastmod>
   </url><url>
-    <loc>/categories/blog/</loc>
-    <lastmod>2024-04-12T17:49:31+00:00</lastmod>
-  </url><url>
-    <loc>/blog/</loc>
-    <lastmod>2024-04-12T17:49:31+00:00</lastmod>
-  </url><url>
     <loc>/tags/cara-buat-akun-cpns/</loc>
     <lastmod>2024-04-12T17:49:31+00:00</lastmod>
   </url><url>
@@ -410,9 +419,6 @@
     <loc>/blog/prediksi-soal-tes-cpns-dan-kunci-jawaban/</loc>
     <lastmod>2024-03-30T19:09:49+07:00</lastmod>
   </url><url>
-    <loc>/tags/skb/</loc>
-    <lastmod>2024-03-30T19:09:49+07:00</lastmod>
-  </url><url>
     <loc>/tags/tkp/</loc>
     <lastmod>2024-03-30T19:09:49+07:00</lastmod>
   </url><url>
@@ -505,9 +511,6 @@
   </url><url>
     <loc>/tags/perbedaan-soal-tes-cpns-dan-pppk/</loc>
     <lastmod>2024-03-16T16:19:29+07:00</lastmod>
-  </url><url>
-    <loc>/tags/bank-soal/</loc>
-    <lastmod>2024-02-25T07:55:37+00:00</lastmod>
   </url><url>
     <loc>/tags/tkd/</loc>
     <lastmod>2024-02-25T07:55:37+00:00</lastmod>
