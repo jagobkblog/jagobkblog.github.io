@@ -6,10 +6,110 @@
     <description>Recent content in Tags on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 May 2024 12:42:05 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2024 15:49:36 +0700</lastBuildDate>
     
   <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DataManagementR</title>
+      <link>/tags/datamanagementr/</link>
+      <pubDate>Fri, 03 May 2024 15:49:36 +0700</pubDate>
+      
+      <guid>/tags/datamanagementr/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>DataManipulation</title>
+      <link>/tags/datamanipulation/</link>
+      <pubDate>Fri, 03 May 2024 15:49:36 +0700</pubDate>
+      
+      <guid>/tags/datamanipulation/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>DplyrTutorial</title>
+      <link>/tags/dplyrtutorial/</link>
+      <pubDate>Fri, 03 May 2024 15:49:36 +0700</pubDate>
+      
+      <guid>/tags/dplyrtutorial/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>ImportExportR</title>
+      <link>/tags/importexportr/</link>
+      <pubDate>Fri, 03 May 2024 15:49:36 +0700</pubDate>
+      
+      <guid>/tags/importexportr/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>TidyData</title>
+      <link>/tags/tidydata/</link>
+      <pubDate>Fri, 03 May 2024 15:49:36 +0700</pubDate>
+      
+      <guid>/tags/tidydata/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>DataFrames</title>
+      <link>/tags/dataframes/</link>
+      <pubDate>Fri, 03 May 2024 15:44:01 +0700</pubDate>
+      
+      <guid>/tags/dataframes/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>ListsInR</title>
+      <link>/tags/listsinr/</link>
+      <pubDate>Fri, 03 May 2024 15:44:01 +0700</pubDate>
+      
+      <guid>/tags/listsinr/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>MatrixOperations</title>
+      <link>/tags/matrixoperations/</link>
+      <pubDate>Fri, 03 May 2024 15:44:01 +0700</pubDate>
+      
+      <guid>/tags/matrixoperations/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>RDataStructures</title>
+      <link>/tags/rdatastructures/</link>
+      <pubDate>Fri, 03 May 2024 15:44:01 +0700</pubDate>
+      
+      <guid>/tags/rdatastructures/</guid>
+      <description></description>
+      <image></image>
+    </item>
+    
+    <item>
+      <title>VectorsInR</title>
+      <link>/tags/vectorsinr/</link>
+      <pubDate>Fri, 03 May 2024 15:44:01 +0700</pubDate>
+      
+      <guid>/tags/vectorsinr/</guid>
+      <description></description>
+      <image></image>
+    </item>
     
     <item>
       <title>CodingInR</title>
@@ -557,16 +657,6 @@
       <pubDate>Sun, 14 Apr 2024 14:12:53 +0700</pubDate>
       
       <guid>/tags/accesstutorial/</guid>
-      <description></description>
-      <image></image>
-    </item>
-    
-    <item>
-      <title>DataManipulation</title>
-      <link>/tags/datamanipulation/</link>
-      <pubDate>Sun, 14 Apr 2024 14:12:53 +0700</pubDate>
-      
-      <guid>/tags/datamanipulation/</guid>
       <description></description>
       <image></image>
     </item>

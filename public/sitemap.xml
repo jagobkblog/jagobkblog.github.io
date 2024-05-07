@@ -3,21 +3,60 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/basicrstudio/</loc>
-    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
+    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
   </url><url>
     <loc>/basicrstudio/</loc>
-    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
+    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
+    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
+  </url><url>
+    <loc>/tags/datamanagementr/</loc>
+    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
+  </url><url>
+    <loc>/tags/datamanipulation/</loc>
+    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
+  </url><url>
+    <loc>/tags/dplyrtutorial/</loc>
+    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
+  </url><url>
+    <loc>/tags/importexportr/</loc>
+    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
+  </url><url>
+    <loc>/basicrstudio/modul-3-pengolahan-data/</loc>
+    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
+  </url><url>
+    <loc>/tags/tidydata/</loc>
+    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
+  </url><url>
+    <loc>/tags/dataframes/</loc>
+    <lastmod>2024-05-03T15:44:01+07:00</lastmod>
+  </url><url>
+    <loc>/tags/listsinr/</loc>
+    <lastmod>2024-05-03T15:44:01+07:00</lastmod>
+  </url><url>
+    <loc>/tags/matrixoperations/</loc>
+    <lastmod>2024-05-03T15:44:01+07:00</lastmod>
+  </url><url>
+    <loc>/basicrstudio/modul-2-struktur-data-dalam-r/</loc>
+    <lastmod>2024-05-03T15:44:01+07:00</lastmod>
+  </url><url>
+    <loc>/tags/rdatastructures/</loc>
+    <lastmod>2024-05-03T15:44:01+07:00</lastmod>
+  </url><url>
+    <loc>/tags/vectorsinr/</loc>
+    <lastmod>2024-05-03T15:44:01+07:00</lastmod>
   </url><url>
     <loc>/tags/codinginr/</loc>
     <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
     <loc>/tags/introtor/</loc>
-    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
     <loc>/tags/learnr/</loc>
@@ -30,9 +69,6 @@
     <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
     <loc>/tags/rstudiotips/</loc>
-    <lastmod>2024-05-03T12:42:05+07:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-05-03T12:42:05+07:00</lastmod>
   </url><url>
     <loc>/tags/automatetasks/</loc>
@@ -213,9 +249,6 @@
     <lastmod>2024-04-14T14:12:53+07:00</lastmod>
   </url><url>
     <loc>/tags/accesstutorial/</loc>
-    <lastmod>2024-04-14T14:12:53+07:00</lastmod>
-  </url><url>
-    <loc>/tags/datamanipulation/</loc>
     <lastmod>2024-04-14T14:12:53+07:00</lastmod>
   </url><url>
     <loc>/tags/dataskills/</loc>

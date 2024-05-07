@@ -1,39 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-adsense-account" content="ca-pub-4844862814263888">
-  <title>Modul 1 Pengenalan R</title>
-  <meta itemprop="name" content="Modul 1 Pengenalan R">
-<meta itemprop="description" content="Pelajari cara menginstal R dan RStudio, dasar-dasar sintaks R, jenis-jenis data, operator, variabel, serta cara menggunakan RStudio sebagai lingkungan pengembangan utama Anda."><meta itemprop="datePublished" content="2024-05-03T12:42:05+07:00" />
-<meta itemprop="dateModified" content="2024-05-03T12:42:05+07:00" />
-<meta itemprop="wordCount" content="358">
-<meta itemprop="keywords" content="IntroToR,RInstallation,LearnR,RStudioTips,CodingInR," />
-  <meta property="og:image" content="https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-1.jpg" />
-  <meta property="og:image:width" content="1024" />
-  <meta property="og:image:height" content="576" />
-  <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:title" content="Modul 1 Pengenalan R" />
-<meta property="og:description" content="Pelajari cara menginstal R dan RStudio, dasar-dasar sintaks R, jenis-jenis data, operator, variabel, serta cara menggunakan RStudio sebagai lingkungan pengembangan utama Anda." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/basicrstudio/modul-1-pengenalan-r/" /><meta property="article:section" content="basicrstudio" />
-<meta property="article:published_time" content="2024-05-03T12:42:05+07:00" />
-<meta property="article:modified_time" content="2024-05-03T12:42:05+07:00" />
-
-
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Modul 1 Pengenalan R"/>
-<meta name="twitter:description" content="Pelajari cara menginstal R dan RStudio, dasar-dasar sintaks R, jenis-jenis data, operator, variabel, serta cara menggunakan RStudio sebagai lingkungan pengembangan utama Anda."/>
-
+  <title>MatrixOperations</title>
   <link rel="icon" type="image/x-icon" href="/logo/LOGO Favicon 48 x 48-01.ico">
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/home.css">
+  <link rel="stylesheet" type="text/css" href="/css/home.css?1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+  <style>
+    .card {
+  background-color: #ffffff;  
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  
+  border: none;  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  
+}
+
+.card:hover {
+  transform: translateY(-5px);  
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);  
+}
+
+.card .card-img-top {
+  width: 100%;
+  height: auto;  
+  transition: transform 0.3s ease;  
+}
+
+.card .card-img-top:hover {
+  transform: scale(1.05);  
+}
+
+.card .btn {
+  background-color: #FF6700;  
+  color: #ffffff;  
+  border: none;  
+  transition: background-color 0.3s ease;  
+}
+
+.card .btn:hover {
+  background-color: #E65A00;  
+}
+
+.custom-btn {
+  background-color: #FF6700;  
+  color: white;  
+  border: none;  
+  padding: 10px 20px;  
+  border-radius: 5px;  
+  transition: all 0.3s ease;  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+}
+
+.custom-btn:hover, .custom-btn:focus {
+  background-color: #E65A00;  
+  color: white;  
+  transform: translateY(-2px);  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  
+}
+
+.custom-btn i {
+  margin-left: 5px;  
+}
+  </style>
   <link rel="manifest" href="/manifest.json">
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHJGBEC8XL"></script>
@@ -178,11 +216,7 @@
     <div class="container">
       <div class="rowitem">
         <div class="colitem text-light">
-          <h1 class="display-4 fw-bold">Modul 1 Pengenalan R</h1>
-          <div class="lead">
-                <time>3 May 2024</time>
-                </div>
-          <p class="deskripsi">Pelajari cara menginstal R dan RStudio, dasar-dasar sintaks R, jenis-jenis data, operator, variabel, serta cara menggunakan RStudio sebagai lingkungan pengembangan utama Anda.</p>
+          <h1 class="display-4 fw-bold">MatrixOperations</h1>
         </div>
         <div class="colitem hidemobile">
           <img src="/logo/artikel-01.svg" class="img-fluid" alt="Image">
@@ -208,349 +242,13 @@
     </svg>
   </div>
   
-  
+
   <div class="container" id="pembahasan">
-    <img class='lazyload mb-3 img-fluid img-thumbnail' src='https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-1.jpg' alt='Modul 1 Pengenalan R' title="Modul 1 Pengenalan R" loading='lazy' style="width:100%;" />
-     
-<ul class="nav nav-underline">
-   <li class="nav-item">
-    <a class="nav-link text-dark" aria-current="page"  href="/tags/introtor/"><i class="bi bi-tags"></i> introtor</a>
-  </li> <li class="nav-item">
-    <a class="nav-link text-dark" aria-current="page"  href="/tags/rinstallation/"><i class="bi bi-tags"></i> rinstallation</a>
-  </li> <li class="nav-item">
-    <a class="nav-link text-dark" aria-current="page"  href="/tags/learnr/"><i class="bi bi-tags"></i> learnr</a>
-  </li> <li class="nav-item">
-    <a class="nav-link text-dark" aria-current="page"  href="/tags/rstudiotips/"><i class="bi bi-tags"></i> rstudiotips</a>
-  </li> <li class="nav-item">
-    <a class="nav-link text-dark" aria-current="page"  href="/tags/codinginr/"><i class="bi bi-tags"></i> codinginr</a>
-  </li><li class="nav-item">
-    <a class="nav-link text-dark disabled" aria-current="page"><i class="bi bi-book"></i> : <span class="result"></span></a>
-  </li>
-  <li class="nav-item" id="jumlahkomentar">
-    <a class="nav-link text-dark" href="#disqus-trigger" aria-current="page"><i class="bi bi-chat-dots"></i> : <span class="disqus-comment-count">0 Comment</span></a>
-  </li>
-</ul>
 
-    
-Share : 
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-    <a class="a2a_button_linkedin"></a>
-    <a class="a2a_button_facebook"></a>
-    <a class="a2a_button_whatsapp"></a>
-    <a class="a2a_button_telegram"></a>
-    </div>
-<script async src="https://static.addtoany.com/menu/page.js"></script>
-
-    
-    <div class="rowitem jarakatas50px">
-      <div class="colartikelL">
-        <a href="//www.dmca.com/Protection/Status.aspx?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-2x1-04.png?ID=fb65a668-f2ca-46bc-8a2c-314cd474eacf"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-        <div class="isiartikel"><h1 id="modul-1-pengenalan-ke-r"><strong>Modul 1: Pengenalan ke R</strong></h1>
-<style>
-   
-  #toc {
-    top: 10px;
-    right: 10px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #f9f9f9;
-    width: 80%;
-  }
-
-  #toc ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  #toc ul li a {
-    text-decoration: none;
-    color: blue;
-    transition: color 0.3s ease-in-out;
-  }
-
-  #toc ul li a:hover {
-    color: red;
-    cursor: pointer;
-  }
-</style>
-<div id="toc">
-  <p><strong>Daftar Isi</strong></p>
-</div>
-<script>
-  $(document).ready(function () {
-    var toc = "<ul>";
-    $("h1, h2").each(function () {
-      var el = $(this),
-        title = el.text(),
-        id = el.attr("id");
-
-      if (!id) {
-        id = title.replace(/\s+/g, '-').toLowerCase();
-        el.attr("id", id);
-      }
-
-      toc += `<li><a href="#${id}" class="${el.prop('tagName')}">${title}</a></li>`;
-    });
-    toc += "</ul>";
-
-    $("#toc").append(toc);
-
-    
-    $("#toc a").on('click', function (e) {
-      e.preventDefault();
-      var target = $(this.hash);
-      $('html, body').animate({
-        scrollTop: target.offset().top
-      }, 1000); 
-    });
-  });
-</script>
-<h2 id="instalasi-dan-setup"><strong>Instalasi dan Setup</strong></h2>
-<p>Memulai dengan R dan RStudio adalah langkah pertama yang esensial untuk siapa saja yang ingin masuk ke dunia pemrograman statistik dan analisis data. Berikut adalah cara untuk menginstal R dan RStudio.</p>
-<h3 id="langkah-instalasi-r"><strong>Langkah Instalasi R</strong></h3>
-<ol>
-<li><strong>Unduh R</strong>: Kunjungi website Comprehensive R Archive Network (CRAN) di CRAN dan pilih versi R yang sesuai dengan sistem operasi Anda (Windows, Mac, atau Linux).</li>
-<li><strong>Instal R</strong>: Jalankan file instalasi yang telah diunduh dan ikuti petunjuk instalasi. Pilih lokasi instalasi dan komponen yang diinginkan, dan biarkan proses instalasi selesai.</li>
-</ol>
-<h3 id="langkah-instalasi-rstudio"><strong>Langkah Instalasi RStudio</strong></h3>
-<ol>
-<li><strong>Unduh RStudio</strong>: Kunjungi website RStudio di RStudio dan unduh versi RStudio Desktop yang gratis.</li>
-<li><strong>Instal RStudio</strong>: Sama seperti menginstal R, jalankan installer RStudio dan ikuti instruksi hingga selesai.</li>
-</ol>
-<p>Setelah R dan RStudio terinstal, buka RStudio untuk mulai menggunakan R.</p>
-<h2 id="dasar-dasar-r"><strong>Dasar-dasar R</strong></h2>
-<p>Memahami dasar-dasar R adalah kunci untuk melakukan pemrograman dan analisis data yang efektif.</p>
-<h3 id="sintaks-dasar-r"><strong>Sintaks Dasar R</strong></h3>
-<p>R menggunakan sintaks yang relatif mudah untuk dipahami. Contoh sederhana perintah R adalah:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#75715e"># Ini adalah komentar</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Hello, world!&#34;</span>)  <span style="color:#75715e"># Mencetak teks ke konsol</span>
-</span></span></code></pre></div><h3 id="tipe-data-di-r"><strong>Tipe Data di R</strong></h3>
-<p>R memiliki beberapa tipe data dasar yang meliputi:</p>
-<ul>
-<li><strong>Numeric</strong>: Angka, seperti 2, 15.5.</li>
-<li><strong>Character</strong>: Teks, seperti &ldquo;data&rdquo;.</li>
-<li><strong>Logical</strong>: TRUE atau FALSE.</li>
-<li><strong>Integer</strong>: Bilangan bulat, seperti 2L (L digunakan untuk menunjukkan integer).</li>
-</ul>
-<h3 id="operator-dan-variabel"><strong>Operator dan Variabel</strong></h3>
-<p>R mendukung operator matematika dan logika standar:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#75715e"># Penugasan variabel</span>
-</span></span><span style="display:flex;"><span>x <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">10</span>  <span style="color:#75715e"># Membuat variabel x dan mengisinya dengan nilai 10</span>
-</span></span><span style="display:flex;"><span>y <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">20</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Operasi matematika</span>
-</span></span><span style="display:flex;"><span>sum <span style="color:#f92672">&lt;-</span> x <span style="color:#f92672">+</span> y
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(sum)  <span style="color:#75715e"># Mencetak 30</span>
-</span></span></code></pre></div><h2 id="lingkungan-pengembangan"><strong>Lingkungan Pengembangan</strong></h2>
-<p>RStudio adalah IDE (Integrated Development Environment) yang paling populer untuk R. Ini menyediakan berbagai alat untuk membantu penggunaan R menjadi lebih efektif.</p>
-<h3 id="menggunakan-rstudio"><strong>Menggunakan RStudio</strong></h3>
-<p>RStudio memiliki beberapa panel utama:</p>
-<ul>
-<li><strong>Console</strong>: Tempat Anda menjalankan skrip R secara langsung.</li>
-<li><strong>Source</strong>: Editor untuk menulis dan menyimpan skrip.</li>
-<li><strong>Environment</strong>: Menampilkan variabel dan fungsi yang ada dalam memori.</li>
-<li><strong>Files/Plots/Packages/Help/Viewer</strong>: Tab untuk mengakses file, melihat plot, mengelola paket, mencari bantuan, dan lainnya.</li>
-</ul>
-<h3 id="skrip-dasar-dan-workspace"><strong>Skrip Dasar dan Workspace</strong></h3>
-<p>Skrip R adalah file teks yang berisi barisan perintah R. Skrip dapat disimpan dengan ekstensi <strong><code>.R</code></strong> dan dijalankan dalam RStudio. Workspace adalah kumpulan objek (variabel, fungsi, data set) yang saat ini aktif di R.</p>
-</div>
-        <div style="margin-top: 10px; margin-bottom: 20px;">
-          <div class="d-flex justify-content-between">
-            <div style="margin-left: 10px;">
-              
-            </div>
-            <div style="margin-right: 10px;">
-              
-                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-secondary" href="/basicrstudio/modul-2-struktur-data-dalam-r/">Modul 2 Struktur Data Dalam R »</a>
-              
-            </div>
-          </div>
-        </div>
-        <script type="text/javascript">
-    var disqus = 'jagoberkarir';
-    var disqus_shortname = 'jagoberkarir';
-    var disqus_identifier = window.location.pathname;
-    var disqus_url = "https://jagoberkarir.com"+window.location.pathname;
-</script>
-<script>
-  $(".disqus-comment-count").attr("data-disqus-url", disqus_url)
-  </script>
-  <script id="dsq-count-scr" src="//jagoberkarir.disqus.com/count.js" async></script>
-<noscript>Please enable JavaScript to view the comments.</noscript>
-<div id="disqus_thread">
-    <div id="disqus-disclaimer" style="margin-top: 10px;">
-        <center>
-            <button id="disqus-trigger" class="btn oren text-light btn-rounded" onclick="load_disqus(disqus_shortname)">
-                Beri Komentar
-              </button>
-        </center>
-    </div>
-  </div>
-
-<script type="text/javascript">
-    function load_disqus( disqus_shortname ) {
-  
-  var disqus_trigger = document.getElementById('disqus-trigger'),
-      disqus_target = document.getElementById('disqus_thread'),
-      disqus_disclaimer = document.getElementById('disqus-disclaimer'),
-      disqus_embed  = document.createElement('script'),
-      disqus_hook   = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
-
-  
-  if( disqus_target && disqus_trigger ) {
-    disqus_embed.type = 'text/javascript';
-    disqus_embed.async = true;
-    disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    disqus_hook.appendChild(disqus_embed);
-    disqus_disclaimer.remove();
-  }
-}
-</script>
-      </div>
-      <div class="colartikelR" style="margin-top: 10px;">
-        
-<div class="sidebar widget">
-          
-  <h3 class="textoren">Postingan Terkait</h3>
-  <ul>
-    
-    
-  </ul>
-</div>
+    <div class="row" id="cardartikel">
 
 
-<div class="sidebar widget" style="margin-top: 50px;">
-    <style>
-  @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-:root {
-  --start-color: #e60d05;
-  --end-color: hsl(9, 97%, 24%);
-  --p-color: #000000;
-  --button-background: #e64505;
-  --input-background: #f8e4e4;
-  --radius-50: 50px;
-  --padding-15: 15px;
-}
-
-.subswrap {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.subswrap .content {
-  background: transparent;
-  padding: 40px;
-  width: 100%;
-  max-width: 500px;
-  min-width: 200px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.subswrap .content header h1 {
-  font-size: 230%;
-  margin-top: 0;
-}
-.subswrap .content section {
-  color: var(--p-color);
-  font-size: 15px;
-}
-.subswrap .content footer {
-  padding: var(--padding-15);
-}
-.subswrap .content footer .input {
-  border: unset;
-  background-color: var(--input-background);
-  padding: var(--padding-15);
-  font-size: 13px;
-  border-radius: var(--radius-50);
-  width: 250px;
-}
-.subswrap .content footer button {
-  background-color: var(--button-background);
-  color: #fff;
-  border: unset;
-  width: 120px;
-  border-radius: var(--radius-50);
-  padding: var(--padding-15);
-  margin-left: 10px;
-  cursor: pointer;
-}
-
-.subswrap .content footer .input:focus, .subswrap .content footer button:focus {
-  outline: none;
-}
-
-@media screen and (max-width: 720px) {
-  .subswrap .content {
-    margin-right: 20px !important;
-    margin-left: 20px !important;
-    padding: var(--padding-15);
-  }
-  .subswrap .content footer .input {
-    width: 200px;
-    margin-bottom: 10px;
-  }
-}
-.checkbox{
-  justify-content: center;
-  align-items: center;
-}
-</style>
-<form action="" id="subscribe" style="margin-top: 10px; margin-bottom: 10px;">
-  <section class="subswrap">
-    <div class="content">
-      <header>
-        <h1>Subscribe Us</h1>
-      </header>
-      <section>
-        <p>
-          Dapatkan update terbaru kami melalui email.
-        </p>
-      </section>
-      
-      <footer>
-        <input type="email" name="email" class="input" placeholder="Enter your email" required>
-        <button type="submit" style="margin-top: 10px;">Let's go</button>
-      </footer>
-      <section>
-        <p>
-          Atau melalui media sosial kami.
-        </p>
-      </section>
-      <footer>
-        <a href="https://www.instagram.com/jagoberkarir" target="_blank" class="btn oren text-light" style="margin-top: 10px; border-radius: 50px;"><i class="bi bi-instagram"></i> jagoberkarir</a>
-      </footer>
-    </div>
-  </section>
-
-  
-  
-</form>
-  
-  <script>
-  
-    $("form#subscribe").submit(function(e){
-      e.preventDefault();
-      var str = $( "form" ).serialize();
-      $("#subscribe").html(`
-            <center><h1 class="textoren"><i class="bi bi-send"></i>Terimakasih</h1>
-            <p>Proses Subscribe Berhasil</p></center>
-            `)
-      var url = "https://script.google.com/macros/s/AKfycbwyUa1rkCXIZ2QU8eMANXzwJAb_c07_qgPkPBkJbLtlyGXnpGudwjvtWI_As3UpHmnD/exec?f=insert&s=subs&"
-      $.get(url+str, function(data, status){
-      });
-      
-  });
-  </script>
-</div>
-
-      </div>
     </div>
   </div>
 
@@ -712,29 +410,66 @@ Share :
 
   <script>
     $(document).ready(function () {
-      var words = $(".isiartikel").text();
-      var estimation = document.querySelector('.result');
-
-      function EstimateReadingTime(str) {
-        
-        function WordCount(str) { 
-          return str.split(" ").length;
-        }
-        
-        if (WordCount(str) <= 300) {
-          return "1 menit membaca";
-        } else {
-          return Math.round((WordCount(str) / 200)) + " menit membaca";
-        }
-      }
-
-      estimation.textContent = EstimateReadingTime(words);
+      
+      
+      
     });
-  </script>  
-  
+    getItemXML('index.xml', setList);
+
+    function setList(json) {
+      for (let i = 0; i < json.length; i++) {
+        var asc = json.length - (i + 1)
+        $("#cardartikel").append(`<div class="col-md-4 mb-4">
+          <div class="card">
+  <img src="${json[asc].image}" class="card-img-top" alt="${json[asc].title}">
+  <div class="card-body">
+    <h5 class="card-title">${json[asc].title}</h5>
+    <p class="card-text">${truncate(json[asc].desc)}</p>
+    <a href="${json[asc].link}" class="btn custom-btn">Lihat <i class="bi bi-chevron-right"></i></a>
+  </div>
+</div>
+          </div>`)
+      }
+    }
+
+
+    function truncate(str, n = 220) {
+      return (str.length > n) ? str.slice(0, n - 1) + '&hellip;' : str;
+    };
+
+    function getItemXML(url, call) {
+      var jsonResult = [];
+      $.ajax({
+        type: 'GET',
+        url: url,
+        dataType: 'xml',
+        success: function (xml) {
+          $(xml).find('item').each(function () {
+            var title = $(this).find('title').text();
+            var image = $(this).find('image').text();
+            var desc = $(this).find('description').text();
+            var link = $(this).find('link').text();
+
+            var item = {
+              title: title,
+              image: image,
+              desc: desc,
+              link: link
+            };
+            jsonResult.push(item);
+          });
+          call(jsonResult);
+        },
+        error: function (error) {
+          console.error('Error reading XML:', error);
+        }
+      });
+    }
+  </script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

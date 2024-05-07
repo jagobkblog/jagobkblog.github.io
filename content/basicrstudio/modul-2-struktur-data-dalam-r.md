@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2024-05-03T15:44:01+07:00
 title: "Modul 2 Struktur Data Dalam R"
 slug: modul-2-struktur-data-dalam-r

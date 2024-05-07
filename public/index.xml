@@ -6,10 +6,30 @@
     <description>Recent content on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 May 2024 12:42:05 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2024 15:49:36 +0700</lastBuildDate>
     
   <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Modul 3 Pengolahan Data</title>
+      <link>/basicrstudio/modul-3-pengolahan-data/</link>
+      <pubDate>Fri, 03 May 2024 15:49:36 +0700</pubDate>
+      
+      <guid>/basicrstudio/modul-3-pengolahan-data/</guid>
+      <description>Pelajari teknik import dan export data dari dan ke berbagai format file seperti CSV dan Excel, serta cara menggunakan paket dplyr dan tidyr untuk manipulasi dan persiapan data yang efisien.</description>
+      <image>https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-3.jpg</image>
+    </item>
+    
+    <item>
+      <title>Modul 2 Struktur Data Dalam R</title>
+      <link>/basicrstudio/modul-2-struktur-data-dalam-r/</link>
+      <pubDate>Fri, 03 May 2024 15:44:01 +0700</pubDate>
+      
+      <guid>/basicrstudio/modul-2-struktur-data-dalam-r/</guid>
+      <description>Eksplorasi mendalam tentang struktur data kunci di R seperti vektor, faktor, list, DataFrame, matriks, dan array, serta operasi dasar yang dapat dilakukan dengan struktur data ini.</description>
+      <image>https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-2.jpg</image>
+    </item>
     
     <item>
       <title>Modul 1 Pengenalan R</title>

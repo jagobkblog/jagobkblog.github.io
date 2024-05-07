@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2024-05-03T15:49:36+07:00
 title: "Modul 3 Pengolahan Data"
 slug: modul-3-pengolahan-data

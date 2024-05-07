@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MatrixOperations on Jagoberkarir</title>
+    <link>/tags/matrixoperations/</link>
+    <description>Recent content in MatrixOperations on Jagoberkarir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2024 15:44:01 +0700</lastBuildDate>
+    
+  <atom:link href="/tags/matrixoperations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modul 2 Struktur Data Dalam R</title>
+      <link>/basicrstudio/modul-2-struktur-data-dalam-r/</link>
+      <pubDate>Fri, 03 May 2024 15:44:01 +0700</pubDate>
+      
+      <guid>/basicrstudio/modul-2-struktur-data-dalam-r/</guid>
+      <description>Eksplorasi mendalam tentang struktur data kunci di R seperti vektor, faktor, list, DataFrame, matriks, dan array, serta operasi dasar yang dapat dilakukan dengan struktur data ini.</description>
+      <image>https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-2.jpg</image>
+    </item>
+    
+  </channel>
+</rss>

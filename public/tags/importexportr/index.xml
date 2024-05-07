@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ImportExportR on Jagoberkarir</title>
+    <link>/tags/importexportr/</link>
+    <description>Recent content in ImportExportR on Jagoberkarir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2024 15:49:36 +0700</lastBuildDate>
+    
+  <atom:link href="/tags/importexportr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modul 3 Pengolahan Data</title>
+      <link>/basicrstudio/modul-3-pengolahan-data/</link>
+      <pubDate>Fri, 03 May 2024 15:49:36 +0700</pubDate>
+      
+      <guid>/basicrstudio/modul-3-pengolahan-data/</guid>
+      <description>Pelajari teknik import dan export data dari dan ke berbagai format file seperti CSV dan Excel, serta cara menggunakan paket dplyr dan tidyr untuk manipulasi dan persiapan data yang efisien.</description>
+      <image>https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-3.jpg</image>
+    </item>
+    
+  </channel>
+</rss>
