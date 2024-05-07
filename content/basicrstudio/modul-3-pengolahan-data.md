@@ -32,6 +32,19 @@ Dalam Modul 3, kita akan menyelami berbagai teknik pengelolaan data dalam R yang
 
 Memahami cara efektif untuk mengimpor dan mengekspor data sangat penting dalam pengelolaan data. R menyediakan beberapa fungsi yang memudahkan transfer data antara format file yang berbeda dan lingkungan R.
 
+### **Contoh Data**
+
+### **Data CSV (data.csv) dan Data Excel (data.xlsx)**
+
+Misalkan kita memiliki file **`data.csv`** dan **`data.xlsx`** dengan konten sebagai berikut:
+
+```r
+name,age,department
+Alice,25,Marketing
+Bob,30,HR
+Charlie,35,IT
+```
+
 ### **Membaca Data**
 
 Untuk mengimpor data dari CSV atau Excel, kita bisa menggunakan fungsi dari paket **`readr`** untuk CSV dan **`readxl`** untuk Excel:
@@ -74,6 +87,12 @@ selected_data <- select(data_csv, name, age)
 
 ```
 
+Output:
+```r
+name    age
+Charlie 35
+```
+
 ### **Transformasi Data**
 
 Transformasi data dengan fungsi **`mutate()`** yang menambahkan kolom baru berdasarkan perhitungan dari kolom yang ada:
@@ -82,6 +101,14 @@ Transformasi data dengan fungsi **`mutate()`** yang menambahkan kolom baru berda
 # Add a new column called "age_next_year"
 transformed_data <- mutate(data_csv, age_next_year = age + 1)
 
+```
+Output:
+
+```r
+name    age  department  age_next_year
+Alice   25   Marketing   26
+Bob     30   HR          31
+Charlie 35   IT          36
 ```
 
 ## **Tidying Data dengan `tidyr`**
@@ -104,4 +131,26 @@ united_data <- unite(data_csv, "fullname", c(firstname, lastname), sep = " ")
 
 ```
 
+Output untuk **`gather()`**:
+
+```r
+name    measurement  value
+Alice   age          25
+Alice   department   Marketing
+Bob     age          30
+Bob     department   HR
+Charlie age          35
+Charlie department   IT
+
+```
+
+Output untuk **`unite()`**:
+
+```r
+fullname        department
+Alice 25        Marketing
+Bob 30          HR
+Charlie 35      IT
+
+```
 Dengan menyelesaikan Modul 3, Anda akan memiliki pemahaman yang kuat tentang cara mengelola, memanipulasi, dan merapikan data dalam R, membuat Anda siap untuk melakukan analisis data yang lebih kompleks dan mendalam.

@@ -9,7 +9,7 @@
   <meta itemprop="name" content="Modul 3 Pengolahan Data">
 <meta itemprop="description" content="Pelajari teknik import dan export data dari dan ke berbagai format file seperti CSV dan Excel, serta cara menggunakan paket dplyr dan tidyr untuk manipulasi dan persiapan data yang efisien."><meta itemprop="datePublished" content="2024-05-03T15:49:36+07:00" />
 <meta itemprop="dateModified" content="2024-05-03T15:49:36+07:00" />
-<meta itemprop="wordCount" content="363">
+<meta itemprop="wordCount" content="447">
 <meta itemprop="keywords" content="DataManagementR,ImportExportR,DataManipulation,DplyrTutorial,TidyData," />
   <meta property="og:image" content="https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-3.jpg" />
   <meta property="og:image:width" content="1024" />
@@ -309,7 +309,14 @@ Share :
 Dalam Modul 3, kita akan menyelami berbagai teknik pengelolaan data dalam R yang meliputi import dan export data, manipulasi data, dan teknik untuk merapikan data. Keterampilan ini esensial untuk mempersiapkan data sebelum melakukan analisis yang lebih mendalam.</p>
 <h2 id="import-dan-export-data"><strong>Import dan Export Data</strong></h2>
 <p>Memahami cara efektif untuk mengimpor dan mengekspor data sangat penting dalam pengelolaan data. R menyediakan beberapa fungsi yang memudahkan transfer data antara format file yang berbeda dan lingkungan R.</p>
-<h3 id="membaca-data"><strong>Membaca Data</strong></h3>
+<h3 id="contoh-data"><strong>Contoh Data</strong></h3>
+<h3 id="data-csv-datacsv-dan-data-excel-dataxlsx"><strong>Data CSV (data.csv) dan Data Excel (data.xlsx)</strong></h3>
+<p>Misalkan kita memiliki file <strong><code>data.csv</code></strong> dan <strong><code>data.xlsx</code></strong> dengan konten sebagai berikut:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>name,age,department
+</span></span><span style="display:flex;"><span>Alice,<span style="color:#ae81ff">25</span>,Marketing
+</span></span><span style="display:flex;"><span>Bob,<span style="color:#ae81ff">30</span>,HR
+</span></span><span style="display:flex;"><span>Charlie,<span style="color:#ae81ff">35</span>,IT
+</span></span></code></pre></div><h3 id="membaca-data"><strong>Membaca Data</strong></h3>
 <p>Untuk mengimpor data dari CSV atau Excel, kita bisa menggunakan fungsi dari paket <strong><code>readr</code></strong> untuk CSV dan <strong><code>readxl</code></strong> untuk Excel:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(readr)
@@ -331,10 +338,18 @@ Dalam Modul 3, kita akan menyelami berbagai teknik pengelolaan data dalam R yang
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Select only the name and age columns</span>
 </span></span><span style="display:flex;"><span>selected_data <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">select</span>(data_csv, name, age)
+</span></span></code></pre></div><p>Output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>name    age
+</span></span><span style="display:flex;"><span>Charlie <span style="color:#ae81ff">35</span>
 </span></span></code></pre></div><h3 id="transformasi-data"><strong>Transformasi Data</strong></h3>
 <p>Transformasi data dengan fungsi <strong><code>mutate()</code></strong> yang menambahkan kolom baru berdasarkan perhitungan dari kolom yang ada:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#75715e"># Add a new column called &#34;age_next_year&#34;</span>
 </span></span><span style="display:flex;"><span>transformed_data <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">mutate</span>(data_csv, age_next_year <span style="color:#f92672">=</span> age <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+</span></span></code></pre></div><p>Output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>name    age  department  age_next_year
+</span></span><span style="display:flex;"><span>Alice   <span style="color:#ae81ff">25</span>   Marketing   <span style="color:#ae81ff">26</span>
+</span></span><span style="display:flex;"><span>Bob     <span style="color:#ae81ff">30</span>   HR          <span style="color:#ae81ff">31</span>
+</span></span><span style="display:flex;"><span>Charlie <span style="color:#ae81ff">35</span>   IT          <span style="color:#ae81ff">36</span>
 </span></span></code></pre></div><h2 id="tidying-data-dengan-tidyr"><strong>Tidying Data dengan <code>tidyr</code></strong></h2>
 <p>Data seringkali tidak rapi saat pertama kali diperoleh. Paket <strong><code>tidyr</code></strong> membantu membuat data menjadi &rsquo;tidy&rsquo; atau terorganisir dengan baik.</p>
 <h3 id="teknik-tidying-data"><strong>Teknik Tidying Data</strong></h3>
@@ -349,6 +364,19 @@ Dalam Modul 3, kita akan menyelami berbagai teknik pengelolaan data dalam R yang
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Combine two columns into one</span>
 </span></span><span style="display:flex;"><span>united_data <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">unite</span>(data_csv, <span style="color:#e6db74">&#34;fullname&#34;</span>, <span style="color:#a6e22e">c</span>(firstname, lastname), sep <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; &#34;</span>)
+</span></span></code></pre></div><p>Output untuk <strong><code>gather()</code></strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>name    measurement  value
+</span></span><span style="display:flex;"><span>Alice   age          <span style="color:#ae81ff">25</span>
+</span></span><span style="display:flex;"><span>Alice   department   Marketing
+</span></span><span style="display:flex;"><span>Bob     age          <span style="color:#ae81ff">30</span>
+</span></span><span style="display:flex;"><span>Bob     department   HR
+</span></span><span style="display:flex;"><span>Charlie age          <span style="color:#ae81ff">35</span>
+</span></span><span style="display:flex;"><span>Charlie department   IT
+</span></span></code></pre></div><p>Output untuk <strong><code>unite()</code></strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>fullname        department
+</span></span><span style="display:flex;"><span>Alice <span style="color:#ae81ff">25</span>        Marketing
+</span></span><span style="display:flex;"><span>Bob <span style="color:#ae81ff">30</span>          HR
+</span></span><span style="display:flex;"><span>Charlie <span style="color:#ae81ff">35</span>      IT
 </span></span></code></pre></div><p>Dengan menyelesaikan Modul 3, Anda akan memiliki pemahaman yang kuat tentang cara mengelola, memanipulasi, dan merapikan data dalam R, membuat Anda siap untuk melakukan analisis data yang lebih kompleks dan mendalam.</p>
 </div>
         <div style="margin-top: 10px; margin-bottom: 20px;">
