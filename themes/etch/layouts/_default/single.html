@@ -24,6 +24,49 @@
   {{ partial "gtag.html" . }}
 </head>
 
+<style>
+  .author-info {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.author-info img {
+  margin-right: 10px;
+  border: 2px solid #fff; /* Tambahkan border putih jika diperlukan */
+}
+
+.author-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-link {
+  color: #ffff; /* Warna link biru standar Bootstrap, ganti sesuai tema situs Anda */
+  text-decoration: none; /* Menghilangkan garis bawah */
+  transition: color 0.3s ease; /* Transisi warna untuk efek hover */
+}
+
+.author-link:hover, .author-link:focus {
+  color: #000000; /* Warna lebih gelap saat di-hover */
+  text-decoration: underline; /* Tambahkan garis bawah saat hover untuk feedback */
+}
+
+.author-name {
+  font-size: 0.9rem; /* Ukuran font yang sesuai, sesuaikan sesuai kebutuhan */
+  font-weight: normal; /* Styling font normal untuk teks, bold hanya untuk nama */
+}
+
+.author-name strong {
+  font-weight: bold; /* Nama penulis lebih menonjol */
+}
+
+.author-date, .author-update {
+  font-style: italic;
+  color: #ccc; /* Warna abu-abu muda untuk tanggal */
+}
+</style>
+
 <body>
   <!-- Start Nav -->
   {{ partial "navlink.html" . }}
@@ -37,7 +80,19 @@
       <div class="rowitem">
         <div class="colitem text-light">
           <h1 class="display-4 fw-bold">{{ .Title }}</h1>
-          <div class="lead">
+          <div class="author-info mb-3">
+            <!-- <img src="https://koleksiprihadi.github.io/images/koleksiprihadi.jpeg" alt="Author Name" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;"> -->
+          <div class="author-details">
+            <a href="{{ .Params.authorlink }}" class="author-link">
+              <span class="author-name">Oleh <strong>{{ .Params.authorname }}</strong></span>
+            </a>
+            <span class="author-date"> - Diterbitkan pada <time>{{ .Date.Format "2 January 2006" }}</time></span>
+            {{ if ne .Lastmod .Date }}
+              <span class="author-update">, Terakhir diperbarui <time>{{ .Lastmod.Format "2 January 2006" }}</time></span>
+            {{ end }}
+          </div>
+        </div>
+          <!-- <div class="lead">
             {{- if isset .Params "date" -}}
                 {{ if eq .Lastmod .Date }}
                 <time>{{ .Date.Format "2 January 2006" }}</time>
@@ -45,7 +100,7 @@
                 Update <time>{{ .Lastmod.Format "2 January 2006" }}</time>
                 {{ end }}
             {{- end -}}
-            </div>
+            </div> -->
           <p class="deskripsi">{{ .Description }}</p>
         </div>
         <div class="colitem hidemobile">
