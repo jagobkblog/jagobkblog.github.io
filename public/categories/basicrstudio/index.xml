@@ -6,10 +6,40 @@
     <description>Recent content in BasicRStudio on Jagoberkarir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 May 2024 15:49:36 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2024 15:51:36 +0700</lastBuildDate>
     
   <atom:link href="/categories/basicrstudio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Modul 6 Pemograman Lanjutan</title>
+      <link>/basicrstudio/modul-6-pemograman-lanjutan/</link>
+      <pubDate>Fri, 03 May 2024 15:51:36 +0700</pubDate>
+      
+      <guid>/basicrstudio/modul-6-pemograman-lanjutan/</guid>
+      <description>Tingkatkan keterampilan pemrograman R Anda dengan mempelajari cara membuat fungsi sendiri, menggunakan kontrol alur seperti if-else dan loop, serta teknik debugging dan penanganan kesalahan.</description>
+      <image>https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-6.jpg</image>
+    </item>
+    
+    <item>
+      <title>Modul 5 Visualisasi Data</title>
+      <link>/basicrstudio/modul-5-visualisasi-data/</link>
+      <pubDate>Fri, 03 May 2024 15:51:15 +0700</pubDate>
+      
+      <guid>/basicrstudio/modul-5-visualisasi-data/</guid>
+      <description>Dapatkan kemampuan untuk membuat visualisasi data yang efektif menggunakan plot dasar R dan grafik tingkat lanjut dengan ggplot2, serta pelajari cara membuat peta dan grafik interaktif menggunakan leaflet dan plotly</description>
+      <image>https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-5.jpg</image>
+    </item>
+    
+    <item>
+      <title>Modul 4 Dasar Dasar Statistik Dengan R</title>
+      <link>/basicrstudio/modul-4-dasar-dasar-statistik-dengan-r/</link>
+      <pubDate>Fri, 03 May 2024 15:50:48 +0700</pubDate>
+      
+      <guid>/basicrstudio/modul-4-dasar-dasar-statistik-dengan-r/</guid>
+      <description>Kembangkan pemahaman tentang statistik deskriptif, probabilitas, distribusi data, serta metode uji hipotesis dan regresi linier menggunakan R.</description>
+      <image>https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-4.jpg</image>
+    </item>
     
     <item>
       <title>Modul 3 Pengolahan Data</title>

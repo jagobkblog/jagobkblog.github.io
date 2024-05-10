@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Probabilities on Jagoberkarir</title>
+    <link>/tags/probabilities/</link>
+    <description>Recent content in Probabilities on Jagoberkarir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2024 15:50:48 +0700</lastBuildDate>
+    
+  <atom:link href="/tags/probabilities/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modul 4 Dasar Dasar Statistik Dengan R</title>
+      <link>/basicrstudio/modul-4-dasar-dasar-statistik-dengan-r/</link>
+      <pubDate>Fri, 03 May 2024 15:50:48 +0700</pubDate>
+      
+      <guid>/basicrstudio/modul-4-dasar-dasar-statistik-dengan-r/</guid>
+      <description>Kembangkan pemahaman tentang statistik deskriptif, probabilitas, distribusi data, serta metode uji hipotesis dan regresi linier menggunakan R.</description>
+      <image>https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-4.jpg</image>
+    </item>
+    
+  </channel>
+</rss>

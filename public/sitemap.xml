@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/adaptability/</loc>
-    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
-  </url><url>
     <loc>/categories/blog/</loc>
-    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
+    <lastmod>2024-05-10T09:51:54+00:00</lastmod>
   </url><url>
     <loc>/blog/</loc>
+    <lastmod>2024-05-10T09:51:54+00:00</lastmod>
+  </url><url>
+    <loc>/blog/cara-mempersiapkan-wawancara-kerja-dengan-memberikan-tips-dan-strategi-yang-efektif/</loc>
+    <lastmod>2024-05-10T09:51:54+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2024-05-10T09:51:54+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-05-10T09:51:54+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-05-10T09:51:54+00:00</lastmod>
+  </url><url>
+    <loc>/tags/tips-dan-trik-wawancara/</loc>
+    <lastmod>2024-05-10T09:51:54+00:00</lastmod>
+  </url><url>
+    <loc>/tags/wawancara/</loc>
+    <lastmod>2024-05-10T09:51:54+00:00</lastmod>
+  </url><url>
+    <loc>/tags/adaptability/</loc>
     <lastmod>2024-05-07T14:45:10+07:00</lastmod>
   </url><url>
     <loc>/tags/career-growth/</loc>
     <lastmod>2024-05-07T14:45:10+07:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
-  </url><url>
     <loc>/tags/effective-communication/</loc>
-    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2024-05-07T14:45:10+07:00</lastmod>
   </url><url>
     <loc>/tags/leadership-skills/</loc>
@@ -41,20 +53,71 @@
     <loc>/tags/soft-skills/</loc>
     <lastmod>2024-05-07T14:45:10+07:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2024-05-07T14:45:10+07:00</lastmod>
-  </url><url>
     <loc>/tags/teamwork/</loc>
     <lastmod>2024-05-07T14:45:10+07:00</lastmod>
   </url><url>
     <loc>/tags/workplace-success/</loc>
     <lastmod>2024-05-07T14:45:10+07:00</lastmod>
   </url><url>
+    <loc>/tags/advancedr/</loc>
+    <lastmod>2024-05-03T15:51:36+07:00</lastmod>
+  </url><url>
     <loc>/categories/basicrstudio/</loc>
-    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
+    <lastmod>2024-05-03T15:51:36+07:00</lastmod>
   </url><url>
     <loc>/basicrstudio/</loc>
-    <lastmod>2024-05-03T15:49:36+07:00</lastmod>
+    <lastmod>2024-05-03T15:51:36+07:00</lastmod>
+  </url><url>
+    <loc>/tags/errorhandling/</loc>
+    <lastmod>2024-05-03T15:51:36+07:00</lastmod>
+  </url><url>
+    <loc>/tags/loopinginr/</loc>
+    <lastmod>2024-05-03T15:51:36+07:00</lastmod>
+  </url><url>
+    <loc>/basicrstudio/modul-6-pemograman-lanjutan/</loc>
+    <lastmod>2024-05-03T15:51:36+07:00</lastmod>
+  </url><url>
+    <loc>/tags/rdebugging/</loc>
+    <lastmod>2024-05-03T15:51:36+07:00</lastmod>
+  </url><url>
+    <loc>/tags/rfuntions/</loc>
+    <lastmod>2024-05-03T15:51:36+07:00</lastmod>
+  </url><url>
+    <loc>/tags/datavisualization/</loc>
+    <lastmod>2024-05-03T15:51:15+07:00</lastmod>
+  </url><url>
+    <loc>/tags/ggplot2/</loc>
+    <lastmod>2024-05-03T15:51:15+07:00</lastmod>
+  </url><url>
+    <loc>/tags/interactivecharts/</loc>
+    <lastmod>2024-05-03T15:51:15+07:00</lastmod>
+  </url><url>
+    <loc>/tags/mapsinr/</loc>
+    <lastmod>2024-05-03T15:51:15+07:00</lastmod>
+  </url><url>
+    <loc>/basicrstudio/modul-5-visualisasi-data/</loc>
+    <lastmod>2024-05-03T15:51:15+07:00</lastmod>
+  </url><url>
+    <loc>/tags/rplotting/</loc>
+    <lastmod>2024-05-03T15:51:15+07:00</lastmod>
+  </url><url>
+    <loc>/tags/descriptivestats/</loc>
+    <lastmod>2024-05-03T15:50:48+07:00</lastmod>
+  </url><url>
+    <loc>/tags/hypothesistesting/</loc>
+    <lastmod>2024-05-03T15:50:48+07:00</lastmod>
+  </url><url>
+    <loc>/basicrstudio/modul-4-dasar-dasar-statistik-dengan-r/</loc>
+    <lastmod>2024-05-03T15:50:48+07:00</lastmod>
+  </url><url>
+    <loc>/tags/probabilities/</loc>
+    <lastmod>2024-05-03T15:50:48+07:00</lastmod>
+  </url><url>
+    <loc>/tags/regressioninr/</loc>
+    <lastmod>2024-05-03T15:50:48+07:00</lastmod>
+  </url><url>
+    <loc>/tags/rstatistics/</loc>
+    <lastmod>2024-05-03T15:50:48+07:00</lastmod>
   </url><url>
     <loc>/tags/datamanagementr/</loc>
     <lastmod>2024-05-03T15:49:36+07:00</lastmod>

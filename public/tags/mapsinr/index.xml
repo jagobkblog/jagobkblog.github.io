@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MapsInR on Jagoberkarir</title>
+    <link>/tags/mapsinr/</link>
+    <description>Recent content in MapsInR on Jagoberkarir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2024 15:51:15 +0700</lastBuildDate>
+    
+  <atom:link href="/tags/mapsinr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modul 5 Visualisasi Data</title>
+      <link>/basicrstudio/modul-5-visualisasi-data/</link>
+      <pubDate>Fri, 03 May 2024 15:51:15 +0700</pubDate>
+      
+      <guid>/basicrstudio/modul-5-visualisasi-data/</guid>
+      <description>Dapatkan kemampuan untuk membuat visualisasi data yang efektif menggunakan plot dasar R dan grafik tingkat lanjut dengan ggplot2, serta pelajari cara membuat peta dan grafik interaktif menggunakan leaflet dan plotly</description>
+      <image>https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-5.jpg</image>
+    </item>
+    
+  </channel>
+</rss>
