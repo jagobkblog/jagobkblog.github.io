@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2024-05-10T09:51:54Z
+date: 2024-05-07T14:45:10+07:00
 title: "Cara Mempersiapkan Wawancara Kerja dengan Memberikan Tips dan Strategi yang Efektif untuk Calon Pelamar"
 slug: cara-mempersiapkan-wawancara-kerja-dengan-memberikan-tips-dan-strategi-yang-efektif
 
