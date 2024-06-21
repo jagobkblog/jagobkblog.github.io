@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WebScrapingR on Jagoberkarir</title>
+    <link>/tags/webscrapingr/</link>
+    <description>Recent content in WebScrapingR on Jagoberkarir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2024 15:51:58 +0700</lastBuildDate>
+    
+  <atom:link href="/tags/webscrapingr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modul 7 Analisis Data Lanjutan</title>
+      <link>/basicrstudio/modul-7-analisis-data-lanjutan/</link>
+      <pubDate>Fri, 03 May 2024 15:51:58 +0700</pubDate>
+      
+      <guid>/basicrstudio/modul-7-analisis-data-lanjutan/</guid>
+      <description>Pelajari teknik analisis data yang lebih kompleks termasuk analisis seri waktu dan machine learning, serta penggunaan R untuk text mining dan web scraping.</description>
+      <image>https://jagoberkarir.com/images/basicrstudio/basic-r-studio-modul-7.jpg</image>
+    </item>
+    
+  </channel>
+</rss>
