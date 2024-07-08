@@ -73,6 +73,7 @@ Selain kursi dan meja ergonomis, pertimbangkan untuk menggunakan perangkat tamba
 ### **5. Mendengarkan Tubuh Anda**
 
 Terakhir, selalu dengarkan tubuh Anda. Jika Anda mulai merasa tidak nyaman atau mengalami nyeri, segera lakukan penyesuaian. Jangan abaikan sinyal-sinyal dari tubuh Anda, karena ketidaknyamanan kecil bisa berkembang menjadi masalah yang lebih serius jika tidak ditangani.
+
 ---
 
 📚 Referensi: [Mayo Clinic on Office Ergonomics](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-ergonomics/art-20046169)
