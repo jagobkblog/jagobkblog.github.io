@@ -37,7 +37,7 @@ description: "Blog ini membahas pentingnya ergonomi di tempat kerja untuk menjag
 # **Prioritaskan Ergonomi Tempat Kerja untuk Kesehatan dan Produktivitas**
 
 ## **Pentingnya Ergonomi**
-
+{{< toc >}}
 Ergonomi yang baik sangat penting untuk menghindari nyeri punggung dan leher serta masalah kesehatan lain yang terkait dengan duduk lama. Posisi kerja yang nyaman dan ergonomis membantu mencegah cedera dan meningkatkan produktivitas. Dengan penyesuaian yang tepat, Anda bisa bekerja lebih efisien dan merasa lebih nyaman sepanjang hari. Tidak hanya itu, lingkungan kerja yang ergonomis juga dapat mengurangi tingkat stres dan meningkatkan kesejahteraan secara keseluruhan.
 
 ## **Penyesuaian Meja dan Kursi**
